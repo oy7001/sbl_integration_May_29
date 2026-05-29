@@ -1,0 +1,1786 @@
+21.9388 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+22.0467 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+37.0631 	INFO 	Loaded monitor calibration from ['2026_01_13 14:36']
+37.0924 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1470, 956]. Using actual size
+37.4327 	INFO 	Using renderer 'Apple M2' for graphics
+37.4328 	INFO 	OpenGL version supported by driver is 2..
+37.4918 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x16fc84be0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x16fc84b80>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x16fc91e70>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2940, 1912]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+37.4919 	EXP 	window1: backgroundImage = ''
+37.4919 	EXP 	window1: backgroundFit = 'none'
+37.8424 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+37.8424 	EXP 	window1: recordFrameIntervals = False
+38.3553 	EXP 	window1: recordFrameIntervals = True
+39.1947 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+40.4529 	INFO 	keyboard.Keyboard is using ptb backend.
+40.4530 	EXP 	encodingtask: status = STARTED
+41.6328 	EXP 	Created text_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.045), italic=False, languageStyle='LTR', name='text_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.6334 	EXP 	Created text_keys = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_keys', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6340 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6803 	EXP 	Created image_integrated = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_integrated', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.2  , 0.675]), texRes=128.0, units='height', win=Window(...))
+41.6843 	EXP 	Created text_congruency = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_congruency', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Related \nor Unrelated?', units='height', win=Window(...), wrapWidth=1)
+41.6859 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+41.6901 	EXP 	Created text_run_pause = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_run_pause', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.6905 	EXP 	Created text_relatedness_pause = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_relatedness_pause', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6909 	EXP 	Created text_end = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_end', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+0.0197 	EXP 	text_instructions: autoDraw = True
+1.0043 	INFO 	Keyboard events cleared
+3.4210 	WARNING 	t of last frame was 21.63ms (=1/46)
+5.8218 	WARNING 	t of last frame was 22.54ms (=1/44)
+10.0023 	EXP 	Device response: <KeyPress from None: t=9.741492292028852, value=space, duration=None>
+10.0025 	EXP 	Device response: <KeyPress from None: t=9.741492292028852, value=space, duration=0.13794808299280703>
+10.0334 	DATA 	Keypress: space
+10.0384 	INFO 	Keyboard events cleared
+10.0383 	WARNING 	t of last frame was 289.18ms (=1/3)
+10.0383 	EXP 	text_instructions: autoDraw = False
+10.0383 	EXP 	text_keys: height = np.float64(0.05)
+10.0383 	EXP 	text_keys: height = np.float64(0.05)
+10.0383 	EXP 	text_keys: height = np.float64(0.05)
+10.0383 	EXP 	text_keys: text = 'If they are related, press Q\nIf they are unrelated, press P\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'
+10.0383 	EXP 	text_keys: autoDraw = True
+18.3582 	WARNING 	t of last frame was 37.81ms (=1/26)
+18.5167 	EXP 	Device response: <KeyPress from None: t=18.512396667036228, value=space, duration=None>
+18.5246 	DATA 	Keypress: space
+18.5300 	EXP 	text_keys: autoDraw = False
+18.5300 	EXP 	text_2: autoDraw = True
+18.6499 	EXP 	Device response: <KeyPress from None: t=18.512396667036228, value=space, duration=0.12592829199275002>
+22.7690 	EXP 	Imported runs_params.xlsx as conditions, 3 conditions, 1 params
+22.7756 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'run': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+22.7918 	EXP 	Imported stimuli/stim_lists/stimuli_list_sub_330_run_1.csv as conditions, 80 conditions, 9 params
+22.7924 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_17.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_17.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+24.5839 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+24.5839 	EXP 	text_2: autoDraw = False
+24.5839 	EXP 	text_2: autoDraw = False
+24.5839 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_17.jpg'
+24.5839 	EXP 	image_integrated: autoDraw = True
+24.7865 	INFO 	Keyboard events cleared
+24.7865 	EXP 	image_integrated: autoDraw = False
+24.7865 	EXP 	text_congruency: autoDraw = True
+25.7852 	EXP 	text_congruency: autoDraw = False
+25.7852 	EXP 	text_congruency: autoDraw = False
+25.7852 	EXP 	text_8: autoDraw = True
+25.8166 	EXP 	Device response: <KeyPress from None: t=25.811001333990134, value=q, duration=None>
+25.8259 	DATA 	Keypress: q
+25.9215 	EXP 	Device response: <KeyPress from None: t=25.811001333990134, value=q, duration=0.10600887500913814>
+26.7715 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_10.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_10.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_10.jpg', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+28.0450 	EXP 	text_8: autoDraw = False
+28.0450 	EXP 	text_8: autoDraw = False
+28.0450 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_10.jpg'
+28.0450 	EXP 	image_integrated: autoDraw = True
+28.7886 	INFO 	Keyboard events cleared
+28.7884 	EXP 	image_integrated: autoDraw = False
+28.7884 	EXP 	text_congruency: autoDraw = True
+29.7884 	EXP 	text_congruency: autoDraw = False
+29.7884 	EXP 	text_8: autoDraw = True
+30.3333 	EXP 	Device response: <KeyPress from None: t=30.324223042000085, value=q, duration=None>
+30.3391 	DATA 	Keypress: q
+30.4334 	EXP 	Device response: <KeyPress from None: t=30.324223042000085, value=q, duration=0.10603666701354086>
+30.7726 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_15.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_15.jpg', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+32.0386 	EXP 	text_8: autoDraw = False
+32.0386 	EXP 	text_8: autoDraw = False
+32.0386 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_15.jpg'
+32.0386 	EXP 	image_integrated: autoDraw = True
+32.7874 	INFO 	Keyboard events cleared
+32.7873 	EXP 	image_integrated: autoDraw = False
+32.7873 	EXP 	text_congruency: autoDraw = True
+33.5834 	EXP 	Device response: <KeyPress from None: t=33.58185729198158, value=p, duration=None>
+33.5901 	DATA 	Keypress: p
+33.5951 	EXP 	text_congruency: autoDraw = False
+33.5951 	EXP 	text_8: autoDraw = True
+33.7335 	EXP 	Device response: <KeyPress from None: t=33.58185729198158, value=p, duration=0.14438941702246666>
+34.5830 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_1.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_1.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_1.jpg', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+35.8067 	EXP 	text_8: autoDraw = False
+35.8067 	EXP 	text_8: autoDraw = False
+35.8067 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_1.jpg'
+35.8067 	EXP 	image_integrated: autoDraw = True
+36.5987 	INFO 	Keyboard events cleared
+36.5986 	EXP 	image_integrated: autoDraw = False
+36.5986 	EXP 	text_congruency: autoDraw = True
+37.2341 	EXP 	Device response: <KeyPress from None: t=37.2218298339867, value=q, duration=None>
+37.2418 	DATA 	Keypress: q
+37.2470 	EXP 	text_congruency: autoDraw = False
+37.2470 	EXP 	text_8: autoDraw = True
+37.3331 	EXP 	Device response: <KeyPress from None: t=37.2218298339867, value=q, duration=0.10027779103256762>
+38.2325 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_13.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_13.jpg', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+39.4504 	EXP 	text_8: autoDraw = False
+39.4504 	EXP 	text_8: autoDraw = False
+39.4504 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_13.jpg'
+39.4504 	EXP 	image_integrated: autoDraw = True
+40.2488 	INFO 	Keyboard events cleared
+40.2486 	EXP 	image_integrated: autoDraw = False
+40.2486 	EXP 	text_congruency: autoDraw = True
+40.9835 	EXP 	Device response: <KeyPress from None: t=40.973979917005636, value=q, duration=None>
+40.9906 	DATA 	Keypress: q
+40.9959 	EXP 	text_congruency: autoDraw = False
+40.9959 	EXP 	text_8: autoDraw = True
+41.0707 	EXP 	Device response: <KeyPress from None: t=40.973979917005636, value=q, duration=0.09199337498284876>
+41.9825 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_17.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_17.jpg', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+43.5066 	EXP 	text_8: autoDraw = False
+43.5066 	EXP 	text_8: autoDraw = False
+43.5066 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_17.jpg'
+43.5066 	EXP 	image_integrated: autoDraw = True
+43.9990 	INFO 	Keyboard events cleared
+43.9989 	EXP 	image_integrated: autoDraw = False
+43.9989 	EXP 	text_congruency: autoDraw = True
+44.6730 	EXP 	Device response: <KeyPress from None: t=44.66661483398639, value=p, duration=None>
+44.6806 	DATA 	Keypress: p
+44.6863 	EXP 	text_congruency: autoDraw = False
+44.6863 	EXP 	text_8: autoDraw = True
+44.7840 	EXP 	Device response: <KeyPress from None: t=44.66661483398639, value=p, duration=0.1122742080478929>
+45.6708 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_3.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_3.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_3.jpg', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+47.2936 	EXP 	text_8: autoDraw = False
+47.2936 	EXP 	text_8: autoDraw = False
+47.2936 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_3.jpg'
+47.2936 	EXP 	image_integrated: autoDraw = True
+47.6892 	INFO 	Keyboard events cleared
+47.6889 	EXP 	image_integrated: autoDraw = False
+47.6889 	EXP 	text_congruency: autoDraw = True
+48.5178 	EXP 	Device response: <KeyPress from None: t=48.51557433401467, value=p, duration=None>
+48.5246 	DATA 	Keypress: p
+48.5344 	EXP 	text_congruency: autoDraw = False
+48.5344 	EXP 	text_8: autoDraw = True
+48.6389 	EXP 	Device response: <KeyPress from None: t=48.51557433401467, value=p, duration=0.11622841598000377>
+49.5205 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_11.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_11.jpg', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+50.7772 	EXP 	text_8: autoDraw = False
+50.7772 	EXP 	text_8: autoDraw = False
+50.7772 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_11.jpg'
+50.7772 	EXP 	image_integrated: autoDraw = True
+51.5375 	INFO 	Keyboard events cleared
+51.5373 	EXP 	image_integrated: autoDraw = False
+51.5373 	EXP 	text_congruency: autoDraw = True
+52.1718 	EXP 	Device response: <KeyPress from None: t=52.16642162500648, value=p, duration=None>
+52.1779 	DATA 	Keypress: p
+52.1850 	EXP 	text_congruency: autoDraw = False
+52.1850 	EXP 	text_8: autoDraw = True
+52.2884 	EXP 	Device response: <KeyPress from None: t=52.16642162500648, value=p, duration=0.11634429200785235>
+53.1699 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_11.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_11.jpg', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+54.6569 	EXP 	text_8: autoDraw = False
+54.6569 	EXP 	text_8: autoDraw = False
+54.6569 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_11.jpg'
+54.6569 	EXP 	image_integrated: autoDraw = True
+55.1883 	INFO 	Keyboard events cleared
+55.1880 	EXP 	image_integrated: autoDraw = False
+55.1880 	EXP 	text_congruency: autoDraw = True
+55.8499 	EXP 	Device response: <KeyPress from None: t=55.842258125019725, value=p, duration=None>
+55.8568 	DATA 	Keypress: p
+55.8620 	EXP 	text_congruency: autoDraw = False
+55.8620 	EXP 	text_8: autoDraw = True
+55.9667 	EXP 	Device response: <KeyPress from None: t=55.842258125019725, value=p, duration=0.11234220897313207>
+56.8493 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_2.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_2.jpg', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+58.0391 	EXP 	text_8: autoDraw = False
+58.0391 	EXP 	text_8: autoDraw = False
+58.0391 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_2.jpg'
+58.0391 	EXP 	image_integrated: autoDraw = True
+58.8651 	INFO 	Keyboard events cleared
+58.8650 	EXP 	image_integrated: autoDraw = False
+58.8650 	EXP 	text_congruency: autoDraw = True
+59.3833 	EXP 	Device response: <KeyPress from None: t=59.381239541980904, value=q, duration=None>
+59.3896 	EXP 	text_congruency: autoDraw = False
+59.3896 	EXP 	text_8: autoDraw = True
+59.3952 	DATA 	Keypress: q
+59.4834 	EXP 	Device response: <KeyPress from None: t=59.381239541980904, value=q, duration=0.10028920799959451>
+60.3824 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_9.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_9.jpg', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+61.5404 	EXP 	text_8: autoDraw = False
+61.5404 	EXP 	text_8: autoDraw = False
+61.5404 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_9.jpg'
+61.5404 	EXP 	image_integrated: autoDraw = True
+62.3988 	INFO 	Keyboard events cleared
+62.3986 	EXP 	image_integrated: autoDraw = False
+62.3986 	EXP 	text_congruency: autoDraw = True
+63.0545 	EXP 	Device response: <KeyPress from None: t=63.0491018340108, value=p, duration=None>
+63.0604 	DATA 	Keypress: p
+63.0821 	EXP 	text_congruency: autoDraw = False
+63.0821 	EXP 	text_8: autoDraw = True
+63.1505 	EXP 	Device response: <KeyPress from None: t=63.0491018340108, value=p, duration=0.0963411660050042>
+64.0655 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_7.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_7.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_7.jpg', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+65.5270 	EXP 	text_8: autoDraw = False
+65.5270 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_7.jpg'
+65.5270 	EXP 	image_integrated: autoDraw = True
+66.0701 	INFO 	Keyboard events cleared
+66.0699 	EXP 	image_integrated: autoDraw = False
+66.0699 	EXP 	text_congruency: autoDraw = True
+66.7667 	EXP 	Device response: <KeyPress from None: t=66.76497695903527, value=p, duration=None>
+66.7733 	DATA 	Keypress: p
+66.7786 	EXP 	text_congruency: autoDraw = False
+66.7786 	EXP 	text_8: autoDraw = True
+66.8710 	EXP 	Device response: <KeyPress from None: t=66.76497695903527, value=p, duration=0.10427537496434525>
+67.7656 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_12.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_12.jpg', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+68.8968 	EXP 	text_8: autoDraw = False
+68.8968 	EXP 	text_8: autoDraw = False
+68.8968 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_12.jpg'
+68.8968 	EXP 	image_integrated: autoDraw = True
+69.7819 	INFO 	Keyboard events cleared
+69.7817 	EXP 	image_integrated: autoDraw = False
+69.7817 	EXP 	text_congruency: autoDraw = True
+70.1500 	EXP 	Device response: <KeyPress from None: t=70.13789895898663, value=q, duration=None>
+70.1571 	DATA 	Keypress: q
+70.1621 	EXP 	text_congruency: autoDraw = False
+70.1621 	EXP 	text_8: autoDraw = True
+70.2723 	EXP 	Device response: <KeyPress from None: t=70.13789895898663, value=q, duration=0.13229287503054366>
+71.1490 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_16.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_16.jpg', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+72.7795 	EXP 	text_8: autoDraw = False
+72.7795 	EXP 	text_8: autoDraw = False
+72.7795 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_16.jpg'
+72.7795 	EXP 	image_integrated: autoDraw = True
+73.1650 	INFO 	Keyboard events cleared
+73.1648 	EXP 	image_integrated: autoDraw = False
+73.1648 	EXP 	text_congruency: autoDraw = True
+73.9002 	EXP 	Device response: <KeyPress from None: t=73.89577070903033, value=q, duration=None>
+73.9066 	DATA 	Keypress: q
+73.9120 	EXP 	text_congruency: autoDraw = False
+73.9120 	EXP 	text_8: autoDraw = True
+73.9882 	EXP 	Device response: <KeyPress from None: t=73.89577070903033, value=q, duration=0.0883907499955967>
+74.8989 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_3.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_3.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_3.jpg', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+76.0313 	EXP 	text_8: autoDraw = False
+76.0313 	EXP 	text_8: autoDraw = False
+76.0313 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_3.jpg'
+76.0313 	EXP 	image_integrated: autoDraw = True
+76.9152 	INFO 	Keyboard events cleared
+76.9150 	EXP 	image_integrated: autoDraw = False
+76.9150 	EXP 	text_congruency: autoDraw = True
+77.8336 	EXP 	Device response: <KeyPress from None: t=77.82672379200812, value=p, duration=None>
+77.8400 	DATA 	Keypress: p
+77.8453 	EXP 	text_congruency: autoDraw = False
+77.8453 	EXP 	text_8: autoDraw = True
+77.9497 	EXP 	Device response: <KeyPress from None: t=77.82672379200812, value=p, duration=0.11230770801194012>
+78.8323 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_15.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_15.jpg', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+80.3256 	EXP 	text_8: autoDraw = False
+80.3256 	EXP 	text_8: autoDraw = False
+80.3256 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_15.jpg'
+80.3256 	EXP 	image_integrated: autoDraw = True
+80.8482 	INFO 	Keyboard events cleared
+80.8480 	EXP 	image_integrated: autoDraw = False
+80.8480 	EXP 	text_congruency: autoDraw = True
+81.6707 	EXP 	Device response: <KeyPress from None: t=81.66560950002167, value=p, duration=None>
+81.6770 	DATA 	Keypress: p
+81.6984 	EXP 	text_congruency: autoDraw = False
+81.6984 	EXP 	text_8: autoDraw = True
+81.8001 	EXP 	Device response: <KeyPress from None: t=81.66560950002167, value=p, duration=0.12425554200308397>
+82.6819 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_19.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_19.jpg', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+84.0328 	EXP 	text_8: autoDraw = False
+84.0328 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_19.jpg'
+84.0328 	EXP 	image_integrated: autoDraw = True
+84.6822 	INFO 	Keyboard events cleared
+84.6819 	EXP 	image_integrated: autoDraw = False
+84.6819 	EXP 	text_congruency: autoDraw = True
+85.3830 	EXP 	Device response: <KeyPress from None: t=85.37253074999899, value=p, duration=None>
+85.3893 	DATA 	Keypress: p
+85.3942 	EXP 	text_congruency: autoDraw = False
+85.3942 	EXP 	text_8: autoDraw = True
+85.4659 	EXP 	Device response: <KeyPress from None: t=85.37253074999899, value=p, duration=0.08834866702090949>
+86.3822 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_15.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_15.jpg', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+87.7686 	EXP 	text_8: autoDraw = False
+87.7686 	EXP 	text_8: autoDraw = False
+87.7686 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_15.jpg'
+87.7686 	EXP 	image_integrated: autoDraw = True
+88.3985 	INFO 	Keyboard events cleared
+88.3983 	EXP 	image_integrated: autoDraw = False
+88.3983 	EXP 	text_congruency: autoDraw = True
+88.9505 	EXP 	Device response: <KeyPress from None: t=88.94453074998455, value=p, duration=None>
+88.9579 	DATA 	Keypress: p
+88.9630 	EXP 	text_congruency: autoDraw = False
+88.9630 	EXP 	text_8: autoDraw = True
+89.0663 	EXP 	Device response: <KeyPress from None: t=88.94453074998455, value=p, duration=0.11222941701998934>
+89.9490 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_16.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_16.jpg', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+91.0514 	EXP 	text_8: autoDraw = False
+91.0514 	EXP 	text_8: autoDraw = False
+91.0514 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_16.jpg'
+91.0514 	EXP 	image_integrated: autoDraw = True
+91.9650 	INFO 	Keyboard events cleared
+91.9649 	EXP 	image_integrated: autoDraw = False
+91.9649 	EXP 	text_congruency: autoDraw = True
+92.2732 	EXP 	Device response: <KeyPress from None: t=92.2673669999931, value=q, duration=None>
+92.2792 	DATA 	Keypress: q
+92.2853 	EXP 	text_congruency: autoDraw = False
+92.2853 	EXP 	text_8: autoDraw = True
+92.4007 	EXP 	Device response: <KeyPress from None: t=92.2673669999931, value=q, duration=0.1283035420347005>
+93.2721 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_9.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_9.jpg', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+94.5765 	EXP 	text_8: autoDraw = False
+94.5765 	EXP 	text_8: autoDraw = False
+94.5765 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_9.jpg'
+94.5765 	EXP 	image_integrated: autoDraw = True
+95.2880 	INFO 	Keyboard events cleared
+95.2877 	EXP 	image_integrated: autoDraw = False
+95.2877 	EXP 	text_congruency: autoDraw = True
+96.1663 	EXP 	Device response: <KeyPress from None: t=96.1561887920252, value=p, duration=None>
+96.1731 	DATA 	Keypress: p
+96.1781 	EXP 	text_congruency: autoDraw = False
+96.1781 	EXP 	text_8: autoDraw = True
+96.2493 	EXP 	Device response: <KeyPress from None: t=96.1561887920252, value=p, duration=0.08428145799553022>
+97.1654 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_16.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_16.jpg', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+98.5303 	EXP 	text_8: autoDraw = False
+98.5303 	EXP 	text_8: autoDraw = False
+98.5303 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_16.jpg'
+98.5303 	EXP 	image_integrated: autoDraw = True
+99.1807 	INFO 	Keyboard events cleared
+99.1805 	EXP 	image_integrated: autoDraw = False
+99.1805 	EXP 	text_congruency: autoDraw = True
+99.5997 	EXP 	Device response: <KeyPress from None: t=99.59106925001834, value=q, duration=None>
+99.6076 	DATA 	Keypress: q
+99.6128 	EXP 	text_congruency: autoDraw = False
+99.6128 	EXP 	text_8: autoDraw = True
+99.6993 	EXP 	Device response: <KeyPress from None: t=99.59106925001834, value=q, duration=0.10439804196357727>
+100.5992 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_14.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_14.jpg', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+101.9127 	EXP 	text_8: autoDraw = False
+101.9127 	EXP 	text_8: autoDraw = False
+101.9127 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_14.jpg'
+101.9127 	EXP 	image_integrated: autoDraw = True
+102.6148 	INFO 	Keyboard events cleared
+102.6146 	EXP 	image_integrated: autoDraw = False
+102.6146 	EXP 	text_congruency: autoDraw = True
+103.1383 	EXP 	Device response: <KeyPress from None: t=103.13609358400572, value=p, duration=None>
+103.1460 	DATA 	Keypress: p
+103.1518 	EXP 	text_congruency: autoDraw = False
+103.1518 	EXP 	text_8: autoDraw = True
+103.2332 	EXP 	Device response: <KeyPress from None: t=103.13609358400572, value=p, duration=0.09229908301495016>
+104.1376 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_13.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_13.jpg', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+105.4366 	EXP 	text_8: autoDraw = False
+105.4366 	EXP 	text_8: autoDraw = False
+105.4366 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_13.jpg'
+105.4366 	EXP 	image_integrated: autoDraw = True
+106.1533 	INFO 	Keyboard events cleared
+106.1531 	EXP 	image_integrated: autoDraw = False
+106.1531 	EXP 	text_congruency: autoDraw = True
+106.5879 	EXP 	Device response: <KeyPress from None: t=106.5859488749993, value=q, duration=None>
+106.5940 	DATA 	Keypress: q
+106.6015 	EXP 	text_congruency: autoDraw = False
+106.6015 	EXP 	text_8: autoDraw = True
+106.6711 	EXP 	Device response: <KeyPress from None: t=106.5859488749993, value=q, duration=0.08031708403723314>
+107.5879 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_12.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_12.jpg', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+108.9041 	EXP 	text_8: autoDraw = False
+108.9041 	EXP 	text_8: autoDraw = False
+108.9041 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_12.jpg'
+108.9041 	EXP 	image_integrated: autoDraw = True
+109.6040 	INFO 	Keyboard events cleared
+109.6038 	EXP 	image_integrated: autoDraw = False
+109.6038 	EXP 	text_congruency: autoDraw = True
+110.4555 	EXP 	Device response: <KeyPress from None: t=110.45078850002028, value=q, duration=None>
+110.4618 	DATA 	Keypress: q
+110.4686 	EXP 	text_congruency: autoDraw = False
+110.4686 	EXP 	text_8: autoDraw = True
+110.5328 	EXP 	Device response: <KeyPress from None: t=110.45078850002028, value=q, duration=0.08034574997145683>
+111.4546 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_18.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_18.jpg', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+112.6570 	EXP 	text_8: autoDraw = False
+112.6570 	EXP 	text_8: autoDraw = False
+112.6570 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_18.jpg'
+112.6570 	EXP 	image_integrated: autoDraw = True
+113.4711 	INFO 	Keyboard events cleared
+113.4709 	EXP 	image_integrated: autoDraw = False
+113.4709 	EXP 	text_congruency: autoDraw = True
+113.8211 	EXP 	Device response: <KeyPress from None: t=113.81664445903152, value=p, duration=None>
+113.8276 	DATA 	Keypress: p
+113.8346 	EXP 	text_congruency: autoDraw = False
+113.8346 	EXP 	text_8: autoDraw = True
+113.8993 	EXP 	Device response: <KeyPress from None: t=113.81664445903152, value=p, duration=0.08043316600378603>
+114.8217 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_18.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_18.jpg', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+116.2235 	EXP 	text_8: autoDraw = False
+116.2235 	EXP 	text_8: autoDraw = False
+116.2235 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_18.jpg'
+116.2235 	EXP 	image_integrated: autoDraw = True
+116.8371 	INFO 	Keyboard events cleared
+116.8369 	EXP 	image_integrated: autoDraw = False
+116.8369 	EXP 	text_congruency: autoDraw = True
+117.4372 	EXP 	Device response: <KeyPress from None: t=117.43470533401705, value=p, duration=None>
+117.4429 	DATA 	Keypress: p
+117.4648 	EXP 	text_congruency: autoDraw = False
+117.4648 	EXP 	text_8: autoDraw = True
+117.5327 	EXP 	Device response: <KeyPress from None: t=117.43470533401705, value=p, duration=0.09234654100146145>
+118.4380 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_5.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_5.jpg', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+119.6801 	EXP 	text_8: autoDraw = False
+119.6801 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_5.jpg'
+119.6801 	EXP 	image_integrated: autoDraw = True
+120.4483 	INFO 	Keyboard events cleared
+120.4482 	EXP 	image_integrated: autoDraw = False
+120.4482 	EXP 	text_congruency: autoDraw = True
+121.1993 	EXP 	Device response: <KeyPress from None: t=121.19663316698279, value=q, duration=None>
+121.2061 	DATA 	Keypress: q
+121.2112 	EXP 	text_congruency: autoDraw = False
+121.2112 	EXP 	text_8: autoDraw = True
+121.2994 	EXP 	Device response: <KeyPress from None: t=121.19663316698279, value=q, duration=0.10028783301822841>
+122.1985 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_11.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_11.jpg', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+123.6630 	EXP 	text_8: autoDraw = False
+123.6630 	EXP 	text_8: autoDraw = False
+123.6630 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_11.jpg'
+123.6630 	EXP 	image_integrated: autoDraw = True
+124.2148 	INFO 	Keyboard events cleared
+124.2146 	EXP 	image_integrated: autoDraw = False
+124.2146 	EXP 	text_congruency: autoDraw = True
+125.1663 	EXP 	Device response: <KeyPress from None: t=125.15448433399433, value=p, duration=None>
+125.1725 	DATA 	Keypress: p
+125.1776 	EXP 	text_congruency: autoDraw = False
+125.1776 	EXP 	text_8: autoDraw = True
+125.2324 	EXP 	Device response: <KeyPress from None: t=125.15448433399433, value=p, duration=0.07621875003678724>
+126.1657 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_1.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_1.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_1.jpg', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+127.4142 	EXP 	text_8: autoDraw = False
+127.4142 	EXP 	text_8: autoDraw = False
+127.4142 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_1.jpg'
+127.4142 	EXP 	image_integrated: autoDraw = True
+128.1815 	INFO 	Keyboard events cleared
+128.1813 	EXP 	image_integrated: autoDraw = False
+128.1813 	EXP 	text_congruency: autoDraw = True
+128.5994 	EXP 	Device response: <KeyPress from None: t=128.5953700839891, value=q, duration=None>
+128.6054 	EXP 	text_congruency: autoDraw = False
+128.6054 	EXP 	text_8: autoDraw = True
+128.6101 	DATA 	Keypress: q
+128.7386 	EXP 	Device response: <KeyPress from None: t=128.5953700839891, value=q, duration=0.14036183303687721>
+129.5984 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_7.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_7.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_7.jpg', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+129.6246 	EXP 	text_8: autoDraw = False
+129.6246 	EXP 	text_8: autoDraw = False
+129.6246 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_7.jpg'
+129.6246 	EXP 	image_integrated: autoDraw = True
+131.6145 	INFO 	Keyboard events cleared
+131.6143 	EXP 	image_integrated: autoDraw = False
+131.6143 	EXP 	text_congruency: autoDraw = True
+132.0491 	EXP 	Device response: <KeyPress from None: t=132.04635433398653, value=p, duration=None>
+132.0548 	EXP 	text_congruency: autoDraw = False
+132.0548 	EXP 	text_8: autoDraw = True
+132.0595 	DATA 	Keypress: p
+132.1655 	EXP 	Device response: <KeyPress from None: t=132.04635433398653, value=p, duration=0.10834395803976804>
+133.0482 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_19.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_19.jpg', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+133.0745 	EXP 	text_8: autoDraw = False
+133.0745 	EXP 	text_8: autoDraw = False
+133.0745 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_19.jpg'
+133.0745 	EXP 	image_integrated: autoDraw = True
+135.0637 	INFO 	Keyboard events cleared
+135.0635 	EXP 	image_integrated: autoDraw = False
+135.0635 	EXP 	text_congruency: autoDraw = True
+135.4478 	EXP 	Device response: <KeyPress from None: t=135.43730541702826, value=p, duration=None>
+135.4509 	DATA 	Keypress: p
+135.4543 	EXP 	text_congruency: autoDraw = False
+135.4543 	EXP 	text_8: autoDraw = True
+135.5977 	EXP 	Device response: <KeyPress from None: t=135.43730541702826, value=p, duration=0.15626304200850427>
+136.4489 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_10.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_10.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_10.jpg', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+138.1397 	EXP 	text_8: autoDraw = False
+138.1397 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_10.jpg'
+138.1397 	EXP 	image_integrated: autoDraw = True
+138.4549 	INFO 	Keyboard events cleared
+138.4548 	EXP 	image_integrated: autoDraw = False
+138.4548 	EXP 	text_congruency: autoDraw = True
+139.2507 	EXP 	Device response: <KeyPress from None: t=139.2380920840078, value=q, duration=None>
+139.2591 	DATA 	Keypress: q
+139.2642 	EXP 	text_congruency: autoDraw = False
+139.2642 	EXP 	text_8: autoDraw = True
+139.3498 	EXP 	Device response: <KeyPress from None: t=139.2380920840078, value=q, duration=0.10032662498997524>
+140.2488 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_20.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_20.jpg', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+141.5620 	EXP 	text_8: autoDraw = False
+141.5620 	EXP 	text_8: autoDraw = False
+141.5620 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_20.jpg'
+141.5620 	EXP 	image_integrated: autoDraw = True
+142.2646 	INFO 	Keyboard events cleared
+142.2644 	EXP 	image_integrated: autoDraw = False
+142.2644 	EXP 	text_congruency: autoDraw = True
+142.7488 	EXP 	Device response: <KeyPress from None: t=142.74102091701934, value=q, duration=None>
+142.7551 	DATA 	Keypress: q
+142.7599 	EXP 	text_congruency: autoDraw = False
+142.7599 	EXP 	text_8: autoDraw = True
+142.8490 	EXP 	Device response: <KeyPress from None: t=142.74102091701934, value=q, duration=0.09620254201581702>
+143.7482 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_6.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_6.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_6.jpg', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+144.8929 	EXP 	text_8: autoDraw = False
+144.8929 	EXP 	text_8: autoDraw = False
+144.8929 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_6.jpg'
+144.8929 	EXP 	image_integrated: autoDraw = True
+145.7648 	INFO 	Keyboard events cleared
+145.7646 	EXP 	image_integrated: autoDraw = False
+145.7646 	EXP 	text_congruency: autoDraw = True
+146.0556 	EXP 	Device response: <KeyPress from None: t=146.05302470899187, value=q, duration=None>
+146.0620 	DATA 	Keypress: q
+146.0682 	EXP 	text_congruency: autoDraw = False
+146.0682 	EXP 	text_8: autoDraw = True
+146.1825 	EXP 	Device response: <KeyPress from None: t=146.05302470899187, value=q, duration=0.12432116601848975>
+147.0538 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_2.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_2.jpg', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+148.2321 	EXP 	text_8: autoDraw = False
+148.2321 	EXP 	text_8: autoDraw = False
+148.2321 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_2.jpg'
+148.2321 	EXP 	image_integrated: autoDraw = True
+149.0714 	INFO 	Keyboard events cleared
+149.0711 	EXP 	image_integrated: autoDraw = False
+149.0711 	EXP 	text_congruency: autoDraw = True
+150.0733 	EXP 	text_congruency: autoDraw = False
+150.0733 	EXP 	text_8: autoDraw = True
+150.4868 	EXP 	Device response: <KeyPress from None: t=150.4853110840195, value=p, duration=None>
+150.5034 	DATA 	Keypress: p
+150.5824 	EXP 	Device response: <KeyPress from None: t=150.4853110840195, value=p, duration=0.0889738749829121>
+151.0647 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_20.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_20.jpg', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+152.2888 	EXP 	text_8: autoDraw = False
+152.2888 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_20.jpg'
+152.2888 	EXP 	image_integrated: autoDraw = True
+153.0696 	INFO 	Keyboard events cleared
+153.0694 	EXP 	image_integrated: autoDraw = False
+153.0694 	EXP 	text_congruency: autoDraw = True
+153.7203 	EXP 	Device response: <KeyPress from None: t=153.7175119590247, value=q, duration=None>
+153.7264 	DATA 	Keypress: q
+153.7480 	EXP 	text_congruency: autoDraw = False
+153.7480 	EXP 	text_8: autoDraw = True
+153.8657 	EXP 	Device response: <KeyPress from None: t=153.7175119590247, value=q, duration=0.13978379097534344>
+154.7317 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_9.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_9.jpg', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+155.8244 	EXP 	text_8: autoDraw = False
+155.8244 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_9.jpg'
+155.8244 	EXP 	image_integrated: autoDraw = True
+156.7376 	INFO 	Keyboard events cleared
+156.7373 	EXP 	image_integrated: autoDraw = False
+156.7373 	EXP 	text_congruency: autoDraw = True
+157.0706 	EXP 	Device response: <KeyPress from None: t=157.06685208401177, value=q, duration=None>
+157.0769 	DATA 	Keypress: q
+157.0844 	EXP 	text_congruency: autoDraw = False
+157.0844 	EXP 	text_8: autoDraw = True
+157.2159 	EXP 	Device response: <KeyPress from None: t=157.06685208401177, value=q, duration=0.13626679097069427>
+158.0703 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_19.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_19.jpg', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+159.2476 	EXP 	text_8: autoDraw = False
+159.2476 	EXP 	text_8: autoDraw = False
+159.2476 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_19.jpg'
+159.2476 	EXP 	image_integrated: autoDraw = True
+160.0867 	INFO 	Keyboard events cleared
+160.0865 	EXP 	image_integrated: autoDraw = False
+160.0865 	EXP 	text_congruency: autoDraw = True
+160.3331 	EXP 	Device response: <KeyPress from None: t=160.32466625003144, value=q, duration=None>
+160.3398 	DATA 	Keypress: q
+160.3449 	EXP 	text_congruency: autoDraw = False
+160.3449 	EXP 	text_8: autoDraw = True
+160.4657 	EXP 	Device response: <KeyPress from None: t=160.32466625003144, value=q, duration=0.13642658398021013>
+161.3316 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_5.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_5.jpg', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+162.4343 	EXP 	text_8: autoDraw = False
+162.4343 	EXP 	text_8: autoDraw = False
+162.4343 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_5.jpg'
+162.4343 	EXP 	image_integrated: autoDraw = True
+163.3476 	INFO 	Keyboard events cleared
+163.3474 	EXP 	image_integrated: autoDraw = False
+163.3474 	EXP 	text_congruency: autoDraw = True
+164.1042 	EXP 	Device response: <KeyPress from None: t=164.0995309590362, value=q, duration=None>
+164.1102 	DATA 	Keypress: q
+164.1172 	EXP 	text_congruency: autoDraw = False
+164.1172 	EXP 	text_8: autoDraw = True
+164.2222 	EXP 	Device response: <KeyPress from None: t=164.0995309590362, value=q, duration=0.11644216597778723>
+165.1034 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_14.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_14.jpg', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+166.4181 	EXP 	text_8: autoDraw = False
+166.4181 	EXP 	text_8: autoDraw = False
+166.4181 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_14.jpg'
+166.4181 	EXP 	image_integrated: autoDraw = True
+167.1203 	INFO 	Keyboard events cleared
+167.1201 	EXP 	image_integrated: autoDraw = False
+167.1201 	EXP 	text_congruency: autoDraw = True
+167.4660 	EXP 	Device response: <KeyPress from None: t=167.4563748749788, value=q, duration=None>
+167.4736 	DATA 	Keypress: q
+167.4787 	EXP 	text_congruency: autoDraw = False
+167.4787 	EXP 	text_8: autoDraw = True
+167.6203 	EXP 	Device response: <KeyPress from None: t=167.4563748749788, value=q, duration=0.1593569590477273>
+168.4650 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_8.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_8.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_8.jpg', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+168.4900 	EXP 	text_8: autoDraw = False
+168.4900 	EXP 	text_8: autoDraw = False
+168.4900 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_8.jpg'
+168.4900 	EXP 	image_integrated: autoDraw = True
+170.4808 	INFO 	Keyboard events cleared
+170.4807 	EXP 	image_integrated: autoDraw = False
+170.4807 	EXP 	text_congruency: autoDraw = True
+170.7867 	EXP 	Device response: <KeyPress from None: t=170.7844717919943, value=q, duration=None>
+170.7923 	DATA 	Keypress: q
+170.7973 	EXP 	text_congruency: autoDraw = False
+170.7973 	EXP 	text_8: autoDraw = True
+170.9028 	EXP 	Device response: <KeyPress from None: t=170.7844717919943, value=q, duration=0.11626600002637133>
+171.7812 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_14.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_14.jpg', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+173.2296 	EXP 	text_8: autoDraw = False
+173.2296 	EXP 	text_8: autoDraw = False
+173.2296 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_14.jpg'
+173.2296 	EXP 	image_integrated: autoDraw = True
+173.8040 	INFO 	Keyboard events cleared
+173.8038 	EXP 	image_integrated: autoDraw = False
+173.8038 	EXP 	text_congruency: autoDraw = True
+174.2989 	EXP 	Device response: <KeyPress from None: t=174.29537854198134, value=q, duration=None>
+174.3048 	EXP 	text_congruency: autoDraw = False
+174.3048 	EXP 	text_8: autoDraw = True
+174.3101 	DATA 	Keypress: q
+174.4032 	EXP 	Device response: <KeyPress from None: t=174.29537854198134, value=q, duration=0.10422941704746336>
+175.2981 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_6.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_6.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_6.jpg', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+176.7686 	EXP 	text_8: autoDraw = False
+176.7686 	EXP 	text_8: autoDraw = False
+176.7686 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_6.jpg'
+176.7686 	EXP 	image_integrated: autoDraw = True
+177.3144 	INFO 	Keyboard events cleared
+177.3142 	EXP 	image_integrated: autoDraw = False
+177.3142 	EXP 	text_congruency: autoDraw = True
+177.9157 	EXP 	Device response: <KeyPress from None: t=177.9093457920244, value=q, duration=None>
+177.9226 	DATA 	Keypress: q
+177.9278 	EXP 	text_congruency: autoDraw = False
+177.9278 	EXP 	text_8: autoDraw = True
+178.0702 	EXP 	Device response: <KeyPress from None: t=177.9093457920244, value=q, duration=0.1562149169621989>
+178.9150 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_2.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_2.jpg', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+180.0279 	EXP 	text_8: autoDraw = False
+180.0279 	EXP 	text_8: autoDraw = False
+180.0279 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_2.jpg'
+180.0279 	EXP 	image_integrated: autoDraw = True
+180.9308 	INFO 	Keyboard events cleared
+180.9306 	EXP 	image_integrated: autoDraw = False
+180.9306 	EXP 	text_congruency: autoDraw = True
+181.1710 	EXP 	Device response: <KeyPress from None: t=181.16917908401228, value=q, duration=None>
+181.1768 	DATA 	Keypress: q
+181.1841 	EXP 	text_congruency: autoDraw = False
+181.1841 	EXP 	text_8: autoDraw = True
+181.3160 	EXP 	Device response: <KeyPress from None: t=181.16917908401228, value=q, duration=0.14426983299199492>
+182.1714 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_12.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_12.jpg', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+182.1953 	EXP 	text_8: autoDraw = False
+182.1953 	EXP 	text_8: autoDraw = False
+182.1953 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_12.jpg'
+182.1953 	EXP 	image_integrated: autoDraw = True
+184.1858 	INFO 	Keyboard events cleared
+184.1857 	EXP 	image_integrated: autoDraw = False
+184.1857 	EXP 	text_congruency: autoDraw = True
+184.4819 	EXP 	Device response: <KeyPress from None: t=184.47215720900567, value=q, duration=None>
+184.4879 	DATA 	Keypress: q
+184.4929 	EXP 	text_congruency: autoDraw = False
+184.4929 	EXP 	text_8: autoDraw = True
+184.5986 	EXP 	Device response: <KeyPress from None: t=184.47215720900567, value=q, duration=0.11627637501806021>
+185.4814 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_5.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_5.jpg', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+186.9300 	EXP 	text_8: autoDraw = False
+186.9300 	EXP 	text_8: autoDraw = False
+186.9300 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_5.jpg'
+186.9300 	EXP 	image_integrated: autoDraw = True
+187.4974 	INFO 	Keyboard events cleared
+187.4972 	EXP 	image_integrated: autoDraw = False
+187.4972 	EXP 	text_congruency: autoDraw = True
+188.3652 	EXP 	Device response: <KeyPress from None: t=188.3610057500191, value=p, duration=None>
+188.3715 	DATA 	Keypress: p
+188.3765 	EXP 	text_congruency: autoDraw = False
+188.3765 	EXP 	text_8: autoDraw = True
+188.4874 	EXP 	Device response: <KeyPress from None: t=188.3610057500191, value=p, duration=0.1203236670116894>
+189.3647 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_17.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_17.jpg', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+190.6452 	EXP 	text_8: autoDraw = False
+190.6452 	EXP 	text_8: autoDraw = False
+190.6452 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_17.jpg'
+190.6452 	EXP 	image_integrated: autoDraw = True
+191.3809 	INFO 	Keyboard events cleared
+191.3807 	EXP 	image_integrated: autoDraw = False
+191.3807 	EXP 	text_congruency: autoDraw = True
+191.8877 	EXP 	Device response: <KeyPress from None: t=191.88390062499093, value=p, duration=None>
+191.8939 	DATA 	Keypress: p
+191.9005 	EXP 	text_congruency: autoDraw = False
+191.9005 	EXP 	text_8: autoDraw = True
+192.0153 	EXP 	Device response: <KeyPress from None: t=191.88390062499093, value=p, duration=0.12833933404181153>
+192.8860 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_14.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_14.jpg', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+193.9251 	EXP 	text_8: autoDraw = False
+193.9251 	EXP 	text_8: autoDraw = False
+193.9251 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_14.jpg'
+193.9251 	EXP 	image_integrated: autoDraw = True
+194.9032 	INFO 	Keyboard events cleared
+194.9030 	EXP 	image_integrated: autoDraw = False
+194.9030 	EXP 	text_congruency: autoDraw = True
+195.7827 	EXP 	Device response: <KeyPress from None: t=195.77073479199316, value=p, duration=None>
+195.7895 	DATA 	Keypress: p
+195.7946 	EXP 	text_congruency: autoDraw = False
+195.7946 	EXP 	text_8: autoDraw = True
+195.8818 	EXP 	Device response: <KeyPress from None: t=195.77073479199316, value=p, duration=0.10838341701310128>
+196.7818 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_20.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_20.jpg', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+197.8786 	EXP 	text_8: autoDraw = False
+197.8786 	EXP 	text_8: autoDraw = False
+197.8786 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_20.jpg'
+197.8786 	EXP 	image_integrated: autoDraw = True
+198.7978 	INFO 	Keyboard events cleared
+198.7976 	EXP 	image_integrated: autoDraw = False
+198.7976 	EXP 	text_congruency: autoDraw = True
+199.3714 	EXP 	Device response: <KeyPress from None: t=199.36477883398766, value=q, duration=None>
+199.3777 	DATA 	Keypress: q
+199.3842 	EXP 	text_congruency: autoDraw = False
+199.3842 	EXP 	text_8: autoDraw = True
+199.5326 	EXP 	Device response: <KeyPress from None: t=199.36477883398766, value=q, duration=0.160432500008028>
+200.3702 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_8.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_8.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_8.jpg', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+201.5564 	EXP 	text_8: autoDraw = False
+201.5564 	EXP 	text_8: autoDraw = False
+201.5564 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_8.jpg'
+201.5564 	EXP 	image_integrated: autoDraw = True
+202.3872 	INFO 	Keyboard events cleared
+202.3870 	EXP 	image_integrated: autoDraw = False
+202.3870 	EXP 	text_congruency: autoDraw = True
+203.0703 	EXP 	Device response: <KeyPress from None: t=203.06455237499904, value=q, duration=None>
+203.0763 	DATA 	Keypress: q
+203.0837 	EXP 	text_congruency: autoDraw = False
+203.0837 	EXP 	text_8: autoDraw = True
+203.1862 	EXP 	Device response: <KeyPress from None: t=203.06455237499904, value=q, duration=0.11637450003763661>
+204.0706 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_2.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_2.jpg', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+205.2284 	EXP 	text_8: autoDraw = False
+205.2284 	EXP 	text_8: autoDraw = False
+205.2284 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_2.jpg'
+205.2284 	EXP 	image_integrated: autoDraw = True
+206.0858 	INFO 	Keyboard events cleared
+206.0856 	EXP 	image_integrated: autoDraw = False
+206.0856 	EXP 	text_congruency: autoDraw = True
+206.7203 	EXP 	Device response: <KeyPress from None: t=206.7184890420176, value=p, duration=None>
+206.7262 	DATA 	Keypress: p
+206.7340 	EXP 	text_congruency: autoDraw = False
+206.7340 	EXP 	text_8: autoDraw = True
+206.8200 	EXP 	Device response: <KeyPress from None: t=206.7184890420176, value=p, duration=0.09620912501122802>
+207.7200 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_13.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_13.jpg', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+208.9003 	EXP 	text_8: autoDraw = False
+208.9003 	EXP 	text_8: autoDraw = False
+208.9003 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_13.jpg'
+208.9003 	EXP 	image_integrated: autoDraw = True
+209.7359 	INFO 	Keyboard events cleared
+209.7357 	EXP 	image_integrated: autoDraw = False
+209.7357 	EXP 	text_congruency: autoDraw = True
+210.4324 	EXP 	Device response: <KeyPress from None: t=210.42443141702097, value=p, duration=None>
+210.4392 	DATA 	Keypress: p
+210.4442 	EXP 	text_congruency: autoDraw = False
+210.4442 	EXP 	text_8: autoDraw = True
+210.5200 	EXP 	Device response: <KeyPress from None: t=210.42443141702097, value=p, duration=0.09227933298097923>
+211.4313 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_17.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_17.jpg', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+212.5613 	EXP 	text_8: autoDraw = False
+212.5613 	EXP 	text_8: autoDraw = False
+212.5613 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_17.jpg'
+212.5613 	EXP 	image_integrated: autoDraw = True
+213.4474 	INFO 	Keyboard events cleared
+213.4472 	EXP 	image_integrated: autoDraw = False
+213.4472 	EXP 	text_congruency: autoDraw = True
+213.8486 	EXP 	Device response: <KeyPress from None: t=213.84233604202745, value=q, duration=None>
+213.8556 	DATA 	Keypress: q
+213.8609 	EXP 	text_congruency: autoDraw = False
+213.8609 	EXP 	text_8: autoDraw = True
+213.9867 	EXP 	Device response: <KeyPress from None: t=213.84233604202745, value=q, duration=0.14031849999446422>
+214.8482 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_11.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_11.jpg', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+216.0239 	EXP 	text_8: autoDraw = False
+216.0239 	EXP 	text_8: autoDraw = False
+216.0239 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_11.jpg'
+216.0239 	EXP 	image_integrated: autoDraw = True
+216.8638 	INFO 	Keyboard events cleared
+216.8636 	EXP 	image_integrated: autoDraw = False
+216.8636 	EXP 	text_congruency: autoDraw = True
+217.4535 	EXP 	Device response: <KeyPress from None: t=217.45229462499265, value=p, duration=None>
+217.4593 	DATA 	Keypress: p
+217.4806 	EXP 	text_congruency: autoDraw = False
+217.4806 	EXP 	text_8: autoDraw = True
+217.5654 	EXP 	Device response: <KeyPress from None: t=217.45229462499265, value=p, duration=0.10827779199462384>
+218.4647 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_18.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_18.jpg', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+219.5614 	EXP 	text_8: autoDraw = False
+219.5614 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_18.jpg'
+219.5614 	EXP 	image_integrated: autoDraw = True
+220.4703 	INFO 	Keyboard events cleared
+220.4702 	EXP 	image_integrated: autoDraw = False
+220.4702 	EXP 	text_congruency: autoDraw = True
+221.4641 	EXP 	text_congruency: autoDraw = False
+221.4641 	EXP 	text_congruency: autoDraw = False
+221.4641 	EXP 	text_8: autoDraw = True
+221.5668 	EXP 	Device response: <KeyPress from None: t=221.5491471249843, value=p, duration=None>
+221.5734 	DATA 	Keypress: p
+221.6320 	EXP 	Device response: <KeyPress from None: t=221.5491471249843, value=p, duration=0.07228320901049301>
+222.4481 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_4.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_4.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_4.jpg', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+223.6355 	EXP 	text_8: autoDraw = False
+223.6355 	EXP 	text_8: autoDraw = False
+223.6355 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_4.jpg'
+223.6355 	EXP 	image_integrated: autoDraw = True
+224.4697 	INFO 	Keyboard events cleared
+224.4695 	EXP 	image_integrated: autoDraw = False
+224.4695 	EXP 	text_congruency: autoDraw = True
+225.4324 	EXP 	Device response: <KeyPress from None: t=225.42995491699548, value=p, duration=None>
+225.4398 	DATA 	Keypress: p
+225.4453 	EXP 	text_congruency: autoDraw = False
+225.4453 	EXP 	text_8: autoDraw = True
+225.5033 	EXP 	Device response: <KeyPress from None: t=225.42995491699548, value=p, duration=0.06837845803238451>
+226.4309 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_1.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_1.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_1.jpg', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+227.6543 	EXP 	text_8: autoDraw = False
+227.6543 	EXP 	text_8: autoDraw = False
+227.6543 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_1.jpg'
+227.6543 	EXP 	image_integrated: autoDraw = True
+228.4471 	INFO 	Keyboard events cleared
+228.4469 	EXP 	image_integrated: autoDraw = False
+228.4469 	EXP 	text_congruency: autoDraw = True
+229.0489 	EXP 	Device response: <KeyPress from None: t=229.03798833402107, value=p, duration=None>
+229.0560 	DATA 	Keypress: p
+229.0612 	EXP 	text_congruency: autoDraw = False
+229.0612 	EXP 	text_8: autoDraw = True
+229.1150 	EXP 	Device response: <KeyPress from None: t=229.03798833402107, value=p, duration=0.07229912496404722>
+230.0481 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_15.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_15.jpg', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+231.2619 	EXP 	text_8: autoDraw = False
+231.2619 	EXP 	text_8: autoDraw = False
+231.2619 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_15.jpg'
+231.2619 	EXP 	image_integrated: autoDraw = True
+232.0642 	INFO 	Keyboard events cleared
+232.0637 	EXP 	image_integrated: autoDraw = False
+232.0637 	EXP 	text_congruency: autoDraw = True
+232.6158 	EXP 	Device response: <KeyPress from None: t=232.6079369590152, value=p, duration=None>
+232.6234 	DATA 	Keypress: p
+232.6286 	EXP 	text_congruency: autoDraw = False
+232.6286 	EXP 	text_8: autoDraw = True
+232.6818 	EXP 	Device response: <KeyPress from None: t=232.6079369590152, value=p, duration=0.06824549997691065>
+233.6145 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_8.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_8.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_8.jpg', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+234.8623 	EXP 	text_8: autoDraw = False
+234.8623 	EXP 	text_8: autoDraw = False
+234.8623 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_8.jpg'
+234.8623 	EXP 	image_integrated: autoDraw = True
+235.6307 	INFO 	Keyboard events cleared
+235.6305 	EXP 	image_integrated: autoDraw = False
+235.6305 	EXP 	text_congruency: autoDraw = True
+236.4876 	EXP 	Device response: <KeyPress from None: t=236.48275154200383, value=q, duration=None>
+236.4938 	DATA 	Keypress: q
+236.5007 	EXP 	text_congruency: autoDraw = False
+236.5007 	EXP 	text_8: autoDraw = True
+236.5483 	EXP 	Device response: <KeyPress from None: t=236.48275154200383, value=q, duration=0.05641962500521913>
+237.4855 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_18.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_18.jpg', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+238.6103 	EXP 	text_8: autoDraw = False
+238.6103 	EXP 	text_8: autoDraw = False
+238.6103 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_18.jpg'
+238.6103 	EXP 	image_integrated: autoDraw = True
+239.5040 	INFO 	Keyboard events cleared
+239.5037 	EXP 	image_integrated: autoDraw = False
+239.5037 	EXP 	text_congruency: autoDraw = True
+240.5029 	EXP 	text_congruency: autoDraw = False
+240.5029 	EXP 	text_8: autoDraw = True
+240.8656 	EXP 	Device response: <KeyPress from None: t=240.85376920900308, value=p, duration=None>
+240.8720 	DATA 	Keypress: p
+240.8980 	EXP 	Device response: <KeyPress from None: t=240.85376920900308, value=p, duration=0.042061083018779755>
+241.4864 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_4.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_4.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_4.jpg', 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+242.6505 	EXP 	text_8: autoDraw = False
+242.6505 	EXP 	text_8: autoDraw = False
+242.6505 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_4.jpg'
+242.6505 	EXP 	image_integrated: autoDraw = True
+243.5026 	INFO 	Keyboard events cleared
+243.5023 	EXP 	image_integrated: autoDraw = False
+243.5023 	EXP 	text_congruency: autoDraw = True
+244.4969 	EXP 	text_congruency: autoDraw = False
+244.4969 	EXP 	text_congruency: autoDraw = False
+244.4969 	EXP 	text_8: autoDraw = True
+245.4811 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_10.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_10.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_10.jpg', 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+246.6399 	EXP 	text_8: autoDraw = False
+246.6399 	EXP 	text_8: autoDraw = False
+246.6399 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_10.jpg'
+246.6399 	EXP 	image_integrated: autoDraw = True
+247.5034 	INFO 	Keyboard events cleared
+247.5031 	EXP 	image_integrated: autoDraw = False
+247.5031 	EXP 	text_congruency: autoDraw = True
+248.5030 	EXP 	text_congruency: autoDraw = False
+248.5030 	EXP 	text_8: autoDraw = True
+249.4866 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_10.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_10.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_10.jpg', 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+250.6197 	EXP 	text_8: autoDraw = False
+250.6197 	EXP 	text_8: autoDraw = False
+250.6197 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_10.jpg'
+250.6197 	EXP 	image_integrated: autoDraw = True
+251.5028 	INFO 	Keyboard events cleared
+251.5026 	EXP 	image_integrated: autoDraw = False
+251.5026 	EXP 	text_congruency: autoDraw = True
+252.4968 	EXP 	text_congruency: autoDraw = False
+252.4968 	EXP 	text_congruency: autoDraw = False
+252.4968 	EXP 	text_8: autoDraw = True
+253.4810 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_7.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_7.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_7.jpg', 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+254.6608 	EXP 	text_8: autoDraw = False
+254.6608 	EXP 	text_8: autoDraw = False
+254.6608 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_7.jpg'
+254.6608 	EXP 	image_integrated: autoDraw = True
+255.5029 	INFO 	Keyboard events cleared
+255.5027 	EXP 	image_integrated: autoDraw = False
+255.5027 	EXP 	text_congruency: autoDraw = True
+256.4968 	EXP 	text_congruency: autoDraw = False
+256.4968 	EXP 	text_congruency: autoDraw = False
+256.4968 	EXP 	text_8: autoDraw = True
+257.4807 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_13.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_13.jpg', 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+258.7096 	EXP 	text_8: autoDraw = False
+258.7096 	EXP 	text_8: autoDraw = False
+258.7096 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_13.jpg'
+258.7096 	EXP 	image_integrated: autoDraw = True
+259.5150 	INFO 	Keyboard events cleared
+259.5149 	EXP 	image_integrated: autoDraw = False
+259.5149 	EXP 	text_congruency: autoDraw = True
+260.5031 	EXP 	text_congruency: autoDraw = False
+260.5031 	EXP 	text_8: autoDraw = True
+261.4971 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_3.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_3.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_3.jpg', 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+262.6645 	EXP 	text_8: autoDraw = False
+262.6645 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_3.jpg'
+262.6645 	EXP 	image_integrated: autoDraw = True
+263.5043 	INFO 	Keyboard events cleared
+263.5039 	EXP 	image_integrated: autoDraw = False
+263.5039 	EXP 	text_congruency: autoDraw = True
+264.5020 	EXP 	text_congruency: autoDraw = False
+264.5020 	EXP 	text_8: autoDraw = True
+265.4862 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_20.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_20.jpg', 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+266.6511 	EXP 	text_8: autoDraw = False
+266.6511 	EXP 	text_8: autoDraw = False
+266.6511 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_20.jpg'
+266.6511 	EXP 	image_integrated: autoDraw = True
+267.5028 	INFO 	Keyboard events cleared
+267.5026 	EXP 	image_integrated: autoDraw = False
+267.5026 	EXP 	text_congruency: autoDraw = True
+268.5021 	EXP 	text_congruency: autoDraw = False
+268.5021 	EXP 	text_8: autoDraw = True
+269.4862 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_4.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_4.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_4.jpg', 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+270.7382 	EXP 	text_8: autoDraw = False
+270.7382 	EXP 	text_8: autoDraw = False
+270.7382 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_4.jpg'
+270.7382 	EXP 	image_integrated: autoDraw = True
+271.5034 	INFO 	Keyboard events cleared
+271.5033 	EXP 	image_integrated: autoDraw = False
+271.5033 	EXP 	text_congruency: autoDraw = True
+272.4967 	EXP 	text_congruency: autoDraw = False
+272.4967 	EXP 	text_congruency: autoDraw = False
+272.4967 	EXP 	text_8: autoDraw = True
+273.4805 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_6.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_6.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_6.jpg', 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+274.5747 	EXP 	text_8: autoDraw = False
+274.5747 	EXP 	text_8: autoDraw = False
+274.5747 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_6.jpg'
+274.5747 	EXP 	image_integrated: autoDraw = True
+275.5036 	INFO 	Keyboard events cleared
+275.5034 	EXP 	image_integrated: autoDraw = False
+275.5034 	EXP 	text_congruency: autoDraw = True
+276.5030 	EXP 	text_congruency: autoDraw = False
+276.5030 	EXP 	text_8: autoDraw = True
+277.4972 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_19.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_19.jpg', 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+278.6164 	EXP 	text_8: autoDraw = False
+278.6164 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_19.jpg'
+278.6164 	EXP 	image_integrated: autoDraw = True
+279.5021 	INFO 	Keyboard events cleared
+279.5019 	EXP 	image_integrated: autoDraw = False
+279.5019 	EXP 	text_congruency: autoDraw = True
+280.4966 	EXP 	text_congruency: autoDraw = False
+280.4966 	EXP 	text_congruency: autoDraw = False
+280.4966 	EXP 	text_8: autoDraw = True
+281.4805 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_4.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_4.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_4.jpg', 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+282.6876 	EXP 	text_8: autoDraw = False
+282.6876 	EXP 	text_8: autoDraw = False
+282.6876 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_4.jpg'
+282.6876 	EXP 	image_integrated: autoDraw = True
+283.5032 	INFO 	Keyboard events cleared
+283.5030 	EXP 	image_integrated: autoDraw = False
+283.5030 	EXP 	text_congruency: autoDraw = True
+284.5020 	EXP 	text_congruency: autoDraw = False
+284.5020 	EXP 	text_8: autoDraw = True
+285.4867 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_7.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_7.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_7.jpg', 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+286.6439 	EXP 	text_8: autoDraw = False
+286.6439 	EXP 	text_8: autoDraw = False
+286.6439 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_7.jpg'
+286.6439 	EXP 	image_integrated: autoDraw = True
+287.5032 	INFO 	Keyboard events cleared
+287.5030 	EXP 	image_integrated: autoDraw = False
+287.5030 	EXP 	text_congruency: autoDraw = True
+288.5013 	EXP 	text_congruency: autoDraw = False
+288.5013 	EXP 	text_8: autoDraw = True
+289.4853 	EXP 	New trial (rep=0, index=72): <Trial 72 (72 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_8.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_8.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_8.jpg', 'thisN': 72, 'thisTrialN': 72, 'thisRepN': 0}>
+290.6871 	EXP 	text_8: autoDraw = False
+290.6871 	EXP 	text_8: autoDraw = False
+290.6871 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_8.jpg'
+290.6871 	EXP 	image_integrated: autoDraw = True
+291.5031 	INFO 	Keyboard events cleared
+291.5029 	EXP 	image_integrated: autoDraw = False
+291.5029 	EXP 	text_congruency: autoDraw = True
+292.5030 	EXP 	text_congruency: autoDraw = False
+292.5030 	EXP 	text_8: autoDraw = True
+293.4866 	EXP 	New trial (rep=0, index=73): <Trial 73 (73 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_3.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_3.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_3.jpg', 'thisN': 73, 'thisTrialN': 73, 'thisRepN': 0}>
+294.6720 	EXP 	text_8: autoDraw = False
+294.6720 	EXP 	text_8: autoDraw = False
+294.6720 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_3.jpg'
+294.6720 	EXP 	image_integrated: autoDraw = True
+295.5031 	INFO 	Keyboard events cleared
+295.5027 	EXP 	image_integrated: autoDraw = False
+295.5027 	EXP 	text_congruency: autoDraw = True
+296.5022 	EXP 	text_congruency: autoDraw = False
+296.5022 	EXP 	text_8: autoDraw = True
+297.4973 	EXP 	New trial (rep=0, index=74): <Trial 74 (74 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_16.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_16.jpg', 'thisN': 74, 'thisTrialN': 74, 'thisRepN': 0}>
+298.7433 	EXP 	text_8: autoDraw = False
+298.7433 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_16.jpg'
+298.7433 	EXP 	image_integrated: autoDraw = True
+299.5028 	INFO 	Keyboard events cleared
+299.5026 	EXP 	image_integrated: autoDraw = False
+299.5026 	EXP 	text_congruency: autoDraw = True
+300.5022 	EXP 	text_congruency: autoDraw = False
+300.5022 	EXP 	text_8: autoDraw = True
+301.4865 	EXP 	New trial (rep=0, index=75): <Trial 75 (75 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_1.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_1.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_1.jpg', 'thisN': 75, 'thisTrialN': 75, 'thisRepN': 0}>
+302.6830 	EXP 	text_8: autoDraw = False
+302.6830 	EXP 	text_8: autoDraw = False
+302.6830 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_1.jpg'
+302.6830 	EXP 	image_integrated: autoDraw = True
+303.5024 	INFO 	Keyboard events cleared
+303.5022 	EXP 	image_integrated: autoDraw = False
+303.5022 	EXP 	text_congruency: autoDraw = True
+304.4965 	EXP 	text_congruency: autoDraw = False
+304.4965 	EXP 	text_congruency: autoDraw = False
+304.4965 	EXP 	text_8: autoDraw = True
+305.4807 	EXP 	New trial (rep=0, index=76): <Trial 76 (76 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_6.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_6.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_6.jpg', 'thisN': 76, 'thisTrialN': 76, 'thisRepN': 0}>
+306.6347 	EXP 	text_8: autoDraw = False
+306.6347 	EXP 	text_8: autoDraw = False
+306.6347 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_6.jpg'
+306.6347 	EXP 	image_integrated: autoDraw = True
+307.5035 	INFO 	Keyboard events cleared
+307.5033 	EXP 	image_integrated: autoDraw = False
+307.5033 	EXP 	text_congruency: autoDraw = True
+308.4963 	EXP 	text_congruency: autoDraw = False
+308.4963 	EXP 	text_congruency: autoDraw = False
+308.4963 	EXP 	text_8: autoDraw = True
+309.4805 	EXP 	New trial (rep=0, index=77): <Trial 77 (77 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_5.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_5.jpg', 'thisN': 77, 'thisTrialN': 77, 'thisRepN': 0}>
+310.6301 	EXP 	text_8: autoDraw = False
+310.6301 	EXP 	text_8: autoDraw = False
+310.6301 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_5.jpg'
+310.6301 	EXP 	image_integrated: autoDraw = True
+311.5034 	INFO 	Keyboard events cleared
+311.5032 	EXP 	image_integrated: autoDraw = False
+311.5032 	EXP 	text_congruency: autoDraw = True
+311.9173 	EXP 	Device response: <KeyPress from None: t=311.90621545899194, value=q, duration=None>
+311.9274 	DATA 	Keypress: q
+311.9327 	EXP 	text_congruency: autoDraw = False
+311.9327 	EXP 	text_8: autoDraw = True
+312.0309 	EXP 	Device response: <KeyPress from None: t=311.90621545899194, value=q, duration=0.11804516601841897>
+312.9183 	EXP 	New trial (rep=0, index=78): <Trial 78 (78 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_12.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_12.jpg', 'thisN': 78, 'thisTrialN': 78, 'thisRepN': 0}>
+314.0553 	EXP 	text_8: autoDraw = False
+314.0553 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_12.jpg'
+314.0553 	EXP 	image_integrated: autoDraw = True
+314.9299 	INFO 	Keyboard events cleared
+314.9296 	EXP 	image_integrated: autoDraw = False
+314.9296 	EXP 	text_congruency: autoDraw = True
+315.2814 	EXP 	Device response: <KeyPress from None: t=315.2706910420093, value=p, duration=None>
+315.2883 	DATA 	Keypress: p
+315.2932 	EXP 	text_congruency: autoDraw = False
+315.2932 	EXP 	text_8: autoDraw = True
+315.3983 	EXP 	Device response: <KeyPress from None: t=315.2706910420093, value=p, duration=0.12466799997491762>
+316.2804 	EXP 	New trial (rep=0, index=79): <Trial 79 (79 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_9.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_9.jpg', 'thisN': 79, 'thisTrialN': 79, 'thisRepN': 0}>
+317.4168 	EXP 	text_8: autoDraw = False
+317.4168 	EXP 	text_8: autoDraw = False
+317.4168 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_9.jpg'
+317.4168 	EXP 	image_integrated: autoDraw = True
+318.2961 	INFO 	Keyboard events cleared
+318.2957 	EXP 	image_integrated: autoDraw = False
+318.2957 	EXP 	text_congruency: autoDraw = True
+318.6315 	EXP 	Device response: <KeyPress from None: t=318.61865654203575, value=q, duration=None>
+318.6394 	DATA 	Keypress: q
+318.6447 	EXP 	text_congruency: autoDraw = False
+318.6447 	EXP 	text_8: autoDraw = True
+318.7479 	EXP 	Device response: <KeyPress from None: t=318.61865654203575, value=q, duration=0.12441854196367785>
+319.6549 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+319.6933 	INFO 	Keyboard events cleared
+319.6932 	EXP 	text_8: autoDraw = False
+319.6932 	EXP 	text_8: autoDraw = False
+319.6932 	EXP 	text_relatedness_pause: height = np.float64(0.05)
+319.6932 	EXP 	text_relatedness_pause: height = np.float64(0.05)
+319.6932 	EXP 	text_relatedness_pause: height = np.float64(0.05)
+319.6932 	EXP 	text_relatedness_pause: text = 'Reminder:\n\nIf the scene and item are related, press Q\nIf they are unrelated, press P.\n\nPress ONLY AFTER the item and scene disappeared!\n\nPress SPACEBAR to resume.'
+319.6932 	EXP 	text_run_pause: autoDraw = True
+319.6932 	EXP 	text_relatedness_pause: autoDraw = True
+325.7331 	EXP 	Device response: <KeyPress from None: t=325.7247946669813, value=space, duration=None>
+325.7350 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'run': 2, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+325.7617 	EXP 	Imported stimuli/stim_lists/stimuli_list_sub_330_run_1.csv as conditions, 80 conditions, 9 params
+325.7626 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_17.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_17.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+325.7764 	DATA 	Keypress: space
+325.7808 	EXP 	text_run_pause: autoDraw = False
+325.7808 	EXP 	text_relatedness_pause: autoDraw = False
+325.7808 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_17.jpg'
+325.7808 	EXP 	image_integrated: autoDraw = True
+325.7956 	EXP 	Device response: <KeyPress from None: t=325.7247946669813, value=space, duration=0.0658794580376707>
+327.7515 	INFO 	Keyboard events cleared
+327.7513 	EXP 	image_integrated: autoDraw = False
+327.7513 	EXP 	text_congruency: autoDraw = True
+328.2372 	EXP 	Device response: <KeyPress from None: t=328.2313991250121, value=p, duration=None>
+328.2449 	DATA 	Keypress: p
+328.2505 	EXP 	text_congruency: autoDraw = False
+328.2505 	EXP 	text_8: autoDraw = True
+328.3473 	EXP 	Device response: <KeyPress from None: t=328.2313991250121, value=p, duration=0.10823362501105294>
+329.2354 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_10.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_10.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_10.jpg', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+329.2654 	EXP 	text_8: autoDraw = False
+329.2654 	EXP 	text_8: autoDraw = False
+329.2654 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_10.jpg'
+329.2654 	EXP 	image_integrated: autoDraw = True
+331.2515 	INFO 	Keyboard events cleared
+331.2513 	EXP 	image_integrated: autoDraw = False
+331.2513 	EXP 	text_congruency: autoDraw = True
+331.7353 	EXP 	Device response: <KeyPress from None: t=331.7311887500109, value=q, duration=None>
+331.7409 	DATA 	Keypress: q
+331.7461 	EXP 	text_congruency: autoDraw = False
+331.7461 	EXP 	text_8: autoDraw = True
+331.8322 	EXP 	Device response: <KeyPress from None: t=331.7311887500109, value=q, duration=0.09649074997287244>
+332.7300 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_15.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_15.jpg', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+332.7542 	EXP 	text_8: autoDraw = False
+332.7542 	EXP 	text_8: autoDraw = False
+332.7542 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_15.jpg'
+332.7542 	EXP 	image_integrated: autoDraw = True
+334.7508 	INFO 	Keyboard events cleared
+334.7506 	EXP 	image_integrated: autoDraw = False
+334.7506 	EXP 	text_congruency: autoDraw = True
+335.4352 	EXP 	Device response: <KeyPress from None: t=335.4311564170057, value=p, duration=None>
+335.4405 	DATA 	Keypress: p
+335.4453 	EXP 	text_congruency: autoDraw = False
+335.4453 	EXP 	text_8: autoDraw = True
+335.5476 	EXP 	Device response: <KeyPress from None: t=335.4311564170057, value=p, duration=0.11236775002907962>
+336.4303 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_1.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_1.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_1.jpg', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+336.4556 	EXP 	text_8: autoDraw = False
+336.4556 	EXP 	text_8: autoDraw = False
+336.4556 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_1.jpg'
+336.4556 	EXP 	image_integrated: autoDraw = True
+338.4518 	INFO 	Keyboard events cleared
+338.4517 	EXP 	image_integrated: autoDraw = False
+338.4517 	EXP 	text_congruency: autoDraw = True
+338.7860 	EXP 	Device response: <KeyPress from None: t=338.78111999999965, value=q, duration=None>
+338.7922 	DATA 	Keypress: q
+338.8005 	EXP 	text_congruency: autoDraw = False
+338.8005 	EXP 	text_8: autoDraw = True
+338.9465 	EXP 	Device response: <KeyPress from None: t=338.78111999999965, value=q, duration=0.16431133402511477>
+339.7844 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_13.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_13.jpg', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+339.8059 	EXP 	text_8: autoDraw = False
+339.8059 	EXP 	text_8: autoDraw = False
+339.8059 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_13.jpg'
+339.8059 	EXP 	image_integrated: autoDraw = True
+341.8014 	INFO 	Keyboard events cleared
+341.8012 	EXP 	image_integrated: autoDraw = False
+341.8012 	EXP 	text_congruency: autoDraw = True
+342.0860 	EXP 	Device response: <KeyPress from None: t=342.07992441701936, value=p, duration=None>
+342.0918 	DATA 	Keypress: p
+342.1130 	EXP 	text_congruency: autoDraw = False
+342.1130 	EXP 	text_8: autoDraw = True
+342.2022 	EXP 	Device response: <KeyPress from None: t=342.07992441701936, value=p, duration=0.12040249997517094>
+343.0965 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_17.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_17.jpg', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+343.1198 	EXP 	text_8: autoDraw = False
+343.1198 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_17.jpg'
+343.1198 	EXP 	image_integrated: autoDraw = True
+345.1023 	INFO 	Keyboard events cleared
+345.1021 	EXP 	image_integrated: autoDraw = False
+345.1021 	EXP 	text_congruency: autoDraw = True
+345.4479 	EXP 	Device response: <KeyPress from None: t=345.4441884169937, value=p, duration=None>
+345.4548 	EXP 	text_congruency: autoDraw = False
+345.4548 	EXP 	text_8: autoDraw = True
+345.4607 	DATA 	Keypress: p
+345.5971 	EXP 	Device response: <KeyPress from None: t=345.4441884169937, value=p, duration=0.14807308302260935>
+346.4464 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_3.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_3.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_3.jpg', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+346.4749 	EXP 	text_8: autoDraw = False
+346.4749 	EXP 	text_8: autoDraw = False
+346.4749 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_3.jpg'
+346.4749 	EXP 	image_integrated: autoDraw = True
+348.4627 	INFO 	Keyboard events cleared
+348.4626 	EXP 	image_integrated: autoDraw = False
+348.4626 	EXP 	text_congruency: autoDraw = True
+348.9021 	EXP 	Device response: <KeyPress from None: t=348.90083420899464, value=p, duration=None>
+348.9207 	DATA 	Keypress: p
+348.9258 	EXP 	text_congruency: autoDraw = False
+348.9258 	EXP 	text_8: autoDraw = True
+349.0306 	EXP 	Device response: <KeyPress from None: t=348.90083420899464, value=p, duration=0.12029441603226587>
+349.9132 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_11.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_11.jpg', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+349.9409 	EXP 	text_8: autoDraw = False
+349.9409 	EXP 	text_8: autoDraw = False
+349.9409 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_11.jpg'
+349.9409 	EXP 	image_integrated: autoDraw = True
+351.9297 	INFO 	Keyboard events cleared
+351.9296 	EXP 	image_integrated: autoDraw = False
+351.9296 	EXP 	text_congruency: autoDraw = True
+352.9177 	EXP 	text_congruency: autoDraw = False
+352.9177 	EXP 	text_congruency: autoDraw = False
+352.9177 	EXP 	text_8: autoDraw = True
+353.9016 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_11.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_11.jpg', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+353.9258 	EXP 	text_8: autoDraw = False
+353.9258 	EXP 	text_8: autoDraw = False
+353.9258 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_11.jpg'
+353.9258 	EXP 	image_integrated: autoDraw = True
+355.0035 	EXP 	Device response: <KeyPress from None: t=355.0012672920129, value=p, duration=None>
+355.0167 	DATA 	Keypress: p
+355.1135 	EXP 	Device response: <KeyPress from None: t=355.0012672920129, value=p, duration=0.10196437500417233>
+355.9179 	INFO 	Keyboard events cleared
+355.9177 	EXP 	image_integrated: autoDraw = False
+355.9177 	EXP 	image_integrated: autoDraw = False
+355.9177 	EXP 	text_congruency: autoDraw = True
+356.2305 	EXP 	Device response: <KeyPress from None: t=356.2249555839808, value=p, duration=None>
+356.2363 	EXP 	text_congruency: autoDraw = False
+356.2363 	EXP 	text_8: autoDraw = True
+356.2408 	DATA 	Keypress: p
+356.3302 	EXP 	Device response: <KeyPress from None: t=356.2249555839808, value=p, duration=0.10016691603232175>
+357.2297 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_2.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_2.jpg', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+357.2517 	EXP 	text_8: autoDraw = False
+357.2517 	EXP 	text_8: autoDraw = False
+357.2517 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_2.jpg'
+357.2517 	EXP 	image_integrated: autoDraw = True
+359.2460 	INFO 	Keyboard events cleared
+359.2459 	EXP 	image_integrated: autoDraw = False
+359.2459 	EXP 	text_congruency: autoDraw = True
+360.2349 	EXP 	text_congruency: autoDraw = False
+360.2349 	EXP 	text_congruency: autoDraw = False
+360.2349 	EXP 	text_8: autoDraw = True
+360.4859 	EXP 	Device response: <KeyPress from None: t=360.47978279198287, value=q, duration=None>
+360.4914 	DATA 	Keypress: q
+360.5971 	EXP 	Device response: <KeyPress from None: t=360.47978279198287, value=q, duration=0.11413195804925635>
+361.2188 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_9.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_9.jpg', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+361.2422 	EXP 	text_8: autoDraw = False
+361.2422 	EXP 	text_8: autoDraw = False
+361.2422 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_9.jpg'
+361.2422 	EXP 	image_integrated: autoDraw = True
+363.2350 	INFO 	Keyboard events cleared
+363.2349 	EXP 	image_integrated: autoDraw = False
+363.2349 	EXP 	image_integrated: autoDraw = False
+363.2349 	EXP 	text_congruency: autoDraw = True
+363.5135 	EXP 	Device response: <KeyPress from None: t=363.5085067920154, value=p, duration=None>
+363.5186 	EXP 	text_congruency: autoDraw = False
+363.5186 	EXP 	text_8: autoDraw = True
+363.5233 	DATA 	Keypress: p
+363.6190 	EXP 	Device response: <KeyPress from None: t=363.5085067920154, value=p, duration=0.10459191701374948>
+364.5024 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_7.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_7.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_7.jpg', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+364.5264 	EXP 	text_8: autoDraw = False
+364.5264 	EXP 	text_8: autoDraw = False
+364.5264 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_7.jpg'
+364.5264 	EXP 	image_integrated: autoDraw = True
+366.5175 	INFO 	Keyboard events cleared
+366.5174 	EXP 	image_integrated: autoDraw = False
+366.5174 	EXP 	image_integrated: autoDraw = False
+366.5174 	EXP 	text_congruency: autoDraw = True
+366.8138 	EXP 	Device response: <KeyPress from None: t=366.80742258398095, value=q, duration=None>
+366.8195 	EXP 	text_congruency: autoDraw = False
+366.8195 	EXP 	text_8: autoDraw = True
+366.8246 	DATA 	Keypress: q
+366.9471 	EXP 	Device response: <KeyPress from None: t=366.80742258398095, value=q, duration=0.12832775001879781>
+367.8129 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_12.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_12.jpg', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+367.8367 	EXP 	text_8: autoDraw = False
+367.8367 	EXP 	text_8: autoDraw = False
+367.8367 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_12.jpg'
+367.8367 	EXP 	image_integrated: autoDraw = True
+369.8293 	INFO 	Keyboard events cleared
+369.8292 	EXP 	image_integrated: autoDraw = False
+369.8292 	EXP 	text_congruency: autoDraw = True
+370.5638 	EXP 	Device response: <KeyPress from None: t=370.56222925003385, value=p, duration=None>
+370.5694 	EXP 	text_congruency: autoDraw = False
+370.5694 	EXP 	text_8: autoDraw = True
+370.5743 	DATA 	Keypress: p
+370.6634 	EXP 	Device response: <KeyPress from None: t=370.56222925003385, value=p, duration=0.09642174997134134>
+371.5632 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_16.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_16.jpg', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+371.5937 	EXP 	text_8: autoDraw = False
+371.5937 	EXP 	text_8: autoDraw = False
+371.5937 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_16.jpg'
+371.5937 	EXP 	image_integrated: autoDraw = True
+373.5794 	INFO 	Keyboard events cleared
+373.5792 	EXP 	image_integrated: autoDraw = False
+373.5792 	EXP 	text_congruency: autoDraw = True
+373.8686 	EXP 	Device response: <KeyPress from None: t=373.86318604199914, value=q, duration=None>
+373.8743 	DATA 	Keypress: q
+373.8961 	EXP 	text_congruency: autoDraw = False
+373.8961 	EXP 	text_8: autoDraw = True
+374.0134 	EXP 	Device response: <KeyPress from None: t=373.86318604199914, value=q, duration=0.140360250021331>
+374.8795 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_3.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_3.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_3.jpg', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+374.9071 	EXP 	text_8: autoDraw = False
+374.9071 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_3.jpg'
+374.9071 	EXP 	image_integrated: autoDraw = True
+376.8845 	INFO 	Keyboard events cleared
+376.8844 	EXP 	image_integrated: autoDraw = False
+376.8844 	EXP 	text_congruency: autoDraw = True
+377.3303 	EXP 	Device response: <KeyPress from None: t=377.31900787499035, value=p, duration=None>
+377.3361 	DATA 	Keypress: p
+377.3410 	EXP 	text_congruency: autoDraw = False
+377.3410 	EXP 	text_8: autoDraw = True
+377.3969 	EXP 	Device response: <KeyPress from None: t=377.31900787499035, value=p, duration=0.07644233404425904>
+378.3296 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_15.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_15.jpg', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+378.3583 	EXP 	text_8: autoDraw = False
+378.3583 	EXP 	text_8: autoDraw = False
+378.3583 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_15.jpg'
+378.3583 	EXP 	image_integrated: autoDraw = True
+380.3460 	INFO 	Keyboard events cleared
+380.3458 	EXP 	image_integrated: autoDraw = False
+380.3458 	EXP 	text_congruency: autoDraw = True
+380.8185 	EXP 	Device response: <KeyPress from None: t=380.81394945899956, value=p, duration=None>
+380.8246 	DATA 	Keypress: p
+380.8460 	EXP 	text_congruency: autoDraw = False
+380.8460 	EXP 	text_8: autoDraw = True
+380.9522 	EXP 	Device response: <KeyPress from None: t=380.81394945899956, value=p, duration=0.13237645803019404>
+381.8294 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_19.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_19.jpg', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+381.8571 	EXP 	text_8: autoDraw = False
+381.8571 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_19.jpg'
+381.8571 	EXP 	image_integrated: autoDraw = True
+383.8342 	INFO 	Keyboard events cleared
+383.8341 	EXP 	image_integrated: autoDraw = False
+383.8341 	EXP 	text_congruency: autoDraw = True
+384.5307 	EXP 	Device response: <KeyPress from None: t=384.5279371670331, value=p, duration=None>
+384.5366 	EXP 	text_congruency: autoDraw = False
+384.5366 	EXP 	text_8: autoDraw = True
+384.5415 	DATA 	Keypress: p
+384.6470 	EXP 	Device response: <KeyPress from None: t=384.5279371670331, value=p, duration=0.10834491695277393>
+385.5297 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_15.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_15.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_15.jpg', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+385.5540 	EXP 	text_8: autoDraw = False
+385.5540 	EXP 	text_8: autoDraw = False
+385.5540 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_15.jpg'
+385.5540 	EXP 	image_integrated: autoDraw = True
+387.5457 	INFO 	Keyboard events cleared
+387.5456 	EXP 	image_integrated: autoDraw = False
+387.5456 	EXP 	text_congruency: autoDraw = True
+388.0971 	EXP 	Device response: <KeyPress from None: t=388.0937957499991, value=p, duration=None>
+388.1025 	EXP 	text_congruency: autoDraw = False
+388.1025 	EXP 	text_8: autoDraw = True
+388.1075 	DATA 	Keypress: p
+388.2302 	EXP 	Device response: <KeyPress from None: t=388.0937957499991, value=p, duration=0.12833016703370959>
+389.0963 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_16.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_16.jpg', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+389.1190 	EXP 	text_8: autoDraw = False
+389.1190 	EXP 	text_8: autoDraw = False
+389.1190 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_16.jpg'
+389.1190 	EXP 	image_integrated: autoDraw = True
+391.1124 	INFO 	Keyboard events cleared
+391.1123 	EXP 	image_integrated: autoDraw = False
+391.1123 	EXP 	text_congruency: autoDraw = True
+391.4802 	EXP 	Device response: <KeyPress from None: t=391.4777622090187, value=q, duration=None>
+391.4855 	EXP 	text_congruency: autoDraw = False
+391.4855 	EXP 	text_8: autoDraw = True
+391.4903 	DATA 	Keypress: q
+391.5966 	EXP 	Device response: <KeyPress from None: t=391.4777622090187, value=q, duration=0.10826641600579023>
+392.4691 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_object_9.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_object_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_object_9.jpg', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+392.4956 	EXP 	text_8: autoDraw = False
+392.4956 	EXP 	text_8: autoDraw = False
+392.4956 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_object_9.jpg'
+392.4956 	EXP 	image_integrated: autoDraw = True
+394.4843 	INFO 	Keyboard events cleared
+394.4841 	EXP 	image_integrated: autoDraw = False
+394.4841 	EXP 	image_integrated: autoDraw = False
+394.4841 	EXP 	text_congruency: autoDraw = True
+394.8972 	EXP 	Device response: <KeyPress from None: t=394.8866669590352, value=p, duration=None>
+394.9033 	DATA 	Keypress: p
+394.9088 	EXP 	text_congruency: autoDraw = False
+394.9088 	EXP 	text_8: autoDraw = True
+395.0177 	EXP 	Device response: <KeyPress from None: t=394.8866669590352, value=p, duration=0.1282624159939587>
+395.8953 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_16.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_16.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_16.jpg', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+395.9163 	EXP 	text_8: autoDraw = False
+395.9163 	EXP 	text_8: autoDraw = False
+395.9163 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_16.jpg'
+395.9163 	EXP 	image_integrated: autoDraw = True
+397.9124 	INFO 	Keyboard events cleared
+397.9123 	EXP 	image_integrated: autoDraw = False
+397.9123 	EXP 	text_congruency: autoDraw = True
+398.3969 	EXP 	Device response: <KeyPress from None: t=398.3895407500095, value=q, duration=None>
+398.4027 	EXP 	text_congruency: autoDraw = False
+398.4027 	EXP 	text_8: autoDraw = True
+398.4075 	DATA 	Keypress: q
+398.4983 	EXP 	Device response: <KeyPress from None: t=398.3895407500095, value=q, duration=0.10438887501368299>
+399.3964 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/undersea_animal_14.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_a_undersea_animal_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_undersea_animal_14.jpg', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+399.4242 	EXP 	text_8: autoDraw = False
+399.4242 	EXP 	text_8: autoDraw = False
+399.4242 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_undersea_animal_14.jpg'
+399.4242 	EXP 	image_integrated: autoDraw = True
+401.4115 	INFO 	Keyboard events cleared
+401.4113 	EXP 	image_integrated: autoDraw = False
+401.4113 	EXP 	text_congruency: autoDraw = True
+401.7460 	EXP 	Device response: <KeyPress from None: t=401.7364739170298, value=p, duration=None>
+401.7502 	DATA 	Keypress: p
+401.7539 	EXP 	text_congruency: autoDraw = False
+401.7539 	EXP 	text_8: autoDraw = True
+401.8792 	EXP 	Device response: <KeyPress from None: t=401.7364739170298, value=p, duration=0.13629674998810515>
+402.7462 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_13.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_13.jpg', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+402.7757 	EXP 	text_8: autoDraw = False
+402.7757 	EXP 	text_8: autoDraw = False
+402.7757 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_13.jpg'
+402.7757 	EXP 	image_integrated: autoDraw = True
+404.7621 	INFO 	Keyboard events cleared
+404.7619 	EXP 	image_integrated: autoDraw = False
+404.7619 	EXP 	text_congruency: autoDraw = True
+405.2804 	EXP 	Device response: <KeyPress from None: t=405.27246150001884, value=q, duration=None>
+405.2861 	EXP 	text_congruency: autoDraw = False
+405.2861 	EXP 	text_8: autoDraw = True
+405.2913 	DATA 	Keypress: q
+405.4022 	EXP 	Device response: <KeyPress from None: t=405.27246150001884, value=q, duration=0.12429604196222499>
+406.2796 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_12.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_12.jpg', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+406.3117 	EXP 	text_8: autoDraw = False
+406.3117 	EXP 	text_8: autoDraw = False
+406.3117 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_12.jpg'
+406.3117 	EXP 	image_integrated: autoDraw = True
+408.2986 	INFO 	Keyboard events cleared
+408.2981 	EXP 	image_integrated: autoDraw = False
+408.2981 	EXP 	text_congruency: autoDraw = True
+408.7136 	EXP 	Device response: <KeyPress from None: t=408.71228029200574, value=q, duration=None>
+408.7194 	EXP 	text_congruency: autoDraw = False
+408.7194 	EXP 	text_8: autoDraw = True
+408.7244 	DATA 	Keypress: q
+408.8299 	EXP 	Device response: <KeyPress from None: t=408.71228029200574, value=q, duration=0.1162565000122413>
+409.7129 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_18.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_18.jpg', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+409.7372 	EXP 	text_8: autoDraw = False
+409.7372 	EXP 	text_8: autoDraw = False
+409.7372 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_18.jpg'
+409.7372 	EXP 	image_integrated: autoDraw = True
+411.7289 	INFO 	Keyboard events cleared
+411.7288 	EXP 	image_integrated: autoDraw = False
+411.7288 	EXP 	text_congruency: autoDraw = True
+412.2635 	EXP 	Device response: <KeyPress from None: t=412.25621525000315, value=p, duration=None>
+412.2686 	DATA 	Keypress: p
+412.2736 	EXP 	text_congruency: autoDraw = False
+412.2736 	EXP 	text_8: autoDraw = True
+412.3796 	EXP 	Device response: <KeyPress from None: t=412.25621525000315, value=p, duration=0.12033275002613664>
+413.2630 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_18.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_18.jpg', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+413.2913 	EXP 	text_8: autoDraw = False
+413.2913 	EXP 	text_8: autoDraw = False
+413.2913 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_18.jpg'
+413.2913 	EXP 	image_integrated: autoDraw = True
+415.2783 	INFO 	Keyboard events cleared
+415.2783 	EXP 	image_integrated: autoDraw = False
+415.2783 	EXP 	text_congruency: autoDraw = True
+415.9970 	EXP 	Device response: <KeyPress from None: t=415.99313399998937, value=p, duration=None>
+416.0031 	EXP 	text_congruency: autoDraw = False
+416.0031 	EXP 	text_8: autoDraw = True
+416.0093 	DATA 	Keypress: p
+416.1299 	EXP 	Device response: <KeyPress from None: t=415.99313399998937, value=p, duration=0.13233275001402944>
+416.9961 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_animal_5.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_animal_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_animal_5.jpg', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+417.0212 	EXP 	text_8: autoDraw = False
+417.0212 	EXP 	text_8: autoDraw = False
+417.0212 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_animal_5.jpg'
+417.0212 	EXP 	image_integrated: autoDraw = True
+419.0121 	INFO 	Keyboard events cleared
+419.0119 	EXP 	image_integrated: autoDraw = False
+419.0119 	EXP 	text_congruency: autoDraw = True
+420.0004 	EXP 	text_congruency: autoDraw = False
+420.0004 	EXP 	text_congruency: autoDraw = False
+420.0004 	EXP 	text_8: autoDraw = True
+420.2299 	EXP 	Device response: <KeyPress from None: t=420.22258354199585, value=q, duration=None>
+420.2394 	DATA 	Keypress: q
+420.3799 	EXP 	Device response: <KeyPress from None: t=420.22258354199585, value=q, duration=0.15001483302330598>
+420.9848 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_11.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_11.jpg', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+421.0083 	EXP 	text_8: autoDraw = False
+421.0083 	EXP 	text_8: autoDraw = False
+421.0083 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_11.jpg'
+421.0083 	EXP 	image_integrated: autoDraw = True
+423.0012 	INFO 	Keyboard events cleared
+423.0011 	EXP 	image_integrated: autoDraw = False
+423.0011 	EXP 	image_integrated: autoDraw = False
+423.0011 	EXP 	text_congruency: autoDraw = True
+423.8468 	EXP 	Device response: <KeyPress from None: t=423.8350749590318, value=p, duration=None>
+423.8535 	DATA 	Keypress: p
+423.8587 	EXP 	text_congruency: autoDraw = False
+423.8587 	EXP 	text_8: autoDraw = True
+423.9297 	EXP 	Device response: <KeyPress from None: t=423.8350749590318, value=p, duration=0.09244520799256861>
+424.0015 	EXP 	Device response: <KeyPress from None: t=423.9981631669798, value=q, duration=None>
+424.0065 	DATA 	Keypress: q
+424.1296 	EXP 	Device response: <KeyPress from None: t=423.9981631669798, value=q, duration=0.1203573330421932>
+424.8460 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_1.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_1.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_1.jpg', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+424.8697 	EXP 	text_8: autoDraw = False
+424.8697 	EXP 	text_8: autoDraw = False
+424.8697 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_1.jpg'
+424.8697 	EXP 	image_integrated: autoDraw = True
+426.8621 	INFO 	Keyboard events cleared
+426.8619 	EXP 	image_integrated: autoDraw = False
+426.8619 	EXP 	text_congruency: autoDraw = True
+427.1304 	EXP 	Device response: <KeyPress from None: t=427.11812841700157, value=p, duration=None>
+427.1370 	DATA 	Keypress: p
+427.1419 	EXP 	text_congruency: autoDraw = False
+427.1419 	EXP 	text_8: autoDraw = True
+427.2298 	EXP 	Device response: <KeyPress from None: t=427.11812841700157, value=p, duration=0.10829658299917355>
+428.1296 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_7.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_7.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_7.jpg', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+428.1554 	EXP 	text_8: autoDraw = False
+428.1554 	EXP 	text_8: autoDraw = False
+428.1554 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_7.jpg'
+428.1554 	EXP 	image_integrated: autoDraw = True
+430.1456 	INFO 	Keyboard events cleared
+430.1454 	EXP 	image_integrated: autoDraw = False
+430.1454 	EXP 	text_congruency: autoDraw = True
+430.5131 	EXP 	Device response: <KeyPress from None: t=430.50999766698806, value=q, duration=None>
+430.5183 	EXP 	text_congruency: autoDraw = False
+430.5183 	EXP 	text_8: autoDraw = True
+430.5234 	DATA 	Keypress: q
+430.6798 	EXP 	Device response: <KeyPress from None: t=430.50999766698806, value=q, duration=0.16435633302899078>
+431.5128 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_19.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_19.jpg', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+431.5395 	EXP 	text_8: autoDraw = False
+431.5395 	EXP 	text_8: autoDraw = False
+431.5395 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_19.jpg'
+431.5395 	EXP 	image_integrated: autoDraw = True
+433.5287 	INFO 	Keyboard events cleared
+433.5286 	EXP 	image_integrated: autoDraw = False
+433.5286 	EXP 	text_congruency: autoDraw = True
+433.7799 	EXP 	Device response: <KeyPress from None: t=433.76983629202005, value=p, duration=None>
+433.7861 	DATA 	Keypress: p
+433.7913 	EXP 	text_congruency: autoDraw = False
+433.7913 	EXP 	text_8: autoDraw = True
+433.8795 	EXP 	Device response: <KeyPress from None: t=433.76983629202005, value=p, duration=0.10444741696119308>
+434.7792 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_object_10.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_object_10.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_object_10.jpg', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+434.8027 	EXP 	text_8: autoDraw = False
+434.8027 	EXP 	text_8: autoDraw = False
+434.8027 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_object_10.jpg'
+434.8027 	EXP 	image_integrated: autoDraw = True
+436.7953 	INFO 	Keyboard events cleared
+436.7952 	EXP 	image_integrated: autoDraw = False
+436.7952 	EXP 	text_congruency: autoDraw = True
+437.0301 	EXP 	Device response: <KeyPress from None: t=437.02183483401313, value=q, duration=None>
+437.0359 	DATA 	Keypress: q
+437.0408 	EXP 	text_congruency: autoDraw = False
+437.0408 	EXP 	text_8: autoDraw = True
+437.1634 	EXP 	Device response: <KeyPress from None: t=437.02183483401313, value=q, duration=0.13631558301858604>
+438.0291 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_20.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_20.jpg', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+438.0522 	EXP 	text_8: autoDraw = False
+438.0522 	EXP 	text_8: autoDraw = False
+438.0522 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_20.jpg'
+438.0522 	EXP 	image_integrated: autoDraw = True
+440.0454 	INFO 	Keyboard events cleared
+440.0452 	EXP 	image_integrated: autoDraw = False
+440.0452 	EXP 	text_congruency: autoDraw = True
+441.0345 	EXP 	text_congruency: autoDraw = False
+441.0345 	EXP 	text_congruency: autoDraw = False
+441.0345 	EXP 	text_8: autoDraw = True
+441.0357 	EXP 	Device response: <KeyPress from None: t=441.0296494590002, value=q, duration=None>
+441.0415 	DATA 	Keypress: q
+441.1835 	EXP 	Device response: <KeyPress from None: t=441.0296494590002, value=q, duration=0.1523954999865964>
+442.0179 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_6.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_6.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_6.jpg', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+442.0460 	EXP 	text_8: autoDraw = False
+442.0460 	EXP 	text_8: autoDraw = False
+442.0460 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_6.jpg'
+442.0460 	EXP 	image_integrated: autoDraw = True
+444.0343 	INFO 	Keyboard events cleared
+444.0342 	EXP 	image_integrated: autoDraw = False
+444.0342 	EXP 	image_integrated: autoDraw = False
+444.0342 	EXP 	text_congruency: autoDraw = True
+444.3134 	EXP 	Device response: <KeyPress from None: t=444.30160045903176, value=q, duration=None>
+444.3198 	DATA 	Keypress: q
+444.3251 	EXP 	text_congruency: autoDraw = False
+444.3251 	EXP 	text_8: autoDraw = True
+444.4515 	EXP 	Device response: <KeyPress from None: t=444.30160045903176, value=q, duration=0.1443202910013497>
+445.3123 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_2.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_2.jpg', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+445.3387 	EXP 	text_8: autoDraw = False
+445.3387 	EXP 	text_8: autoDraw = False
+445.3387 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_2.jpg'
+445.3387 	EXP 	image_integrated: autoDraw = True
+447.3285 	INFO 	Keyboard events cleared
+447.3283 	EXP 	image_integrated: autoDraw = False
+447.3283 	EXP 	text_congruency: autoDraw = True
+447.9797 	EXP 	Device response: <KeyPress from None: t=447.974582750001, value=p, duration=None>
+447.9851 	EXP 	text_congruency: autoDraw = False
+447.9851 	EXP 	text_8: autoDraw = True
+447.9899 	DATA 	Keypress: p
+448.0847 	EXP 	Device response: <KeyPress from None: t=447.974582750001, value=p, duration=0.10832004202529788>
+448.9794 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_20.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_20.jpg', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+449.0083 	EXP 	text_8: autoDraw = False
+449.0083 	EXP 	text_8: autoDraw = False
+449.0083 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_20.jpg'
+449.0083 	EXP 	image_integrated: autoDraw = True
+450.9953 	INFO 	Keyboard events cleared
+450.9951 	EXP 	image_integrated: autoDraw = False
+450.9951 	EXP 	text_congruency: autoDraw = True
+451.2296 	EXP 	Device response: <KeyPress from None: t=451.2246802090085, value=q, duration=None>
+451.2354 	EXP 	text_congruency: autoDraw = False
+451.2354 	EXP 	text_8: autoDraw = True
+451.2410 	DATA 	Keypress: q
+451.3961 	EXP 	Device response: <KeyPress from None: t=451.2246802090085, value=q, duration=0.1641539999982342>
+452.2291 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_animal_9.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_animal_9.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_animal_9.jpg', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+452.2530 	EXP 	text_8: autoDraw = False
+452.2530 	EXP 	text_8: autoDraw = False
+452.2530 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_animal_9.jpg'
+452.2530 	EXP 	image_integrated: autoDraw = True
+454.2452 	INFO 	Keyboard events cleared
+454.2451 	EXP 	image_integrated: autoDraw = False
+454.2451 	EXP 	text_congruency: autoDraw = True
+454.4847 	EXP 	Device response: <KeyPress from None: t=454.4824203749886, value=q, duration=None>
+454.4910 	DATA 	Keypress: q
+454.4992 	EXP 	text_congruency: autoDraw = False
+454.4992 	EXP 	text_8: autoDraw = True
+454.6458 	EXP 	Device response: <KeyPress from None: t=454.4824203749886, value=q, duration=0.15219695901032537>
+455.4843 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_19.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_19.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_19.jpg', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+455.5075 	EXP 	text_8: autoDraw = False
+455.5075 	EXP 	text_8: autoDraw = False
+455.5075 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_19.jpg'
+455.5075 	EXP 	image_integrated: autoDraw = True
+457.5008 	INFO 	Keyboard events cleared
+457.5006 	EXP 	image_integrated: autoDraw = False
+457.5006 	EXP 	text_congruency: autoDraw = True
+457.8185 	EXP 	Device response: <KeyPress from None: t=457.81317049998324, value=q, duration=None>
+457.8244 	DATA 	Keypress: q
+457.8455 	EXP 	text_congruency: autoDraw = False
+457.8455 	EXP 	text_8: autoDraw = True
+457.9631 	EXP 	Device response: <KeyPress from None: t=457.81317049998324, value=q, duration=0.14449212502222508>
+458.8289 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_5.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_5.jpg', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+458.8528 	EXP 	text_8: autoDraw = False
+458.8528 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_5.jpg'
+458.8528 	EXP 	image_integrated: autoDraw = True
+460.8339 	INFO 	Keyboard events cleared
+460.8338 	EXP 	image_integrated: autoDraw = False
+460.8338 	EXP 	text_congruency: autoDraw = True
+461.1020 	EXP 	Device response: <KeyPress from None: t=461.09719037503237, value=q, duration=None>
+461.1081 	DATA 	Keypress: q
+461.1165 	EXP 	text_congruency: autoDraw = False
+461.1165 	EXP 	text_8: autoDraw = True
+461.2627 	EXP 	Device response: <KeyPress from None: t=461.09719037503237, value=q, duration=0.15615466696908697>
+462.1008 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_14.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_14.jpg', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+462.1245 	EXP 	text_8: autoDraw = False
+462.1245 	EXP 	text_8: autoDraw = False
+462.1245 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_14.jpg'
+462.1245 	EXP 	image_integrated: autoDraw = True
+464.1176 	INFO 	Keyboard events cleared
+464.1175 	EXP 	image_integrated: autoDraw = False
+464.1175 	EXP 	text_congruency: autoDraw = True
+464.9353 	EXP 	Device response: <KeyPress from None: t=464.9324258749839, value=q, duration=None>
+464.9424 	DATA 	Keypress: q
+464.9505 	EXP 	text_congruency: autoDraw = False
+464.9505 	EXP 	text_8: autoDraw = True
+465.0797 	EXP 	Device response: <KeyPress from None: t=464.9324258749839, value=q, duration=0.1360159590258263>
+465.9342 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_8.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_8.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_8.jpg', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+465.9585 	EXP 	text_8: autoDraw = False
+465.9585 	EXP 	text_8: autoDraw = False
+465.9585 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_8.jpg'
+465.9585 	EXP 	image_integrated: autoDraw = True
+467.9504 	INFO 	Keyboard events cleared
+467.9502 	EXP 	image_integrated: autoDraw = False
+467.9502 	EXP 	text_congruency: autoDraw = True
+468.3793 	EXP 	Device response: <KeyPress from None: t=468.37400637503015, value=q, duration=None>
+468.3847 	EXP 	text_congruency: autoDraw = False
+468.3847 	EXP 	text_8: autoDraw = True
+468.3895 	DATA 	Keypress: q
+468.5631 	EXP 	Device response: <KeyPress from None: t=468.37400637503015, value=q, duration=0.18445262499153614>
+469.3792 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/undersea_object_14.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_b_undersea_object_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_undersea_object_14.jpg', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+469.4043 	EXP 	text_8: autoDraw = False
+469.4043 	EXP 	text_8: autoDraw = False
+469.4043 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_undersea_object_14.jpg'
+469.4043 	EXP 	image_integrated: autoDraw = True
+471.3952 	INFO 	Keyboard events cleared
+471.3950 	EXP 	image_integrated: autoDraw = False
+471.3950 	EXP 	text_congruency: autoDraw = True
+471.7179 	EXP 	Device response: <KeyPress from None: t=471.713895916997, value=q, duration=None>
+471.7238 	DATA 	Keypress: q
+471.7454 	EXP 	text_congruency: autoDraw = False
+471.7454 	EXP 	text_8: autoDraw = True
+471.8511 	EXP 	Device response: <KeyPress from None: t=471.713895916997, value=q, duration=0.13622504199156538>
+472.7290 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_6.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_6.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_6.jpg', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+472.7537 	EXP 	text_8: autoDraw = False
+472.7537 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_6.jpg'
+472.7537 	EXP 	image_integrated: autoDraw = True
+474.7336 	INFO 	Keyboard events cleared
+474.7334 	EXP 	image_integrated: autoDraw = False
+474.7334 	EXP 	text_congruency: autoDraw = True
+474.9843 	EXP 	Device response: <KeyPress from None: t=474.9818125839811, value=q, duration=None>
+474.9906 	DATA 	Keypress: q
+475.0119 	EXP 	text_congruency: autoDraw = False
+475.0119 	EXP 	text_8: autoDraw = True
+475.1508 	EXP 	Device response: <KeyPress from None: t=474.9818125839811, value=q, duration=0.16436479100957513>
+475.9955 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JA_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Malbow', 'canonical_item': 'stimuli/items/jungle_animal_2.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_a_jungle_animal_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_a_jungle_animal_2.jpg', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+476.0224 	EXP 	text_8: autoDraw = False
+476.0224 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_a_jungle_animal_2.jpg'
+476.0224 	EXP 	image_integrated: autoDraw = True
+477.9183 	EXP 	Device response: <KeyPress from None: t=477.9168132499908, value=q, duration=None>
+477.9320 	DATA 	Keypress: q
+477.9999 	INFO 	Keyboard events cleared
+477.9998 	EXP 	image_integrated: autoDraw = False
+477.9998 	EXP 	text_congruency: autoDraw = True
+478.0683 	EXP 	Device response: <KeyPress from None: t=477.9168132499908, value=q, duration=0.14824687503278255>
+478.5621 	EXP 	Device response: <KeyPress from None: t=478.5506186669809, value=q, duration=None>
+478.5654 	DATA 	Keypress: q
+478.5697 	EXP 	text_congruency: autoDraw = False
+478.5697 	EXP 	text_8: autoDraw = True
+478.7179 	EXP 	Device response: <KeyPress from None: t=478.5506186669809, value=q, duration=0.16433458303799853>
+479.5621 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_animal_12.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_animal_12.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_animal_12.jpg', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+479.5895 	EXP 	text_8: autoDraw = False
+479.5895 	EXP 	text_8: autoDraw = False
+479.5895 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_animal_12.jpg'
+479.5895 	EXP 	image_integrated: autoDraw = True
+481.5784 	INFO 	Keyboard events cleared
+481.5782 	EXP 	image_integrated: autoDraw = False
+481.5782 	EXP 	text_congruency: autoDraw = True
+481.9522 	EXP 	Device response: <KeyPress from None: t=481.9477043339866, value=q, duration=None>
+481.9587 	DATA 	Keypress: q
+481.9660 	EXP 	text_congruency: autoDraw = False
+481.9660 	EXP 	text_8: autoDraw = True
+482.1129 	EXP 	Device response: <KeyPress from None: t=481.9477043339866, value=q, duration=0.1562582080368884>
+482.9503 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_animal_5.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_animal_5.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_animal_5.jpg', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+482.9780 	EXP 	text_8: autoDraw = False
+482.9780 	EXP 	text_8: autoDraw = False
+482.9780 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_animal_5.jpg'
+482.9780 	EXP 	image_integrated: autoDraw = True
+484.9674 	INFO 	Keyboard events cleared
+484.9672 	EXP 	image_integrated: autoDraw = False
+484.9672 	EXP 	text_congruency: autoDraw = True
+485.1795 	EXP 	Device response: <KeyPress from None: t=485.17756400001235, value=p, duration=None>
+485.1856 	EXP 	text_congruency: autoDraw = False
+485.1856 	EXP 	text_8: autoDraw = True
+485.1909 	DATA 	Keypress: p
+485.3295 	EXP 	Device response: <KeyPress from None: t=485.17756400001235, value=p, duration=0.1402864169795066>
+486.1789 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_animal_17.png', 'item_cat': 'Undersea', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_animal_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_animal_17.jpg', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+486.2068 	EXP 	text_8: autoDraw = False
+486.2068 	EXP 	text_8: autoDraw = False
+486.2068 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_animal_17.jpg'
+486.2068 	EXP 	image_integrated: autoDraw = True
+488.1950 	INFO 	Keyboard events cleared
+488.1948 	EXP 	image_integrated: autoDraw = False
+488.1948 	EXP 	text_congruency: autoDraw = True
+488.4292 	EXP 	Device response: <KeyPress from None: t=488.41848666698206, value=p, duration=None>
+488.4350 	DATA 	Keypress: p
+488.4399 	EXP 	text_congruency: autoDraw = False
+488.4399 	EXP 	text_8: autoDraw = True
+488.5682 	EXP 	Device response: <KeyPress from None: t=488.41848666698206, value=p, duration=0.1443166250246577>
+489.4290 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UB_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Somar', 'canonical_item': 'stimuli/items/jungle_object_14.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_b_jungle_object_14.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_b_jungle_object_14.jpg', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+489.4513 	EXP 	text_8: autoDraw = False
+489.4513 	EXP 	text_8: autoDraw = False
+489.4513 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_b_jungle_object_14.jpg'
+489.4513 	EXP 	image_integrated: autoDraw = True
+491.4448 	INFO 	Keyboard events cleared
+491.4447 	EXP 	image_integrated: autoDraw = False
+491.4447 	EXP 	text_congruency: autoDraw = True
+491.6795 	EXP 	Device response: <KeyPress from None: t=491.6744207920274, value=p, duration=None>
+491.6851 	EXP 	text_congruency: autoDraw = False
+491.6851 	EXP 	text_8: autoDraw = True
+491.6903 	DATA 	Keypress: p
+491.8176 	EXP 	Device response: <KeyPress from None: t=491.6744207920274, value=p, duration=0.140170999977272>
+492.6789 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_20.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_20.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_20.jpg', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+492.7031 	EXP 	text_8: autoDraw = False
+492.7031 	EXP 	text_8: autoDraw = False
+492.7031 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_20.jpg'
+492.7031 	EXP 	image_integrated: autoDraw = True
+494.6951 	INFO 	Keyboard events cleared
+494.6950 	EXP 	image_integrated: autoDraw = False
+494.6950 	EXP 	text_congruency: autoDraw = True
+495.1459 	EXP 	Device response: <KeyPress from None: t=495.14227083401056, value=q, duration=None>
+495.1515 	EXP 	text_congruency: autoDraw = False
+495.1515 	EXP 	text_8: autoDraw = True
+495.1566 	DATA 	Keypress: q
+495.2671 	EXP 	Device response: <KeyPress from None: t=495.14227083401056, value=q, duration=0.12021970801288262>
+496.1344 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/undersea_object_8.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/ocean_a_undersea_object_8.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_undersea_object_8.jpg', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+496.1557 	EXP 	text_8: autoDraw = False
+496.1557 	EXP 	text_8: autoDraw = False
+496.1557 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_undersea_object_8.jpg'
+496.1557 	EXP 	image_integrated: autoDraw = True
+498.1504 	INFO 	Keyboard events cleared
+498.1503 	EXP 	image_integrated: autoDraw = False
+498.1503 	EXP 	image_integrated: autoDraw = False
+498.1503 	EXP 	text_congruency: autoDraw = True
+498.4961 	EXP 	Device response: <KeyPress from None: t=498.4852274170262, value=q, duration=None>
+498.5024 	DATA 	Keypress: q
+498.5078 	EXP 	text_congruency: autoDraw = False
+498.5078 	EXP 	text_8: autoDraw = True
+498.5960 	EXP 	Device response: <KeyPress from None: t=498.4852274170262, value=q, duration=0.10831762501038611>
+499.4954 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_2.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_2.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_2.jpg', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+499.5187 	EXP 	text_8: autoDraw = False
+499.5187 	EXP 	text_8: autoDraw = False
+499.5187 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_2.jpg'
+499.5187 	EXP 	image_integrated: autoDraw = True
+501.5116 	INFO 	Keyboard events cleared
+501.5115 	EXP 	image_integrated: autoDraw = False
+501.5115 	EXP 	text_congruency: autoDraw = True
+502.5011 	EXP 	text_congruency: autoDraw = False
+502.5011 	EXP 	text_congruency: autoDraw = False
+502.5011 	EXP 	text_8: autoDraw = True
+502.6795 	EXP 	Device response: <KeyPress from None: t=502.6750481670024, value=p, duration=None>
+502.6894 	DATA 	Keypress: p
+502.7791 	EXP 	Device response: <KeyPress from None: t=502.6750481670024, value=p, duration=0.09416233299998567>
+503.4842 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_animal_13.png', 'item_cat': 'Jungle', 'item_type': 'animal', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_animal_13.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_animal_13.jpg', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+503.5051 	EXP 	text_8: autoDraw = False
+503.5051 	EXP 	text_8: autoDraw = False
+503.5051 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_animal_13.jpg'
+503.5051 	EXP 	image_integrated: autoDraw = True
+505.5004 	INFO 	Keyboard events cleared
+505.5002 	EXP 	image_integrated: autoDraw = False
+505.5002 	EXP 	image_integrated: autoDraw = False
+505.5002 	EXP 	text_congruency: autoDraw = True
+506.4947 	EXP 	text_congruency: autoDraw = False
+506.4947 	EXP 	text_congruency: autoDraw = False
+506.4947 	EXP 	text_8: autoDraw = True
+507.4788 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/jungle_object_17.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'sc', 'integrated_stimulus': 'stimuli/integrated/jungle_b_jungle_object_17.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_jungle_object_17.jpg', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+507.5031 	EXP 	text_8: autoDraw = False
+507.5031 	EXP 	text_8: autoDraw = False
+507.5031 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_jungle_object_17.jpg'
+507.5031 	EXP 	image_integrated: autoDraw = True
+509.5000 	INFO 	Keyboard events cleared
+509.4998 	EXP 	image_integrated: autoDraw = False
+509.4998 	EXP 	image_integrated: autoDraw = False
+509.4998 	EXP 	text_congruency: autoDraw = True
+510.4950 	EXP 	text_congruency: autoDraw = False
+510.4950 	EXP 	text_congruency: autoDraw = False
+510.4950 	EXP 	text_8: autoDraw = True
+511.4786 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'scene_stimulus': 'stimuli/scenes/UA_1.jpg', 'scene_cat': 'Undersea', 'scene_label': 'Tulon', 'canonical_item': 'stimuli/items/jungle_object_11.png', 'item_cat': 'Jungle', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/ocean_a_jungle_object_11.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_ocean_a_jungle_object_11.jpg', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+511.5017 	EXP 	text_8: autoDraw = False
+511.5017 	EXP 	text_8: autoDraw = False
+511.5017 	EXP 	image_integrated: image = 'stimuli/integrated/ocean_a_jungle_object_11.jpg'
+511.5017 	EXP 	image_integrated: autoDraw = True
+513.5003 	INFO 	Keyboard events cleared
+513.5001 	EXP 	image_integrated: autoDraw = False
+513.5001 	EXP 	image_integrated: autoDraw = False
+513.5001 	EXP 	text_congruency: autoDraw = True
+514.4948 	EXP 	text_congruency: autoDraw = False
+514.4948 	EXP 	text_congruency: autoDraw = False
+514.4948 	EXP 	text_8: autoDraw = True
+515.4785 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'scene_stimulus': 'stimuli/scenes/JB_1.jpg', 'scene_cat': 'Jungle', 'scene_label': 'Negvi', 'canonical_item': 'stimuli/items/undersea_object_18.png', 'item_cat': 'Undersea', 'item_type': 'object', 'congruency': 'si', 'integrated_stimulus': 'stimuli/integrated/jungle_b_undersea_object_18.jpg', 'recalled_stimulus': 'stimuli/recalled/recalled_jungle_b_undersea_object_18.jpg', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+515.5032 	EXP 	text_8: autoDraw = False
+515.5032 	EXP 	text_8: autoDraw = False
+515.5032 	EXP 	image_integrated: image = 'stimuli/integrated/jungle_b_undersea_object_18.jpg'
+515.5032 	EXP 	image_integrated: autoDraw = True
+517.4999 	INFO 	Keyboard events cleared
+517.4998 	EXP 	image_integrated: autoDraw = False
+517.4998 	EXP 	image_integrated: autoDraw = False
+517.4998 	EXP 	text_congruency: autoDraw = True
+518.4946 	EXP 	text_congruency: autoDraw = False
+518.4946 	EXP 	text_congruency: autoDraw = False
+518.4946 	EXP 	text_8: autoDraw = True
+518.6124 	EXP 	Device response: <KeyPress from None: t=518.6068220839952, value=escape, duration=None>
+518.8052 	DATA 	Keypress: escape
+518.8096 	EXP 	Device response: <KeyPress from None: t=518.6068220839952, value=escape, duration=0.11799574998440221>
+518.8096 	EXP 	encodingtask: status = STOPPED
+518.8256 	EXP 	text_8: autoDraw = False
+518.8257 	EXP 	encodingtask: status = STOPPED
+518.8533 	INFO 	saved data to '/Users/oliviayin/Desktop/sbl_realistic integration/encoding_task_behav/data/330_encodingtask_2026-05-27_11h28.35.114.csv'
+518.8613 	INFO 	saved data to /Users/oliviayin/Desktop/sbl_realistic integration/encoding_task_behav/data/330_encodingtask_2026-05-27_11h28.35.114.psydat
+519.4873 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

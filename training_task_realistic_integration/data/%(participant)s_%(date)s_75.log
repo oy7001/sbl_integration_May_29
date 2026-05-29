@@ -1,0 +1,700 @@
+33.9877 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+34.0647 	WARNING 	Font Manager failed to load file /System/Library/PrivateFrameworks/FontServices.framework/Resources/Reserved/PingFangUI.ttc
+38.9216 	INFO 	Loaded monitor calibration from ['2026_01_13 14:36']
+39.3116 	INFO 	Using renderer 'Apple M2' for graphics
+39.3117 	INFO 	OpenGL version supported by driver is 2..
+39.3975 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x16e0d57e0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x16e0d5780>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x16df58100>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([2940, 1912]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+39.3976 	EXP 	window1: backgroundImage = ''
+39.3976 	EXP 	window1: backgroundFit = 'none'
+41.2336 	INFO 	keyboard.Keyboard is using ptb backend.
+41.2337 	EXP 	TEST_training_task: status = STARTED
+41.4126 	EXP 	Created text_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.4640 	EXP 	Created txt_insturctions_p1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='txt_insturctions_p1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.5312 	EXP 	Created trial_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='trial_image', opacity=1, ori=0.0, pos=array([ 0.  , -0.06]), size=array([0.6, 0.6]), texRes=128.0, units='height', win=Window(...))
+41.5322 	EXP 	Created scene_name_part1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='scene_name_part1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.4)
+41.5327 	EXP 	Created text_scenename = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_scenename', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.5398 	EXP 	Created txt_memorize = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='txt_memorize', opacity=1, ori=0.0, pos=array([ 0.  , -0.44]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.5614 	EXP 	Created text_p1_2_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_p1_2_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.5674 	EXP 	Created image_left = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_left', opacity=1, ori=0.0, pos=array([-0.38,  0.2 ]), size=array([0.7    , 0.39375]), texRes=128.0, units='height', win=Window(...))
+41.5732 	EXP 	Created image_center = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_center', opacity=1, ori=0.0, pos=array([ 0.  , -0.25]), size=array([0.7    , 0.39375]), texRes=128.0, units='height', win=Window(...))
+41.5790 	EXP 	Created image_right = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_right', opacity=1, ori=0.0, pos=array([0.38, 0.2 ]), size=array([0.7    , 0.39375]), texRes=128.0, units='height', win=Window(...))
+41.5797 	EXP 	Created txt_scenename_showALL = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='txt_scenename_showALL', opacity=1, ori=0.0, pos=array([0.  , 0.43]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.5937 	EXP 	Created text_instructions_p1_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='text_instructions_p1_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.5949 	EXP 	Created img1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img1', opacity=1, ori=0.0, pos=array([-0.35,  0.2 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.5959 	EXP 	Created img2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img2', opacity=1, ori=0.0, pos=array([0.35, 0.2 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.5969 	EXP 	Created img3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img3', opacity=1, ori=0.0, pos=array([-0.35, -0.3 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.5978 	EXP 	Created img4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img4', opacity=1, ori=0.0, pos=array([ 0.35, -0.3 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.5989 	EXP 	Created label1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label1', opacity=1, ori=0.0, pos=array([-0.35,  0.42]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6032 	EXP 	Created label2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label2', opacity=1, ori=0.0, pos=array([0.35, 0.42]), rgb=UNKNOWN, text='Any text\n\nincluding line breaks', units='height', win=Window(...), wrapWidth=1)
+41.6043 	EXP 	Created label3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label3', opacity=1, ori=0.0, pos=array([-0.35, -0.08]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6053 	EXP 	Created label4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label4', opacity=1, ori=0.0, pos=array([ 0.35, -0.08]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6125 	EXP 	Created text_instructions_p1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='text_instructions_p1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.6136 	EXP 	Created img1_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img1_2', opacity=1, ori=0.0, pos=array([-0.35,  0.2 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.6145 	EXP 	Created img2_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img2_2', opacity=1, ori=0.0, pos=array([0.35, 0.2 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.6155 	EXP 	Created img3_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img3_2', opacity=1, ori=0.0, pos=array([-0.35, -0.3 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.6165 	EXP 	Created img4_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image=None, interpolate=True, mask=None, maskParams=None, name='img4_2', opacity=1, ori=0.0, pos=array([ 0.35, -0.3 ]), size=array([0.6   , 0.3375]), texRes=128.0, units='height', win=Window(...))
+41.6175 	EXP 	Created label1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label1_2', opacity=1, ori=0.0, pos=array([-0.35,  0.42]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6205 	EXP 	Created label2_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label2_2', opacity=1, ori=0.0, pos=array([0.35, 0.42]), rgb=UNKNOWN, text='Any text\n\nincluding line breaks', units='height', win=Window(...), wrapWidth=1)
+41.6215 	EXP 	Created label3_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label3_2', opacity=1, ori=0.0, pos=array([-0.35, -0.08]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6225 	EXP 	Created label4_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='label4_2', opacity=1, ori=0.0, pos=array([ 0.35, -0.08]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6296 	EXP 	Created text_instructions_part2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='text_instructions_part2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.6357 	EXP 	Created scene_part2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='scene_part2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([960., 540.]), texRes=128.0, units='pix', win=Window(...))
+41.6364 	EXP 	Created text_part2_question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_part2_question', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.2)
+41.6372 	EXP 	Created text_part2_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_part2_feedback', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.6436 	EXP 	Created text_part3_instructions_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='text_part3_instructions_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.6464 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+41.6572 	EXP 	Created text_p3_visualize = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_p3_visualize', opacity=1, ori=0.0, pos=array([0.  , 0.35]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.7197 	EXP 	Created text_rate_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_rate_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1.2)
+41.7204 	EXP 	Created text_question_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_question_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.7213 	EXP 	Created text_option_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.045, italic=False, languageStyle='LTR', name='text_option_2', opacity=1, ori=0.0, pos=array([ 0.  , -0.18]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1.2)
+41.7243 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='Choose the correct answer', units='height', win=Window(...), wrapWidth=1.2)
+41.7306 	EXP 	Created study_scene_left = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='study_scene_left', opacity=1.0, ori=0.0, pos=array([-0.4,  0. ]), size=array([0.7  , 0.394]), texRes=128.0, units='height', win=Window(...))
+41.7367 	EXP 	Created study_scene_right = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='study_scene_right', opacity=1.0, ori=0.0, pos=array([0.4, 0. ]), size=array([0.7  , 0.394]), texRes=128.0, units='height', win=Window(...))
+41.7372 	EXP 	Created study_name1_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='study_name1_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.7427 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([ 0.  , -0.38]), rgb=UNKNOWN, text="Press SPACEBAR when you've finished studying", units='height', win=Window(...), wrapWidth=1)
+41.7456 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0.  , 0.45]), rgb=UNKNOWN, text='Study the scene again', units='height', win=Window(...), wrapWidth=1)
+41.7504 	EXP 	Created text_next_scene_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_next_scene_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text="Good! \n\nLet's move to the next scene.", units='height', win=Window(...), wrapWidth=1)
+41.7635 	EXP 	Created text_part4_instructions = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.06), italic=False, languageStyle='LTR', name='text_part4_instructions', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.7893 	EXP 	Created text_enc_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.055), italic=False, languageStyle='LTR', name='text_enc_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.7900 	EXP 	Created text_relatedness_keys = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text_relatedness_keys', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+41.7961 	EXP 	Created image_integrated = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_integrated', opacity=1, ori=0.0, pos=array([ 0.  , -0.05]), size=array([1.2  , 0.675]), texRes=128.0, units='height', win=Window(...))
+41.8018 	EXP 	Created text_congruency = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_congruency', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Related \nor Unrelated?', units='height', win=Window(...), wrapWidth=1)
+41.8039 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_8', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+41.8166 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+41.8594 	EXP 	Created image_inst2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/instructions_imgs/inst1_integrated.png', interpolate=True, mask=None, maskParams=None, name='image_inst2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.54, 1.  ]), texRes=128.0, units='height', win=Window(...))
+41.8967 	EXP 	Created image_inst3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/instructions_imgs/inst2_integrated.png', interpolate=True, mask=None, maskParams=None, name='image_inst3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.54, 1.  ]), texRes=128.0, units='height', win=Window(...))
+41.9337 	EXP 	Created image_inst4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/instructions_imgs/inst3_integrated.png', interpolate=True, mask=None, maskParams=None, name='image_inst4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.54, 1.  ]), texRes=128.0, units='height', win=Window(...))
+41.9718 	EXP 	Created image_inst5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/instructions_imgs/inst4_integrated.png', interpolate=True, mask=None, maskParams=None, name='image_inst5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.54, 1.  ]), texRes=128.0, units='height', win=Window(...))
+42.0088 	EXP 	Created image_inst6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/instructions_imgs/inst5_integrated.png', interpolate=True, mask=None, maskParams=None, name='image_inst6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.54, 1.  ]), texRes=128.0, units='height', win=Window(...))
+42.0453 	EXP 	Created image_inst7 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/instructions_imgs/inst6_integrated.png', interpolate=True, mask=None, maskParams=None, name='image_inst7', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.54, 1.  ]), texRes=128.0, units='height', win=Window(...))
+42.0515 	EXP 	Created text_imagine = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_imagine', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='Imagine the associated scene', units='height', win=Window(...), wrapWidth=1)
+42.0612 	EXP 	Created item_cue = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='item_cue', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.2  , 0.675]), texRes=128.0, units='height', win=Window(...))
+42.0631 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_10', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+42.0671 	EXP 	Created text_contrext_headline = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_contrext_headline', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Which Type of scene did you imagine?', units='height', win=Window(...), wrapWidth=1)
+42.0678 	EXP 	Created text_sea = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_sea', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.0685 	EXP 	Created text_jungle = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_jungle', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.0694 	EXP 	Created text_blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_blank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.0701 	EXP 	Created text_context_choice = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_context_choice', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.1843 	EXP 	Created slider_context_conf = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.03), labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='slider_context_conf', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3]), units='height', win=Window(...))
+42.1862 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_10', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+42.1884 	EXP 	Created text_scene_headline = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_scene_headline', opacity=1, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='The type was', units='height', win=Window(...), wrapWidth=1)
+42.1891 	EXP 	Created text_actual_context = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_actual_context', opacity=1, ori=0.0, pos=array([0. , 0.3]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.1917 	EXP 	Created text_q_scene = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_q_scene', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='Which specific scene was it?', units='height', win=Window(...), wrapWidth=1)
+42.1924 	EXP 	Created text_labels = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_labels', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.1933 	EXP 	Created text_blank = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_blank', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.1940 	EXP 	Created text_chosen_scene = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_chosen_scene', opacity=1, ori=0.0, pos=array([0. , 0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+42.2450 	EXP 	Created slider_scene_conf = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-2, fillColor=None, flip=False, font='Open Sans', granularity=0.0, labelColor=None, labelHeight=np.float64(0.03), labelWrapWidth=None, labels=tuple(...), lineColor=None, markerColor=None, name='slider_scene_conf', opacity=None, ori=0.0, pos=array([0., 0.]), readOnly=False, self=UNKNOWN, size=array([1. , 0.1]), startValue=None, style='rating', styleTweaks=[], ticks=array([1, 2, 3]), units='height', win=Window(...))
+42.2472 	EXP 	Created text_blank3000 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_blank3000', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+42.2530 	EXP 	Created text_end_screen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_end_screen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0609 	EXP 	textbox_scene_name_2: autoLog = True
+0.0609 	EXP 	slider_context_conf: autoLog = True
+0.0609 	EXP 	slider_context_conf: styleTweaks = []
+0.0609 	EXP 	slider_context_conf: styleTweaks = []
+0.0609 	EXP 	slider_context_conf: styleTweaks = []
+0.0609 	EXP 	slider_context_conf: styleTweaks = []
+0.0609 	EXP 	slider_context_conf: contrast = 1.0
+0.0609 	EXP 	slider_context_conf: markerPos = None
+0.0609 	EXP 	slider_context_conf: autoLog = True
+0.0609 	EXP 	slider_scene_conf: autoLog = True
+0.0609 	EXP 	slider_scene_conf: styleTweaks = []
+0.0609 	EXP 	slider_scene_conf: styleTweaks = []
+0.0609 	EXP 	slider_scene_conf: styleTweaks = []
+0.0609 	EXP 	slider_scene_conf: styleTweaks = []
+0.0609 	EXP 	slider_scene_conf: contrast = 1.0
+0.0609 	EXP 	slider_scene_conf: markerPos = None
+0.0609 	EXP 	slider_scene_conf: autoLog = True
+0.1052 	EXP 	text_instructions: autoDraw = True
+0.9958 	INFO 	Keyboard events cleared
+1.3963 	EXP 	Device response: <KeyPress from None: t=1.0912255420116708, value=space, duration=None>
+1.3965 	EXP 	Device response: <KeyPress from None: t=1.0912255420116708, value=space, duration=0.08205070800613612>
+1.4085 	EXP 	Imported stimuli/cond_lists/scene_names_sub_350.csv as conditions, 4 conditions, 4 params
+1.4137 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_stimulus': 'JA', 'scene_label': 'Malbow', 'scene_img': 'stimuli/TESTscenes/JA_1.jpg', 'correct_key': np.int64(1), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.4139 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_stimulus': 'JB', 'scene_label': 'Tulon', 'scene_img': 'stimuli/TESTscenes/JB_1.jpg', 'correct_key': np.int64(2), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+1.4140 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_stimulus': 'UA', 'scene_label': 'Somar', 'scene_img': 'stimuli/TESTscenes/UA_1.jpg', 'correct_key': np.int64(3), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+1.4141 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'scene_stimulus': 'UB', 'scene_label': 'Negvi', 'scene_img': 'stimuli/TESTscenes/UB_1.jpg', 'correct_key': np.int64(4), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+1.4295 	DATA 	Keypress: space
+1.4347 	INFO 	Keyboard events cleared
+1.4346 	EXP 	text_instructions: autoDraw = False
+1.4346 	EXP 	txt_insturctions_p1: autoDraw = True
+2.0802 	EXP 	Device response: <KeyPress from None: t=2.0709090419695713, value=space, duration=None>
+2.0974 	EXP 	Imported groups.xlsx as conditions, 4 conditions, 1 params
+2.0992 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'conditionFile': 'scenes_group4.xlsx', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.1048 	EXP 	Imported scenes_group4.xlsx as conditions, 3 conditions, 4 params
+2.1049 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_UB_1.png', 'scene_name': 'Somar', 'correct_key': 4, 'scene_present': 'This is a scene from a sea named', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.2006 	EXP 	Device response: <KeyPress from None: t=2.0709090419695713, value=space, duration=0.09233295801095665>
+2.2057 	DATA 	Keypress: space
+2.2106 	INFO 	Keyboard events cleared
+2.2105 	EXP 	txt_insturctions_p1: autoDraw = False
+2.2105 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_UB_1.png'
+2.2105 	EXP 	scene_name_part1: height = np.float64(0.04)
+2.2105 	EXP 	scene_name_part1: height = np.float64(0.04)
+2.2105 	EXP 	scene_name_part1: height = np.float64(0.04)
+2.2105 	EXP 	scene_name_part1: text = 'Negvi is a cool-toned ocean scene with a riverbed of smooth, rounded pebbles and larger stones rather than sand. The water is slightly hazy with soft, diffuse lighting and no visible sunbeams. Thick green-yellow aquatic plants and muted bluish tones create a more enclosed, freshwater-like atmosphere.'
+2.2105 	EXP 	text_scenename: text = ''
+2.2105 	EXP 	trial_image: autoDraw = True
+2.2105 	EXP 	scene_name_part1: autoDraw = True
+2.2105 	EXP 	text_scenename: autoDraw = True
+2.2105 	EXP 	txt_memorize: autoDraw = True
+2.2105 	EXP 	text_scenename: height = np.float64(0.05)
+2.2105 	EXP 	text_scenename: height = np.float64(0.05)
+2.2105 	EXP 	text_scenename: height = np.float64(0.05)
+2.2105 	EXP 	text_scenename: text = ''
+2.9305 	EXP 	Device response: <KeyPress from None: t=2.9219199169892818, value=space, duration=None>
+2.9311 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_UB_2.png', 'scene_name': 'Somar', 'correct_key': 4, 'scene_present': 'This is a scene from a sea named', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+2.9858 	DATA 	Keypress: space
+2.9908 	INFO 	Keyboard events cleared
+2.9908 	EXP 	trial_image: autoDraw = False
+2.9908 	EXP 	scene_name_part1: autoDraw = False
+2.9908 	EXP 	text_scenename: autoDraw = False
+2.9908 	EXP 	txt_memorize: autoDraw = False
+2.9908 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_UB_2.png'
+2.9908 	EXP 	scene_name_part1: height = np.float64(0.04)
+2.9908 	EXP 	scene_name_part1: height = np.float64(0.04)
+2.9908 	EXP 	scene_name_part1: height = np.float64(0.04)
+2.9908 	EXP 	scene_name_part1: text = ''
+2.9908 	EXP 	text_scenename: height = np.float64(0.05)
+2.9908 	EXP 	text_scenename: height = np.float64(0.05)
+2.9908 	EXP 	text_scenename: height = np.float64(0.05)
+2.9908 	EXP 	text_scenename: text = 'NEGVI'
+2.9908 	EXP 	trial_image: autoDraw = True
+2.9908 	EXP 	scene_name_part1: autoDraw = True
+2.9908 	EXP 	text_scenename: autoDraw = True
+2.9908 	EXP 	txt_memorize: autoDraw = True
+3.0455 	EXP 	Device response: <KeyPress from None: t=2.9219199169892818, value=space, duration=0.11619508301373571>
+3.3971 	EXP 	Device response: <KeyPress from None: t=3.391971457982436, value=space, duration=None>
+3.3977 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_UB_3.png', 'scene_name': 'Somar', 'correct_key': 4, 'scene_present': 'This is a scene from a sea named', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3.4427 	DATA 	Keypress: space
+3.4478 	INFO 	Keyboard events cleared
+3.4477 	EXP 	trial_image: autoDraw = False
+3.4477 	EXP 	scene_name_part1: autoDraw = False
+3.4477 	EXP 	text_scenename: autoDraw = False
+3.4477 	EXP 	txt_memorize: autoDraw = False
+3.4477 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_UB_3.png'
+3.4477 	EXP 	scene_name_part1: text = ''
+3.4477 	EXP 	text_scenename: text = 'NEGVI'
+3.4477 	EXP 	trial_image: autoDraw = True
+3.4477 	EXP 	scene_name_part1: autoDraw = True
+3.4477 	EXP 	text_scenename: autoDraw = True
+3.4477 	EXP 	txt_memorize: autoDraw = True
+3.5126 	EXP 	Device response: <KeyPress from None: t=3.391971457982436, value=space, duration=0.1162725419853814>
+7.6466 	EXP 	Device response: <KeyPress from None: t=7.6348115829750896, value=space, duration=None>
+7.6497 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'conditionFile': 'scenes_group1.xlsx', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+7.6603 	EXP 	Imported scenes_group1.xlsx as conditions, 3 conditions, 4 params
+7.6607 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_JA_1.png', 'scene_name': 'Tulon', 'correct_key': 1, 'scene_present': 'This scene is a scene from a jungle named', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+7.7763 	EXP 	Device response: <KeyPress from None: t=7.6348115829750896, value=space, duration=0.07004562503425404>
+7.7787 	DATA 	Keypress: space
+7.7836 	INFO 	Keyboard events cleared
+7.7836 	EXP 	trial_image: autoDraw = False
+7.7836 	EXP 	scene_name_part1: autoDraw = False
+7.7836 	EXP 	text_scenename: autoDraw = False
+7.7836 	EXP 	txt_memorize: autoDraw = False
+7.7836 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_JA_1.png'
+7.7836 	EXP 	scene_name_part1: height = np.float64(0.04)
+7.7836 	EXP 	scene_name_part1: height = np.float64(0.04)
+7.7836 	EXP 	scene_name_part1: height = np.float64(0.04)
+7.7836 	EXP 	scene_name_part1: text = 'Malbow is a bright tropical rainforest with large buttress-root trees and warm sunlight filtering through the canopy. Visible sunbeams create strong light–shadow contrast on a leaf-covered forest floor, and the space feels open at ground level with sturdy trunks and broad green foliage.'
+7.7836 	EXP 	text_scenename: height = np.float64(0.05)
+7.7836 	EXP 	text_scenename: height = np.float64(0.05)
+7.7836 	EXP 	text_scenename: height = np.float64(0.05)
+7.7836 	EXP 	text_scenename: text = ''
+7.7836 	EXP 	trial_image: autoDraw = True
+7.7836 	EXP 	scene_name_part1: autoDraw = True
+7.7836 	EXP 	text_scenename: autoDraw = True
+7.7836 	EXP 	txt_memorize: autoDraw = True
+14.1965 	EXP 	Device response: <KeyPress from None: t=14.192515957984142, value=space, duration=None>
+14.1970 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_JA_2.png', 'scene_name': 'Tulon', 'correct_key': 1, 'scene_present': 'This scene is a scene from a jungle named', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+14.2565 	DATA 	Keypress: space
+14.2618 	INFO 	Keyboard events cleared
+14.2617 	EXP 	trial_image: autoDraw = False
+14.2617 	EXP 	scene_name_part1: autoDraw = False
+14.2617 	EXP 	text_scenename: autoDraw = False
+14.2617 	EXP 	txt_memorize: autoDraw = False
+14.2617 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_JA_2.png'
+14.2617 	EXP 	scene_name_part1: height = np.float64(0.04)
+14.2617 	EXP 	scene_name_part1: height = np.float64(0.04)
+14.2617 	EXP 	scene_name_part1: height = np.float64(0.04)
+14.2617 	EXP 	scene_name_part1: text = ''
+14.2617 	EXP 	text_scenename: height = np.float64(0.05)
+14.2617 	EXP 	text_scenename: height = np.float64(0.05)
+14.2617 	EXP 	text_scenename: height = np.float64(0.05)
+14.2617 	EXP 	text_scenename: text = 'MALBOW'
+14.2617 	EXP 	trial_image: autoDraw = True
+14.2617 	EXP 	scene_name_part1: autoDraw = True
+14.2617 	EXP 	text_scenename: autoDraw = True
+14.2617 	EXP 	txt_memorize: autoDraw = True
+14.3123 	EXP 	Device response: <KeyPress from None: t=14.192515957984142, value=space, duration=0.11401662498246878>
+17.9540 	EXP 	Device response: <KeyPress from None: t=17.94613166700583, value=space, duration=None>
+17.9544 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_JA_3.png', 'scene_name': 'Tulon', 'correct_key': 1, 'scene_present': 'This scene is a scene from a jungle named', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+18.0091 	DATA 	Keypress: space
+18.0141 	INFO 	Keyboard events cleared
+18.0140 	EXP 	trial_image: autoDraw = False
+18.0140 	EXP 	scene_name_part1: autoDraw = False
+18.0140 	EXP 	text_scenename: autoDraw = False
+18.0140 	EXP 	txt_memorize: autoDraw = False
+18.0140 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_JA_3.png'
+18.0140 	EXP 	scene_name_part1: text = ''
+18.0140 	EXP 	text_scenename: text = 'MALBOW'
+18.0140 	EXP 	trial_image: autoDraw = True
+18.0140 	EXP 	scene_name_part1: autoDraw = True
+18.0140 	EXP 	text_scenename: autoDraw = True
+18.0140 	EXP 	txt_memorize: autoDraw = True
+18.0452 	EXP 	Device response: <KeyPress from None: t=17.94613166700583, value=space, duration=0.09632179100299254>
+22.2297 	EXP 	Device response: <KeyPress from None: t=22.222594332997687, value=space, duration=None>
+22.2337 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'conditionFile': 'scenes_group2.xlsx', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+22.2448 	EXP 	Imported scenes_group2.xlsx as conditions, 3 conditions, 4 params
+22.2451 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_JB_1.png', 'scene_name': 'Malbow', 'correct_key': 2, 'scene_present': 'This is a scene from a jungle named', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+22.3436 	EXP 	Device response: <KeyPress from None: t=22.222594332997687, value=space, duration=0.05799858400132507>
+22.3459 	DATA 	Keypress: space
+22.3506 	INFO 	Keyboard events cleared
+22.3505 	EXP 	trial_image: autoDraw = False
+22.3505 	EXP 	scene_name_part1: autoDraw = False
+22.3505 	EXP 	text_scenename: autoDraw = False
+22.3505 	EXP 	txt_memorize: autoDraw = False
+22.3505 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_JB_1.png'
+22.3505 	EXP 	scene_name_part1: height = np.float64(0.04)
+22.3505 	EXP 	scene_name_part1: height = np.float64(0.04)
+22.3505 	EXP 	scene_name_part1: height = np.float64(0.04)
+22.3505 	EXP 	scene_name_part1: text = 'Tulon is a cool, mist-filled cloud forest with soft, diffuse lighting and low visibility. Tall trees and the ground are heavily covered in thick green moss, with moisture clinging to surfaces. The damp, foggy air mutes colors and reduces contrast, creating a consistently hazy and subdued visual environment.'
+22.3505 	EXP 	text_scenename: height = np.float64(0.05)
+22.3505 	EXP 	text_scenename: height = np.float64(0.05)
+22.3505 	EXP 	text_scenename: height = np.float64(0.05)
+22.3505 	EXP 	text_scenename: text = ''
+22.3505 	EXP 	trial_image: autoDraw = True
+22.3505 	EXP 	scene_name_part1: autoDraw = True
+22.3505 	EXP 	text_scenename: autoDraw = True
+22.3505 	EXP 	txt_memorize: autoDraw = True
+22.8362 	EXP 	Device response: <KeyPress from None: t=22.833291792019736, value=space, duration=None>
+22.8366 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_JB_2.png', 'scene_name': 'Malbow', 'correct_key': 2, 'scene_present': 'This is a scene from a jungle named', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+22.8925 	DATA 	Keypress: space
+22.8976 	INFO 	Keyboard events cleared
+22.8976 	EXP 	trial_image: autoDraw = False
+22.8976 	EXP 	scene_name_part1: autoDraw = False
+22.8976 	EXP 	text_scenename: autoDraw = False
+22.8976 	EXP 	txt_memorize: autoDraw = False
+22.8976 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_JB_2.png'
+22.8976 	EXP 	scene_name_part1: height = np.float64(0.04)
+22.8976 	EXP 	scene_name_part1: height = np.float64(0.04)
+22.8976 	EXP 	scene_name_part1: height = np.float64(0.04)
+22.8976 	EXP 	scene_name_part1: text = ''
+22.8976 	EXP 	text_scenename: height = np.float64(0.05)
+22.8976 	EXP 	text_scenename: height = np.float64(0.05)
+22.8976 	EXP 	text_scenename: height = np.float64(0.05)
+22.8976 	EXP 	text_scenename: text = 'TULON'
+22.8976 	EXP 	trial_image: autoDraw = True
+22.8976 	EXP 	scene_name_part1: autoDraw = True
+22.8976 	EXP 	text_scenename: autoDraw = True
+22.8976 	EXP 	txt_memorize: autoDraw = True
+22.9785 	EXP 	Device response: <KeyPress from None: t=22.833291792019736, value=space, duration=0.1403805409790948>
+24.3707 	EXP 	Device response: <KeyPress from None: t=24.365235208009835, value=space, duration=None>
+24.3711 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_JB_3.png', 'scene_name': 'Malbow', 'correct_key': 2, 'scene_present': 'This is a scene from a jungle named', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+24.4217 	DATA 	Keypress: space
+24.4268 	INFO 	Keyboard events cleared
+24.4267 	EXP 	trial_image: autoDraw = False
+24.4267 	EXP 	scene_name_part1: autoDraw = False
+24.4267 	EXP 	text_scenename: autoDraw = False
+24.4267 	EXP 	txt_memorize: autoDraw = False
+24.4267 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_JB_3.png'
+24.4267 	EXP 	scene_name_part1: text = ''
+24.4267 	EXP 	text_scenename: text = 'TULON'
+24.4267 	EXP 	trial_image: autoDraw = True
+24.4267 	EXP 	scene_name_part1: autoDraw = True
+24.4267 	EXP 	text_scenename: autoDraw = True
+24.4267 	EXP 	txt_memorize: autoDraw = True
+24.4999 	EXP 	Device response: <KeyPress from None: t=24.365235208009835, value=space, duration=0.13225349999265745>
+26.2964 	EXP 	Device response: <KeyPress from None: t=26.295133791980334, value=space, duration=None>
+26.2995 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'conditionFile': 'scenes_group3.xlsx', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+26.3122 	EXP 	Imported scenes_group3.xlsx as conditions, 3 conditions, 4 params
+26.3125 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_UA_1.png', 'scene_name': 'Negvi', 'correct_key': 3, 'scene_present': 'This is a scene from a sea named', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+26.4023 	DATA 	Keypress: space
+26.4067 	INFO 	Keyboard events cleared
+26.4066 	EXP 	trial_image: autoDraw = False
+26.4066 	EXP 	scene_name_part1: autoDraw = False
+26.4066 	EXP 	text_scenename: autoDraw = False
+26.4066 	EXP 	txt_memorize: autoDraw = False
+26.4066 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_UA_1.png'
+26.4066 	EXP 	scene_name_part1: height = np.float64(0.04)
+26.4066 	EXP 	scene_name_part1: height = np.float64(0.04)
+26.4066 	EXP 	scene_name_part1: height = np.float64(0.04)
+26.4066 	EXP 	scene_name_part1: text = 'Somar is a bright, shallow ocean scene with clear blue water and strong sunlight streaming down in visible beams. The seafloor is mostly pale, rippled sand with a few large smooth rocks where small coral clusters grow. The space feels open with high visibility and a warm tropical atmosphere.'
+26.4066 	EXP 	text_scenename: height = np.float64(0.05)
+26.4066 	EXP 	text_scenename: height = np.float64(0.05)
+26.4066 	EXP 	text_scenename: height = np.float64(0.05)
+26.4066 	EXP 	text_scenename: text = ''
+26.4066 	EXP 	trial_image: autoDraw = True
+26.4066 	EXP 	scene_name_part1: autoDraw = True
+26.4066 	EXP 	text_scenename: autoDraw = True
+26.4066 	EXP 	txt_memorize: autoDraw = True
+26.4282 	EXP 	Device response: <KeyPress from None: t=26.295133791980334, value=space, duration=0.1243993749958463>
+28.3361 	EXP 	Device response: <KeyPress from None: t=28.33207504200982, value=space, duration=None>
+28.3365 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_UA_2.png', 'scene_name': 'Negvi', 'correct_key': 3, 'scene_present': 'This is a scene from a sea named', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+28.3896 	DATA 	Keypress: space
+28.3947 	INFO 	Keyboard events cleared
+28.3946 	EXP 	trial_image: autoDraw = False
+28.3946 	EXP 	scene_name_part1: autoDraw = False
+28.3946 	EXP 	text_scenename: autoDraw = False
+28.3946 	EXP 	txt_memorize: autoDraw = False
+28.3946 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_UA_2.png'
+28.3946 	EXP 	scene_name_part1: height = np.float64(0.04)
+28.3946 	EXP 	scene_name_part1: height = np.float64(0.04)
+28.3946 	EXP 	scene_name_part1: height = np.float64(0.04)
+28.3946 	EXP 	scene_name_part1: text = ''
+28.3946 	EXP 	text_scenename: height = np.float64(0.05)
+28.3946 	EXP 	text_scenename: height = np.float64(0.05)
+28.3946 	EXP 	text_scenename: height = np.float64(0.05)
+28.3946 	EXP 	text_scenename: text = 'SOMAR'
+28.3946 	EXP 	trial_image: autoDraw = True
+28.3946 	EXP 	scene_name_part1: autoDraw = True
+28.3946 	EXP 	text_scenename: autoDraw = True
+28.3946 	EXP 	txt_memorize: autoDraw = True
+28.4453 	EXP 	Device response: <KeyPress from None: t=28.33207504200982, value=space, duration=0.10432291601318866>
+31.3851 	EXP 	Device response: <KeyPress from None: t=31.38197325001238, value=space, duration=None>
+31.3855 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_image': 'stimuli/TESTscenes/p1_scenes/p1_UA_3.png', 'scene_name': 'Negvi', 'correct_key': 3, 'scene_present': 'This is a scene from a sea named', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+31.4323 	DATA 	Keypress: space
+31.4374 	INFO 	Keyboard events cleared
+31.4373 	EXP 	trial_image: autoDraw = False
+31.4373 	EXP 	scene_name_part1: autoDraw = False
+31.4373 	EXP 	text_scenename: autoDraw = False
+31.4373 	EXP 	txt_memorize: autoDraw = False
+31.4373 	EXP 	trial_image: image = 'stimuli/TESTscenes/p1_scenes/p1_UA_3.png'
+31.4373 	EXP 	scene_name_part1: text = ''
+31.4373 	EXP 	text_scenename: text = 'SOMAR'
+31.4373 	EXP 	trial_image: autoDraw = True
+31.4373 	EXP 	scene_name_part1: autoDraw = True
+31.4373 	EXP 	text_scenename: autoDraw = True
+31.4373 	EXP 	txt_memorize: autoDraw = True
+31.5291 	EXP 	Device response: <KeyPress from None: t=31.38197325001238, value=space, duration=0.14436929195653647>
+31.8968 	EXP 	Device response: <KeyPress from None: t=31.88608058297541, value=space, duration=None>
+31.9072 	DATA 	Keypress: space
+31.9123 	INFO 	Keyboard events cleared
+31.9121 	EXP 	trial_image: autoDraw = False
+31.9121 	EXP 	scene_name_part1: autoDraw = False
+31.9121 	EXP 	text_scenename: autoDraw = False
+31.9121 	EXP 	txt_memorize: autoDraw = False
+31.9121 	EXP 	text_p1_2_instructions: autoDraw = True
+31.9798 	EXP 	Device response: <KeyPress from None: t=31.88608058297541, value=space, duration=0.08428925002226606>
+35.8694 	EXP 	Device response: <KeyPress from None: t=35.865935207984876, value=space, duration=None>
+35.8834 	EXP 	Imported conditions_part2.xlsx as conditions, 4 conditions, 5 params
+35.8839 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'group': 'UB', 'Image1': 'stimuli/TESTscenes/UB_1.jpg', 'Image2': 'stimuli/TESTscenes/UB_2.jpg', 'Image3': 'stimuli/TESTscenes/UB_3.jpg', 'scene_name_showALL': 'scene_UB_lbl', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+35.9583 	DATA 	Keypress: space
+35.9638 	INFO 	Keyboard events cleared
+35.9637 	EXP 	text_p1_2_instructions: autoDraw = False
+35.9637 	EXP 	image_left: image = 'stimuli/TESTscenes/UB_1.jpg'
+35.9637 	EXP 	image_center: image = 'stimuli/TESTscenes/UB_2.jpg'
+35.9637 	EXP 	image_right: image = 'stimuli/TESTscenes/UB_3.jpg'
+35.9637 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+35.9637 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+35.9637 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+35.9637 	EXP 	txt_scenename_showALL: text = 'Negvi'
+35.9637 	EXP 	image_left: autoDraw = True
+35.9637 	EXP 	image_center: autoDraw = True
+35.9637 	EXP 	image_right: autoDraw = True
+35.9637 	EXP 	txt_scenename_showALL: autoDraw = True
+35.9951 	EXP 	Device response: <KeyPress from None: t=35.865935207984876, value=space, duration=0.12835004198132083>
+36.5370 	EXP 	Device response: <KeyPress from None: t=36.532914166979026, value=space, duration=None>
+36.5375 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'group': 'UA', 'Image1': 'stimuli/TESTscenes/UA_1.jpg', 'Image2': 'stimuli/TESTscenes/UA_2.jpg', 'Image3': 'stimuli/TESTscenes/UA_3.jpg', 'scene_name_showALL': 'scene_UA_lbl', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+36.5854 	DATA 	Keypress: space
+36.5909 	INFO 	Keyboard events cleared
+36.5908 	EXP 	image_left: autoDraw = False
+36.5908 	EXP 	image_center: autoDraw = False
+36.5908 	EXP 	image_right: autoDraw = False
+36.5908 	EXP 	txt_scenename_showALL: autoDraw = False
+36.5908 	EXP 	image_left: image = 'stimuli/TESTscenes/UA_1.jpg'
+36.5908 	EXP 	image_center: image = 'stimuli/TESTscenes/UA_2.jpg'
+36.5908 	EXP 	image_right: image = 'stimuli/TESTscenes/UA_3.jpg'
+36.5908 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+36.5908 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+36.5908 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+36.5908 	EXP 	txt_scenename_showALL: text = 'Somar'
+36.5908 	EXP 	image_left: autoDraw = True
+36.5908 	EXP 	image_center: autoDraw = True
+36.5908 	EXP 	image_right: autoDraw = True
+36.5908 	EXP 	txt_scenename_showALL: autoDraw = True
+36.6287 	EXP 	Device response: <KeyPress from None: t=36.532914166979026, value=space, duration=0.08426425000652671>
+36.8467 	EXP 	Device response: <KeyPress from None: t=36.843923082982656, value=space, duration=None>
+36.8472 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'group': 'JA', 'Image1': 'stimuli/TESTscenes/JA_1.jpg', 'Image2': 'stimuli/TESTscenes/JA_2.jpg', 'Image3': 'stimuli/TESTscenes/JA_3.jpg', 'scene_name_showALL': 'scene_JA_lbl', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+36.8989 	DATA 	Keypress: space
+36.9043 	INFO 	Keyboard events cleared
+36.9043 	EXP 	image_left: autoDraw = False
+36.9043 	EXP 	image_center: autoDraw = False
+36.9043 	EXP 	image_right: autoDraw = False
+36.9043 	EXP 	txt_scenename_showALL: autoDraw = False
+36.9043 	EXP 	image_left: image = 'stimuli/TESTscenes/JA_1.jpg'
+36.9043 	EXP 	image_center: image = 'stimuli/TESTscenes/JA_2.jpg'
+36.9043 	EXP 	image_right: image = 'stimuli/TESTscenes/JA_3.jpg'
+36.9043 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+36.9043 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+36.9043 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+36.9043 	EXP 	txt_scenename_showALL: text = 'Malbow'
+36.9043 	EXP 	image_left: autoDraw = True
+36.9043 	EXP 	image_center: autoDraw = True
+36.9043 	EXP 	image_right: autoDraw = True
+36.9043 	EXP 	txt_scenename_showALL: autoDraw = True
+36.9453 	EXP 	Device response: <KeyPress from None: t=36.843923082982656, value=space, duration=0.08831162500428036>
+37.1859 	EXP 	Device response: <KeyPress from None: t=37.18189695797628, value=space, duration=None>
+37.1862 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'group': 'JB', 'Image1': 'stimuli/TESTscenes/JB_1.jpg', 'Image2': 'stimuli/TESTscenes/JB_2.jpg', 'Image3': 'stimuli/TESTscenes/JB_3.jpg', 'scene_name_showALL': 'scene_JB_lbl', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+37.2400 	DATA 	Keypress: space
+37.2454 	INFO 	Keyboard events cleared
+37.2454 	EXP 	image_left: autoDraw = False
+37.2454 	EXP 	image_center: autoDraw = False
+37.2454 	EXP 	image_right: autoDraw = False
+37.2454 	EXP 	txt_scenename_showALL: autoDraw = False
+37.2454 	EXP 	image_left: image = 'stimuli/TESTscenes/JB_1.jpg'
+37.2454 	EXP 	image_center: image = 'stimuli/TESTscenes/JB_2.jpg'
+37.2454 	EXP 	image_right: image = 'stimuli/TESTscenes/JB_3.jpg'
+37.2454 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+37.2454 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+37.2454 	EXP 	txt_scenename_showALL: height = np.float64(0.05)
+37.2454 	EXP 	txt_scenename_showALL: text = 'Tulon'
+37.2454 	EXP 	image_left: autoDraw = True
+37.2454 	EXP 	image_center: autoDraw = True
+37.2454 	EXP 	image_right: autoDraw = True
+37.2454 	EXP 	txt_scenename_showALL: autoDraw = True
+37.2620 	EXP 	Device response: <KeyPress from None: t=37.18189695797628, value=space, duration=0.07637287501711398>
+37.5134 	EXP 	Device response: <KeyPress from None: t=37.50680274999468, value=space, duration=None>
+37.5203 	DATA 	Keypress: space
+37.5256 	INFO 	Keyboard events cleared
+37.5254 	EXP 	image_left: autoDraw = False
+37.5254 	EXP 	image_center: autoDraw = False
+37.5254 	EXP 	image_right: autoDraw = False
+37.5254 	EXP 	txt_scenename_showALL: autoDraw = False
+37.5254 	EXP 	text_instructions_p1_3: autoDraw = True
+37.6025 	EXP 	Device response: <KeyPress from None: t=37.50680274999468, value=space, duration=0.09240525000495836>
+38.0134 	EXP 	Device response: <KeyPress from None: t=38.00991691701347, value=space, duration=None>
+38.0919 	DATA 	Keypress: space
+38.0975 	INFO 	Keyboard events cleared
+38.0974 	EXP 	text_instructions_p1_3: autoDraw = False
+38.0974 	EXP 	img1: image = 'stimuli/TESTscenes/JA_3.jpg'
+38.0974 	EXP 	label1: height = np.float64(0.05)
+38.0974 	EXP 	label1: height = np.float64(0.05)
+38.0974 	EXP 	label1: height = np.float64(0.05)
+38.0974 	EXP 	label1: text = 'Malbow'
+38.0974 	EXP 	img2: image = 'stimuli/TESTscenes/JB_2.jpg'
+38.0974 	EXP 	label2: height = np.float64(0.05)
+38.0974 	EXP 	label2: height = np.float64(0.05)
+38.0974 	EXP 	label2: height = np.float64(0.05)
+38.0974 	EXP 	label2: text = 'Tulon'
+38.0974 	EXP 	img3: image = 'stimuli/TESTscenes/UA_2.jpg'
+38.0974 	EXP 	label3: height = np.float64(0.05)
+38.0974 	EXP 	label3: height = np.float64(0.05)
+38.0974 	EXP 	label3: height = np.float64(0.05)
+38.0974 	EXP 	label3: text = 'Somar'
+38.0974 	EXP 	img4: image = 'stimuli/TESTscenes/UB_1.jpg'
+38.0974 	EXP 	label4: height = np.float64(0.05)
+38.0974 	EXP 	label4: height = np.float64(0.05)
+38.0974 	EXP 	label4: height = np.float64(0.05)
+38.0974 	EXP 	label4: text = 'Negvi'
+38.0974 	EXP 	img1: autoDraw = True
+38.0974 	EXP 	img2: autoDraw = True
+38.0974 	EXP 	img3: autoDraw = True
+38.0974 	EXP 	img4: autoDraw = True
+38.0974 	EXP 	label1: autoDraw = True
+38.0974 	EXP 	label2: autoDraw = True
+38.0974 	EXP 	label3: autoDraw = True
+38.0974 	EXP 	label4: autoDraw = True
+38.1037 	EXP 	Device response: <KeyPress from None: t=38.00991691701347, value=space, duration=0.08835666597587988>
+38.7372 	EXP 	Device response: <KeyPress from None: t=38.7288457499817, value=space, duration=None>
+38.7421 	DATA 	Keypress: space
+38.7476 	INFO 	Keyboard events cleared
+38.7475 	EXP 	img1: autoDraw = False
+38.7475 	EXP 	img2: autoDraw = False
+38.7475 	EXP 	img3: autoDraw = False
+38.7475 	EXP 	img4: autoDraw = False
+38.7475 	EXP 	label1: autoDraw = False
+38.7475 	EXP 	label2: autoDraw = False
+38.7475 	EXP 	label3: autoDraw = False
+38.7475 	EXP 	label4: autoDraw = False
+38.7475 	EXP 	text_instructions_p1: autoDraw = True
+38.8302 	EXP 	Device response: <KeyPress from None: t=38.7288457499817, value=space, duration=0.10032054199837148>
+39.9977 	EXP 	Device response: <KeyPress from None: t=39.992857125005685, value=space, duration=None>
+40.0789 	DATA 	Keypress: space
+40.0834 	INFO 	Keyboard events cleared
+40.0833 	EXP 	text_instructions_p1: autoDraw = False
+40.0833 	EXP 	img1_2: image = 'stimuli/TESTscenes/JA_1.jpg'
+40.0833 	EXP 	label1_2: height = np.float64(0.05)
+40.0833 	EXP 	label1_2: height = np.float64(0.05)
+40.0833 	EXP 	label1_2: height = np.float64(0.05)
+40.0833 	EXP 	label1_2: text = 'Malbow'
+40.0833 	EXP 	img2_2: image = 'stimuli/TESTscenes/JB_3.jpg'
+40.0833 	EXP 	label2_2: height = np.float64(0.05)
+40.0833 	EXP 	label2_2: height = np.float64(0.05)
+40.0833 	EXP 	label2_2: height = np.float64(0.05)
+40.0833 	EXP 	label2_2: text = 'Tulon'
+40.0833 	EXP 	img3_2: image = 'stimuli/TESTscenes/UA_1.jpg'
+40.0833 	EXP 	label3_2: height = np.float64(0.05)
+40.0833 	EXP 	label3_2: height = np.float64(0.05)
+40.0833 	EXP 	label3_2: height = np.float64(0.05)
+40.0833 	EXP 	label3_2: text = 'Somar'
+40.0833 	EXP 	img4_2: image = 'stimuli/TESTscenes/UB_2.jpg'
+40.0833 	EXP 	label4_2: height = np.float64(0.05)
+40.0833 	EXP 	label4_2: height = np.float64(0.05)
+40.0833 	EXP 	label4_2: height = np.float64(0.05)
+40.0833 	EXP 	label4_2: text = 'Negvi'
+40.0833 	EXP 	img1_2: autoDraw = True
+40.0833 	EXP 	img2_2: autoDraw = True
+40.0833 	EXP 	img3_2: autoDraw = True
+40.0833 	EXP 	img4_2: autoDraw = True
+40.0833 	EXP 	label1_2: autoDraw = True
+40.0833 	EXP 	label2_2: autoDraw = True
+40.0833 	EXP 	label3_2: autoDraw = True
+40.0833 	EXP 	label4_2: autoDraw = True
+40.0940 	EXP 	Device response: <KeyPress from None: t=39.992857125005685, value=space, duration=0.09620870801154524>
+40.6277 	EXP 	Device response: <KeyPress from None: t=40.62484604201745, value=space, duration=None>
+40.6329 	INFO 	Keyboard events cleared
+40.6328 	EXP 	img1_2: autoDraw = False
+40.6328 	EXP 	img2_2: autoDraw = False
+40.6328 	EXP 	img3_2: autoDraw = False
+40.6328 	EXP 	img4_2: autoDraw = False
+40.6328 	EXP 	label1_2: autoDraw = False
+40.6328 	EXP 	label2_2: autoDraw = False
+40.6328 	EXP 	label3_2: autoDraw = False
+40.6328 	EXP 	label4_2: autoDraw = False
+40.6328 	EXP 	text_instructions_part2: autoDraw = True
+40.6350 	DATA 	Keypress: space
+40.7133 	EXP 	Device response: <KeyPress from None: t=40.62484604201745, value=space, duration=0.0762608329532668>
+41.8136 	EXP 	Device response: <KeyPress from None: t=41.807804792013485, value=space, duration=None>
+41.8284 	EXP 	Imported scene_stims_new.xlsx as conditions, 12 conditions, 3 params
+42.0940 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/JB_1.jpg', 'correct_key': 2, 'scene_name_p2': 'Malbow', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+42.1092 	EXP 	Device response: <KeyPress from None: t=41.807804792013485, value=space, duration=0.09230887499870732>
+42.1113 	DATA 	Keypress: space
+42.1157 	EXP 	text_instructions_part2: autoDraw = False
+42.1157 	EXP 	scene_part2: image = 'stimuli/TESTscenes/JB_3.jpg'
+42.1157 	EXP 	scene_part2: autoDraw = True
+42.8393 	INFO 	Keyboard events cleared
+42.8392 	EXP 	scene_part2: autoDraw = False
+42.8392 	EXP 	text_part2_question: height = np.float64(0.05)
+42.8392 	EXP 	text_part2_question: height = np.float64(0.05)
+42.8392 	EXP 	text_part2_question: height = np.float64(0.05)
+42.8392 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+42.8392 	EXP 	text_part2_question: autoDraw = True
+43.6136 	EXP 	Device response: <KeyPress from None: t=43.60780458297813, value=3, duration=None>
+43.6254 	DATA 	Keypress: 3
+43.6299 	EXP 	text_part2_question: autoDraw = False
+43.6299 	EXP 	text_part2_feedback: height = np.float64(0.05)
+43.6299 	EXP 	text_part2_feedback: height = np.float64(0.05)
+43.6299 	EXP 	text_part2_feedback: height = np.float64(0.05)
+43.6299 	EXP 	text_part2_feedback: text = 'Incorrect!'
+43.6299 	EXP 	text_part2_feedback: autoDraw = True
+43.7461 	EXP 	Device response: <KeyPress from None: t=43.60780458297813, value=3, duration=0.12422845902619883>
+44.6130 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/UB_2.jpg', 'correct_key': 4, 'scene_name_p2': 'Somar', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+44.6396 	EXP 	text_part2_feedback: autoDraw = False
+44.6396 	EXP 	text_part2_feedback: autoDraw = False
+44.6396 	EXP 	scene_part2: image = 'stimuli/TESTscenes/UB_3.jpg'
+44.6396 	EXP 	scene_part2: autoDraw = True
+45.6289 	INFO 	Keyboard events cleared
+45.6287 	EXP 	scene_part2: autoDraw = False
+45.6287 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+45.6287 	EXP 	text_part2_question: autoDraw = True
+45.8861 	EXP 	Device response: <KeyPress from None: t=45.879748333012685, value=4, duration=None>
+45.8963 	DATA 	Keypress: 4
+45.9005 	EXP 	text_part2_question: autoDraw = False
+45.9005 	EXP 	text_part2_feedback: height = np.float64(0.05)
+45.9005 	EXP 	text_part2_feedback: height = np.float64(0.05)
+45.9005 	EXP 	text_part2_feedback: height = np.float64(0.05)
+45.9005 	EXP 	text_part2_feedback: text = 'Correct!'
+45.9005 	EXP 	text_part2_feedback: autoDraw = True
+45.9797 	EXP 	Device response: <KeyPress from None: t=45.879748333012685, value=4, duration=0.0923073340090923>
+46.8855 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/JB_3.jpg', 'correct_key': 2, 'scene_name_p2': 'Malbow', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+46.9180 	EXP 	text_part2_feedback: autoDraw = False
+46.9180 	EXP 	text_part2_feedback: autoDraw = False
+46.9180 	EXP 	scene_part2: image = 'stimuli/TESTscenes/JB_1.jpg'
+46.9180 	EXP 	scene_part2: autoDraw = True
+47.9017 	INFO 	Keyboard events cleared
+47.9015 	EXP 	scene_part2: autoDraw = False
+47.9015 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+47.9015 	EXP 	text_part2_question: autoDraw = True
+48.1191 	EXP 	Device response: <KeyPress from None: t=48.11369383300189, value=2, duration=None>
+48.1250 	DATA 	Keypress: 2
+48.1309 	EXP 	text_part2_question: autoDraw = False
+48.1309 	EXP 	text_part2_feedback: text = 'Correct!'
+48.1309 	EXP 	text_part2_feedback: autoDraw = True
+48.2804 	EXP 	Device response: <KeyPress from None: t=48.11369383300189, value=2, duration=0.15630054200300947>
+49.1185 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/UB_1.jpg', 'correct_key': 4, 'scene_name_p2': 'Somar', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+49.1455 	EXP 	text_part2_feedback: autoDraw = False
+49.1455 	EXP 	text_part2_feedback: autoDraw = False
+49.1455 	EXP 	scene_part2: image = 'stimuli/TESTscenes/UB_3.jpg'
+49.1455 	EXP 	scene_part2: autoDraw = True
+50.1350 	INFO 	Keyboard events cleared
+50.1348 	EXP 	scene_part2: autoDraw = False
+50.1348 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+50.1348 	EXP 	text_part2_question: autoDraw = True
+50.4130 	EXP 	Device response: <KeyPress from None: t=50.40460412501125, value=4, duration=None>
+50.4188 	DATA 	Keypress: 4
+50.4237 	EXP 	text_part2_question: autoDraw = False
+50.4237 	EXP 	text_part2_feedback: text = 'Correct!'
+50.4237 	EXP 	text_part2_feedback: autoDraw = True
+50.5130 	EXP 	Device response: <KeyPress from None: t=50.40460412501125, value=4, duration=0.10428724996745586>
+51.4127 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/JB_2.jpg', 'correct_key': 2, 'scene_name_p2': 'Malbow', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+51.4428 	EXP 	text_part2_feedback: autoDraw = False
+51.4428 	EXP 	text_part2_feedback: autoDraw = False
+51.4428 	EXP 	scene_part2: image = 'stimuli/TESTscenes/JB_2.jpg'
+51.4428 	EXP 	scene_part2: autoDraw = True
+52.4287 	INFO 	Keyboard events cleared
+52.4284 	EXP 	scene_part2: autoDraw = False
+52.4284 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+52.4284 	EXP 	text_part2_question: autoDraw = True
+52.7523 	EXP 	Device response: <KeyPress from None: t=52.748514875012916, value=2, duration=None>
+52.7582 	DATA 	Keypress: 2
+52.7641 	EXP 	text_part2_question: autoDraw = False
+52.7641 	EXP 	text_part2_feedback: text = 'Correct!'
+52.7641 	EXP 	text_part2_feedback: autoDraw = True
+52.8468 	EXP 	Device response: <KeyPress from None: t=52.748514875012916, value=2, duration=0.08823150000534952>
+53.7508 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/UA_3.jpg', 'correct_key': 3, 'scene_name_p2': 'Negvi', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+53.7754 	EXP 	text_part2_feedback: autoDraw = False
+53.7754 	EXP 	text_part2_feedback: autoDraw = False
+53.7754 	EXP 	scene_part2: image = 'stimuli/TESTscenes/UA_3.jpg'
+53.7754 	EXP 	scene_part2: autoDraw = True
+54.7689 	INFO 	Keyboard events cleared
+54.7687 	EXP 	scene_part2: autoDraw = False
+54.7687 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+54.7687 	EXP 	text_part2_question: autoDraw = True
+55.0143 	EXP 	Device response: <KeyPress from None: t=55.00765241699992, value=3, duration=None>
+55.0198 	DATA 	Keypress: 3
+55.0284 	EXP 	text_part2_question: autoDraw = False
+55.0284 	EXP 	text_part2_feedback: text = 'Correct!'
+55.0284 	EXP 	text_part2_feedback: autoDraw = True
+55.1300 	EXP 	Device response: <KeyPress from None: t=55.00765241699992, value=3, duration=0.1201451660017483>
+56.0125 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'scene_image': 'TESTstimuli/TESTscenes/JA_1.jpg', 'correct_key': 1, 'scene_name_p2': 'Tulon', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+56.0391 	EXP 	text_part2_feedback: autoDraw = False
+56.0391 	EXP 	text_part2_feedback: autoDraw = False
+56.0391 	EXP 	scene_part2: image = 'stimuli/TESTscenes/JA_1.jpg'
+56.0391 	EXP 	scene_part2: autoDraw = True
+57.0290 	INFO 	Keyboard events cleared
+57.0287 	EXP 	scene_part2: autoDraw = False
+57.0287 	EXP 	text_part2_question: text = 'What is the name of the scene?\n\n1. Malbow\n2. Tulon\n3. Somar\n4. Negvi'
+57.0287 	EXP 	text_part2_question: autoDraw = True
+57.2618 	EXP 	Device response: <KeyPress from None: t=57.248383249971084, value=1, duration=None>
+57.2654 	DATA 	Keypress: 1
+57.2689 	EXP 	text_part2_question: autoDraw = False
+57.2689 	EXP 	text_part2_feedback: text = 'Correct!'
+57.2689 	EXP 	text_part2_feedback: autoDraw = True
+57.3799 	EXP 	Device response: <KeyPress from None: t=57.248383249971084, value=1, duration=0.12021004204871133>
+58.2716 	INFO 	Keyboard events cleared
+58.2714 	EXP 	text_part2_feedback: autoDraw = False
+58.2714 	EXP 	text_part2_feedback: autoDraw = False
+58.2714 	EXP 	text_part3_instructions_2: autoDraw = True
+59.1467 	EXP 	Device response: <KeyPress from None: t=59.13834016700275, value=space, duration=None>
+59.1476 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+59.1643 	EXP 	Imported stimuli/vis_lists/visualization_JB_sub_350.csv as conditions, 4 conditions, 7 params
+59.1647 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'qst_num': np.int64(3), 'question': 'What type of vegetation was most visually prominent?', 'options': '1. Wide wing-like trees and green leaves\n2.Tall trees with vines and moss\n3. Bright tropical flowers and open palm trees', 'correct_answer': np.int64(2), 'label_current': 'Tulon', 'scene_left': 'stimuli/TESTscenes/JB_1.jpg', 'scene_right': 'stimuli/TESTscenes/JB_2.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+59.1883 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/TESTscenes/JB_1.jpg', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.0460251 , 0.59728033]), texRes=128, units='height', win=Window(...))
+59.2053 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/TESTscenes/JB_2.jpg', interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1.0460251 , 0.59100418]), texRes=128, units='height', win=Window(...))
+59.2130 	DATA 	Keypress: space
+59.2174 	EXP 	text_part3_instructions_2: autoDraw = False
+59.2174 	EXP 	text: autoDraw = True
+59.2956 	EXP 	Device response: <KeyPress from None: t=59.13834016700275, value=space, duration=0.14828712499001995>
+60.2412 	EXP 	text: autoDraw = False
+60.2412 	EXP 	text: autoDraw = False
+60.2412 	EXP 	text_p3_visualize: autoDraw = True
+60.2412 	EXP 	textbox_scene_name_2: autoDraw = True
+64.2170 	EXP 	text_p3_visualize: autoDraw = False
+64.2170 	EXP 	textbox_scene_name_2: autoDraw = False
+64.2170 	EXP 	text_rate_2: autoDraw = True
+67.7803 	EXP 	Device response: <KeyPress from None: t=67.77710412500892, value=escape, duration=None>
+67.8697 	DATA 	Keypress: escape
+67.8755 	EXP 	Device response: <KeyPress from None: t=67.77710412500892, value=escape, duration=0.05394258297747001>
+67.8756 	EXP 	TEST_training_task: status = STOPPED
+67.8832 	EXP 	text_rate_2: autoDraw = False
+67.8832 	EXP 	TEST_training_task: status = STOPPED
+67.9026 	INFO 	saved data to '/Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/data/%(participant)s_%(date)s_75.csv'
+67.9061 	INFO 	saved data to /Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/data/%(participant)s_%(date)s_75.psydat
+68.1926 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
