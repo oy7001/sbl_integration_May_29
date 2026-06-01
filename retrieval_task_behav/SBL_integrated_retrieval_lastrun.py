@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Wed May 27 13:34:11 2026
+    on Mon Jun  1 13:25:38 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -432,7 +432,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "ret_inst_scr" ---
     text_instructions = visual.TextStim(win=win, name='text_instructions',
-        text='Now you will see the items (animals and objects) you saw in the previous item-scene association task (if this is your second session, the last task from your first session).\n\nDuring the presentation of each item, imagine the background scene where the item appeared in as much detail as possible.\n\nPress SPACEBAR to continue.',
+        text='Now you will see the items (animals and objects) you saw in the previous item-scene association task.\n\nDuring the presentation of each item, imagine the background scene where the item appeared in as much detail as possible.\n\nPress SPACEBAR to continue.',
         font='Open Sans',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -4864,7 +4864,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     else:
         end_inst = (
-            "Congratulations! You have finished our two-session experiment!\n"
+            "Congratulations! You have finished our experiment!\n"
             "We thank you for your participation.\n"
             "Press SPACEBAR and then 'OK' in the prompted window to receive a Prolific completion code."
         )

@@ -31,7 +31,7 @@
     <Param val="avg" valType="str" updates="None" name="blendMode"/>
     <Param val="float" valType="str" updates="None" name="clockFormat"/>
     <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
-    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="None" name="color"/>
     <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
     <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
     <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
@@ -198,7 +198,7 @@
         <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
         <Param val="" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
-        <Param val="Part 1.&amp;#10;In this part, you will learn about four scenes.&amp;#10;&amp;#10;Please pay attention to the name and to the visual details of each scene. There are four images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.&amp;#10;&amp;#10;Press SPACEBAR to go to the next scene after you have fully learned the current scene.&amp;#10;&amp;#10;You will be asked to name and visualize them in detail later on.&amp;#10;&amp;#10;Press SPACEBAR to continue." valType="str" updates="constant" name="text"/>
+        <Param val="Part 1.&amp;#10;In this part, you will learn about four scenes.&amp;#10;&amp;#10;Please pay attention to the name and to the visual details of each scene. There are three images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.&amp;#10;&amp;#10;Press SPACEBAR to go to the next scene after you have fully learned the current scene.&amp;#10;&amp;#10;You will be asked to name and visualize them in detail later on.&amp;#10;&amp;#10;Press SPACEBAR to continue." valType="str" updates="constant" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
@@ -2340,7 +2340,7 @@
         <Param val="False" valType="bool" updates="constant" name="bold"/>
         <Param val="None" valType="color" updates="constant" name="borderColor"/>
         <Param val="2" valType="num" updates="constant" name="borderWidth"/>
-        <Param val="black" valType="color" updates="constant" name="color"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
         <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
         <Param val="1" valType="num" updates="constant" name="contrast"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
@@ -3082,7 +3082,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="import * as pd from 'pandas';&amp;#10;subnum = Number.parseInt(expInfo[&quot;participant&quot;]);&amp;#10;if ((subnum &gt; 2000)) {&amp;#10;    df_vars = pd.read_csv(&quot;counterbalanced_vars_meg_main.csv&quot;);&amp;#10;} else {&amp;#10;    if ((subnum &lt; 1000)) {&amp;#10;        df_vars = pd.read_csv(&quot;counterbalanced_vars_behav.csv&quot;);&amp;#10;    }&amp;#10;}&amp;#10;ind = df_vars[(df_vars[&quot;Participant&quot;] === subnum)].index[0];&amp;#10;sub_conds = df_vars.loc[[ind, df_vars.columns]].values.tolist();&amp;#10;if ((sub_conds[1] === 0)) {&amp;#10;    key_related = &quot;q&quot;;&amp;#10;    key_unrelated = &quot;p&quot;;&amp;#10;    instruction_text = &quot;If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.&quot;;&amp;#10;} else {&amp;#10;    if ((sub_conds[1] === 1)) {&amp;#10;        key_related = &quot;p&quot;;&amp;#10;        key_unrelated = &quot;q&quot;;&amp;#10;        instruction_text = &quot;If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.&quot;;&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# allocate participant to relatedness response key according&amp;#10;# to counterbalanced_vars.xlsx&amp;#10;&amp;#10;import pandas as pd&amp;#10;subnum = int(expInfo['participant'])&amp;#10;if subnum &gt; 2000: # squid MEG study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_meg_main.csv')&amp;#10;elif subnum &lt; 1000: # behavioral study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_behav.csv', header=1) &amp;#10;print(&quot;DEBUG — subnum:&quot;, subnum)&amp;#10;print(&quot;DEBUG — df_vars Participants:&quot;, df_vars['Participant'].tolist())&amp;#10;&amp;#10;ind = df_vars[df_vars['Participant'] == subnum].index[0]&amp;#10;sub_conds = df_vars.loc[ind,df_vars.columns].values.tolist()&amp;#10;# assign context keys&amp;#10;if sub_conds[1] == 0:&amp;#10;    key_related = 'q'&amp;#10;    key_unrelated = 'p'&amp;#10;    instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'&amp;#10;elif sub_conds[1] == 1:&amp;#10;    key_related = 'p'&amp;#10;    key_unrelated = 'q'&amp;#10;    instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="# allocate participant to relatedness response key according&amp;#10;# to counterbalanced_vars.xlsx&amp;#10;&amp;#10;# =========================================&amp;#10;# LOAD COUNTERBALANCING FILE&amp;#10;# =========================================&amp;#10;&amp;#10;import pandas as pd&amp;#10;&amp;#10;counterbalance_file = 'counterbalanced_vars_behav.csv'&amp;#10;&amp;#10;df = pd.read_csv(counterbalance_file, header=1)&amp;#10;&amp;#10;# clean column names&amp;#10;df.columns = df.columns.str.strip()&amp;#10;&amp;#10;# force numeric&amp;#10;df['enc_relatedness_keys'] = pd.to_numeric(&amp;#10;    df['enc_relatedness_keys'],&amp;#10;    errors='coerce'&amp;#10;)&amp;#10;&amp;#10;subnum = int(expInfo['participant'])&amp;#10;&amp;#10;# find participant row&amp;#10;ind = df[df['Participant'] == subnum].index[0]&amp;#10;&amp;#10;print(&quot;enc_relatedness_keys:&quot;, df.loc[ind, 'enc_relatedness_keys'])&amp;#10;&amp;#10;# =========================================&amp;#10;# ASSIGN RESPONSE KEYS&amp;#10;# =========================================&amp;#10;&amp;#10;if df.loc[ind, 'enc_relatedness_keys'] == 0:&amp;#10;&amp;#10;    key_related = 'q'&amp;#10;    key_unrelated = 'p'&amp;#10;&amp;#10;    instruction_text = (&amp;#10;        'If they are related, press Q\n'&amp;#10;        'If they are unrelated, press P\n\n'&amp;#10;        'Press SPACEBAR to continue.'&amp;#10;    )&amp;#10;&amp;#10;elif df.loc[ind, 'enc_relatedness_keys'] == 1:&amp;#10;&amp;#10;    key_related = 'p'&amp;#10;    key_unrelated = 'q'&amp;#10;&amp;#10;    instruction_text = (&amp;#10;        'If they are related, press P\n'&amp;#10;        'If they are unrelated, press Q\n\n'&amp;#10;        'Press SPACEBAR to continue.'&amp;#10;    )&amp;#10;&amp;#10;# =========================================&amp;#10;# RESPONSE KEY LIST&amp;#10;# =========================================&amp;#10;&amp;#10;response_keys = [key_related, key_unrelated]" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -3167,7 +3167,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Open Sans" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.055" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
         <Param val="text_enc_instruction" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>

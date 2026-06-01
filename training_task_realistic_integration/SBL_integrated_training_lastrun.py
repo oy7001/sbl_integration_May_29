@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Wed May 27 13:56:18 2026
+    on Mon Jun  1 13:59:04 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -201,7 +201,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=True,
-            monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
+            monitor='testMonitor', color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -209,7 +209,7 @@ def setupWindow(expInfo=None, win=None):
         )
     else:
         # if we have a window, just set the attributes which are safe to set
-        win.color = [0,0,0]
+        win.color = [-1.0000, -1.0000, -1.0000]
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'none'
@@ -401,7 +401,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "p1_instruction" ---
     txt_insturctions_p1 = visual.TextStim(win=win, name='txt_insturctions_p1',
-        text='Part 1.\nIn this part, you will learn about four scenes.\n\nPlease pay attention to the name and to the visual details of each scene. There are four images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.\n\nPress SPACEBAR to go to the next scene after you have fully learned the current scene.\n\nYou will be asked to name and visualize them in detail later on.\n\nPress SPACEBAR to continue.',
+        text='Part 1.\nIn this part, you will learn about four scenes.\n\nPlease pay attention to the name and to the visual details of each scene. There are three images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.\n\nPress SPACEBAR to go to the next scene after you have fully learned the current scene.\n\nYou will be asked to name and visualize them in detail later on.\n\nPress SPACEBAR to continue.',
         font='Open Sans',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -724,7 +724,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          win, text='', placeholder='Type here...', font='Arial',
          ori=0.0, pos=(0, 0), draggable=False,      letterHeight=0.05,
          size=(0.5, 0.5), borderWidth=2.0,
-         color='black', colorSpace='rgb',
+         color='white', colorSpace='rgb',
          opacity=None,
          bold=False, italic=False,
          lineSpacing=1.0, speechPoint=None,
@@ -834,7 +834,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_enc_instruction = visual.TextStim(win=win, name='text_enc_instruction',
         text='In the first task, you will see different items (objects or animals) realistically integrated into the jungle and undersea scenes you memorized just now. After each presentation of an item and a scene, your goal will be to determine whether they were related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an animal would live or that such an object would be used in such a scene in real life. If not, they are unrelated.\n\nPress SPACEBAR to continue',
         font='Open Sans',
-        pos=(0, 0), draggable=False, height=0.055, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -5585,27 +5585,63 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # allocate participant to relatedness response key according
     # to counterbalanced_vars.xlsx
     
-    import pandas as pd
-    subnum = int(expInfo['participant'])
-    if subnum > 2000: # squid MEG study
-        df_vars = pd.read_csv('counterbalanced_vars_meg_main.csv')
-    elif subnum < 1000: # behavioral study
-        df_vars = pd.read_csv('counterbalanced_vars_behav.csv', header=1) 
-    print("DEBUG — subnum:", subnum)
-    print("DEBUG — df_vars Participants:", df_vars['Participant'].tolist())
+    # =========================================
+    # LOAD COUNTERBALANCING FILE
+    # =========================================
     
-    ind = df_vars[df_vars['Participant'] == subnum].index[0]
-    sub_conds = df_vars.loc[ind,df_vars.columns].values.tolist()
-    # assign context keys
-    if sub_conds[1] == 0:
+    import pandas as pd
+    
+    counterbalance_file = 'counterbalanced_vars_behav.csv'
+    
+    df = pd.read_csv(counterbalance_file, header=1)
+    
+    # clean column names
+    df.columns = df.columns.str.strip()
+    
+    # force numeric
+    df['enc_relatedness_keys'] = pd.to_numeric(
+        df['enc_relatedness_keys'],
+        errors='coerce'
+    )
+    
+    subnum = int(expInfo['participant'])
+    
+    # find participant row
+    ind = df[df['Participant'] == subnum].index[0]
+    
+    print("enc_relatedness_keys:", df.loc[ind, 'enc_relatedness_keys'])
+    
+    # =========================================
+    # ASSIGN RESPONSE KEYS
+    # =========================================
+    
+    if df.loc[ind, 'enc_relatedness_keys'] == 0:
+    
         key_related = 'q'
         key_unrelated = 'p'
-        instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'
-    elif sub_conds[1] == 1:
+    
+        instruction_text = (
+            'If they are related, press Q\n'
+            'If they are unrelated, press P\n\n'
+            'Press SPACEBAR to continue.'
+        )
+    
+    elif df.loc[ind, 'enc_relatedness_keys'] == 1:
+    
         key_related = 'p'
         key_unrelated = 'q'
-        instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'
     
+        instruction_text = (
+            'If they are related, press P\n'
+            'If they are unrelated, press Q\n\n'
+            'Press SPACEBAR to continue.'
+        )
+    
+    # =========================================
+    # RESPONSE KEY LIST
+    # =========================================
+    
+    response_keys = [key_related, key_unrelated]
     # create starting attributes for key_part4_instructions
     key_part4_instructions.keys = []
     key_part4_instructions.rt = []

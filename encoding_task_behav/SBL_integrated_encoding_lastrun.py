@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Wed May 27 14:53:49 2026
+    on Mon Jun  1 13:23:14 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -204,7 +204,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=False,
-            monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
+            monitor='testMonitor', color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -212,7 +212,7 @@ def setupWindow(expInfo=None, win=None):
         )
     else:
         # if we have a window, just set the attributes which are safe to set
-        win.color = [0,0,0]
+        win.color = [-1.0000, -1.0000, -1.0000]
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'none'
@@ -493,7 +493,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "instructions_screen" ---
     text_instructions = visual.TextStim(win=win, name='text_instructions',
-        text='In this item-scene association task, you will see different items (objects or animals) placed in one of the jungle or undersea scenes you memorized previously. After each presentation of an item and a scene, you will be asked to report whether they are related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an item would live or would be used in such a scene in real life. If not, they are unrelated.\n\nYou will see each item-scene pair three times in total.\n\nPress SPACEBAR to continue.',
+        text='In this item-scene association task, you will see different items (objects or animals) within one of the jungle or undersea scenes you memorized previously. After each presentation of an item in a scene, you will be asked to report whether they are related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an item would live or would be used in such a scene in real life. If not, they are unrelated.\n\nYou will see each item-scene pair three times in total.\n\nPress SPACEBAR to continue.',
         font='Open Sans',
         pos=(0, 0), draggable=False, height=0.045, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
