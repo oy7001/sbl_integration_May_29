@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Mon Jun  1 13:23:14 2026
+    on Thu Jun 25 12:02:22 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -203,7 +203,7 @@ def setupWindow(expInfo=None, win=None):
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
-            winType='pyglet', allowGUI=False, allowStencil=False,
+            winType='pyglet', allowGUI=False, allowStencil=True,
             monitor='testMonitor', color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
@@ -491,6 +491,112 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     
     
+    # --- Initialize components for Routine "scene_names_reminder" ---
+    text_reminder = visual.TextStim(win=win, name='text_reminder',
+        text='Reminder: these are the names of the four scenes',
+        font='Arial',
+        pos=(0, 0.45), draggable=False, height=0.035, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=0.0);
+    image1 = visual.ImageStim(
+        win=win,
+        name='image1', 
+        image='default.png', mask=None, anchor='center',
+        ori=0.0, pos=(-.35, .15), draggable=False, size=(.60, .3375),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-1.0)
+    image2 = visual.ImageStim(
+        win=win,
+        name='image2', 
+        image='default.png', mask=None, anchor='center',
+        ori=0.0, pos=(.35, .15), draggable=False, size=(.6, .3375),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-2.0)
+    image3 = visual.ImageStim(
+        win=win,
+        name='image3', 
+        image='default.png', mask=None, anchor='center',
+        ori=0.0, pos=(-.35, -.3), draggable=False, size=(.6, .3375),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-3.0)
+    image4 = visual.ImageStim(
+        win=win,
+        name='image4', 
+        image='default.png', mask=None, anchor='center',
+        ori=0.0, pos=(.35, -.3), draggable=False, size=(.6, .3375),
+        color=[1,1,1], colorSpace='rgb', opacity=None,
+        flipHoriz=False, flipVert=False,
+        texRes=128.0, interpolate=True, depth=-4.0)
+    textbox1 = visual.TextBox2(
+         win, text='', placeholder='Type here...', font='Open Sans',
+         ori=0.0, pos=(-.35, .35), draggable=False,      letterHeight=0.03,
+         size=(0.5, 0.5), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=None,
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=False,
+         name='textbox1',
+         depth=-5, autoLog=True,
+    )
+    textbox2 = visual.TextBox2(
+         win, text='', placeholder='Type here...', font='Open Sans',
+         ori=0.0, pos=(.35, .35), draggable=False,      letterHeight=0.03,
+         size=(0.5, 0.5), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=None,
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=False,
+         name='textbox2',
+         depth=-6, autoLog=True,
+    )
+    textbox3 = visual.TextBox2(
+         win, text='', placeholder='Type here...', font='Open Sans',
+         ori=0.0, pos=(-.35, -.1), draggable=False,      letterHeight=0.03,
+         size=(0.5, 0.5), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=None,
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=False,
+         name='textbox3',
+         depth=-7, autoLog=True,
+    )
+    textbox4 = visual.TextBox2(
+         win, text='', placeholder='Type here...', font='Open Sans',
+         ori=0.0, pos=(.35, -.1), draggable=False,      letterHeight=0.03,
+         size=(0.5, 0.5), borderWidth=2.0,
+         color='white', colorSpace='rgb',
+         opacity=None,
+         bold=False, italic=False,
+         lineSpacing=1.0, speechPoint=None,
+         padding=0.0, alignment='center',
+         anchor='center', overflow='visible',
+         fillColor=None, borderColor=None,
+         flipHoriz=False, flipVert=False, languageStyle='LTR',
+         editable=False,
+         name='textbox4',
+         depth=-8, autoLog=True,
+    )
+    key_reminder = keyboard.Keyboard(deviceName='defaultKeyboard')
+    
     # --- Initialize components for Routine "instructions_screen" ---
     text_instructions = visual.TextStim(win=win, name='text_instructions',
         text='In this item-scene association task, you will see different items (objects or animals) within one of the jungle or undersea scenes you memorized previously. After each presentation of an item in a scene, you will be asked to report whether they are related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an item would live or would be used in such a scene in real life. If not, they are unrelated.\n\nYou will see each item-scene pair three times in total.\n\nPress SPACEBAR to continue.',
@@ -670,6 +776,40 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     get_relatedness_keys.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
+    # Run 'Begin Routine' code from code_scene_screens
+    import pandas as pd
+    
+    # === LOAD STIM LIST ===
+    stim_list = f"stimuli/stim_lists/stimuli_list_sub_{subnum}_run_1.csv"
+    
+    if not os.path.exists(stim_list):
+        raise FileNotFoundError(f"Stim list not found: {stim_list}")
+    
+    df = pd.read_csv(stim_list)
+    
+    # === CONVERT FILE NAMES → LOGICAL IDS ===
+    def extract_scene_id(filename):
+        name = os.path.basename(filename)
+    
+        if name.startswith('JA'):
+            return 'JA'
+        elif name.startswith('JB'):
+            return 'JB'
+        elif name.startswith('UA'):
+            return 'UA'
+        elif name.startswith('UB'):
+            return 'UB'
+        else:
+            raise ValueError(f"Unexpected filename: {filename}")
+    
+    df['scene_id'] = df['scene_stimulus'].apply(extract_scene_id)
+    
+    # === BUILD LABEL DICTIONARY ===
+    labels = dict(zip(df['scene_id'], df['scene_label']))
+    
+    
+    
+    
     # store start times for get_relatedness_keys
     get_relatedness_keys.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     get_relatedness_keys.tStart = globalClock.getTime(format='float')
@@ -745,6 +885,323 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     thisExp.addData('get_relatedness_keys.stopped', get_relatedness_keys.tStop)
     thisExp.nextEntry()
     # the Routine "get_relatedness_keys" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
+    
+    # --- Prepare to start Routine "scene_names_reminder" ---
+    # create an object to store info about Routine scene_names_reminder
+    scene_names_reminder = data.Routine(
+        name='scene_names_reminder',
+        components=[text_reminder, image1, image2, image3, image4, textbox1, textbox2, textbox3, textbox4, key_reminder],
+    )
+    scene_names_reminder.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    image1.setImage('stimuli/scenes/JA_1.jpg')
+    image2.setImage('stimuli/scenes/JB_1.jpg')
+    image3.setImage('stimuli/scenes/UA_1.jpg')
+    image4.setImage('stimuli/scenes/UB_1.jpg')
+    textbox1.reset()
+    textbox1.setText(labels['JA'])
+    textbox2.reset()
+    textbox2.setText(labels['JB'])
+    textbox3.reset()
+    textbox3.setText(labels['UA'])
+    textbox4.reset()
+    textbox4.setText(labels['UB'])
+    # create starting attributes for key_reminder
+    key_reminder.keys = []
+    key_reminder.rt = []
+    _key_reminder_allKeys = []
+    # store start times for scene_names_reminder
+    scene_names_reminder.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    scene_names_reminder.tStart = globalClock.getTime(format='float')
+    scene_names_reminder.status = STARTED
+    thisExp.addData('scene_names_reminder.started', scene_names_reminder.tStart)
+    scene_names_reminder.maxDuration = None
+    # keep track of which components have finished
+    scene_names_reminderComponents = scene_names_reminder.components
+    for thisComponent in scene_names_reminder.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "scene_names_reminder" ---
+    thisExp.currentRoutine = scene_names_reminder
+    scene_names_reminder.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *text_reminder* updates
+        
+        # if text_reminder is starting this frame...
+        if text_reminder.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_reminder.frameNStart = frameN  # exact frame index
+            text_reminder.tStart = t  # local t and not account for scr refresh
+            text_reminder.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_reminder, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'text_reminder.started')
+            # update status
+            text_reminder.status = STARTED
+            text_reminder.setAutoDraw(True)
+        
+        # if text_reminder is active this frame...
+        if text_reminder.status == STARTED:
+            # update params
+            pass
+        
+        # *image1* updates
+        
+        # if image1 is starting this frame...
+        if image1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            image1.frameNStart = frameN  # exact frame index
+            image1.tStart = t  # local t and not account for scr refresh
+            image1.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image1, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'image1.started')
+            # update status
+            image1.status = STARTED
+            image1.setAutoDraw(True)
+        
+        # if image1 is active this frame...
+        if image1.status == STARTED:
+            # update params
+            pass
+        
+        # *image2* updates
+        
+        # if image2 is starting this frame...
+        if image2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            image2.frameNStart = frameN  # exact frame index
+            image2.tStart = t  # local t and not account for scr refresh
+            image2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'image2.started')
+            # update status
+            image2.status = STARTED
+            image2.setAutoDraw(True)
+        
+        # if image2 is active this frame...
+        if image2.status == STARTED:
+            # update params
+            pass
+        
+        # *image3* updates
+        
+        # if image3 is starting this frame...
+        if image3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            image3.frameNStart = frameN  # exact frame index
+            image3.tStart = t  # local t and not account for scr refresh
+            image3.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image3, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'image3.started')
+            # update status
+            image3.status = STARTED
+            image3.setAutoDraw(True)
+        
+        # if image3 is active this frame...
+        if image3.status == STARTED:
+            # update params
+            pass
+        
+        # *image4* updates
+        
+        # if image4 is starting this frame...
+        if image4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            image4.frameNStart = frameN  # exact frame index
+            image4.tStart = t  # local t and not account for scr refresh
+            image4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(image4, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'image4.started')
+            # update status
+            image4.status = STARTED
+            image4.setAutoDraw(True)
+        
+        # if image4 is active this frame...
+        if image4.status == STARTED:
+            # update params
+            pass
+        
+        # *textbox1* updates
+        
+        # if textbox1 is starting this frame...
+        if textbox1.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textbox1.frameNStart = frameN  # exact frame index
+            textbox1.tStart = t  # local t and not account for scr refresh
+            textbox1.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textbox1, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textbox1.started')
+            # update status
+            textbox1.status = STARTED
+            textbox1.setAutoDraw(True)
+        
+        # if textbox1 is active this frame...
+        if textbox1.status == STARTED:
+            # update params
+            pass
+        
+        # *textbox2* updates
+        
+        # if textbox2 is starting this frame...
+        if textbox2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textbox2.frameNStart = frameN  # exact frame index
+            textbox2.tStart = t  # local t and not account for scr refresh
+            textbox2.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textbox2, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textbox2.started')
+            # update status
+            textbox2.status = STARTED
+            textbox2.setAutoDraw(True)
+        
+        # if textbox2 is active this frame...
+        if textbox2.status == STARTED:
+            # update params
+            pass
+        
+        # *textbox3* updates
+        
+        # if textbox3 is starting this frame...
+        if textbox3.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textbox3.frameNStart = frameN  # exact frame index
+            textbox3.tStart = t  # local t and not account for scr refresh
+            textbox3.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textbox3, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textbox3.started')
+            # update status
+            textbox3.status = STARTED
+            textbox3.setAutoDraw(True)
+        
+        # if textbox3 is active this frame...
+        if textbox3.status == STARTED:
+            # update params
+            pass
+        
+        # *textbox4* updates
+        
+        # if textbox4 is starting this frame...
+        if textbox4.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            textbox4.frameNStart = frameN  # exact frame index
+            textbox4.tStart = t  # local t and not account for scr refresh
+            textbox4.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(textbox4, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'textbox4.started')
+            # update status
+            textbox4.status = STARTED
+            textbox4.setAutoDraw(True)
+        
+        # if textbox4 is active this frame...
+        if textbox4.status == STARTED:
+            # update params
+            pass
+        
+        # *key_reminder* updates
+        waitOnFlip = False
+        
+        # if key_reminder is starting this frame...
+        if key_reminder.status == NOT_STARTED and tThisFlip >= 2-frameTolerance:
+            # keep track of start time/frame for later
+            key_reminder.frameNStart = frameN  # exact frame index
+            key_reminder.tStart = t  # local t and not account for scr refresh
+            key_reminder.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(key_reminder, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'key_reminder.started')
+            # update status
+            key_reminder.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(key_reminder.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(key_reminder.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if key_reminder.status == STARTED and not waitOnFlip:
+            theseKeys = key_reminder.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            _key_reminder_allKeys.extend(theseKeys)
+            if len(_key_reminder_allKeys):
+                key_reminder.keys = _key_reminder_allKeys[-1].name  # just the last key pressed
+                key_reminder.rt = _key_reminder_allKeys[-1].rt
+                key_reminder.duration = _key_reminder_allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer, globalClock], 
+                currentRoutine=scene_names_reminder,
+            )
+            # skip the frame we paused on
+            continue
+        
+        # has a Component requested the Routine to end?
+        if not continueRoutine:
+            scene_names_reminder.forceEnded = routineForceEnded = True
+        # has the Routine been forcibly ended?
+        if scene_names_reminder.forceEnded or routineForceEnded:
+            break
+        # has every Component finished?
+        continueRoutine = False
+        for thisComponent in scene_names_reminder.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "scene_names_reminder" ---
+    for thisComponent in scene_names_reminder.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for scene_names_reminder
+    scene_names_reminder.tStop = globalClock.getTime(format='float')
+    scene_names_reminder.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('scene_names_reminder.stopped', scene_names_reminder.tStop)
+    # check responses
+    if key_reminder.keys in ['', [], None]:  # No response was made
+        key_reminder.keys = None
+    thisExp.addData('key_reminder.keys',key_reminder.keys)
+    if key_reminder.keys != None:  # we had a response
+        thisExp.addData('key_reminder.rt', key_reminder.rt)
+        thisExp.addData('key_reminder.duration', key_reminder.duration)
+    thisExp.nextEntry()
+    # the Routine "scene_names_reminder" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     
     # --- Prepare to start Routine "instructions_screen" ---

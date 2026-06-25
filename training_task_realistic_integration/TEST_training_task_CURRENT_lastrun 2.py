@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Thu Jun 25 12:10:19 2026
+    on Sun Apr 26 23:29:45 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -132,7 +132,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/SBL_integrated_training_lastrun.py',
+        originPath='/Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/TEST_training_task_CURRENT_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -201,7 +201,7 @@ def setupWindow(expInfo=None, win=None):
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
             winType='pyglet', allowGUI=False, allowStencil=True,
-            monitor='testMonitor', color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb',
+            monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
             units='height',
@@ -209,7 +209,7 @@ def setupWindow(expInfo=None, win=None):
         )
     else:
         # if we have a window, just set the attributes which are safe to set
-        win.color = [-1.0000, -1.0000, -1.0000]
+        win.color = [0,0,0]
         win.colorSpace = 'rgb'
         win.backgroundImage = ''
         win.backgroundFit = 'none'
@@ -401,7 +401,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "p1_instruction" ---
     txt_insturctions_p1 = visual.TextStim(win=win, name='txt_insturctions_p1',
-        text='Part 1.\nIn this part, you will learn about four scenes.\n\nPlease pay attention to the name and to the visual details of each scene. There are three images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.\n\nPress SPACEBAR to go to the next scene after you have fully learned the current scene.\n\nYou will be asked to name and visualize them in detail later on.\n\nPress SPACEBAR to continue.',
+        text='Part 1.\nIn this part, you will learn about four scenes.\n\nPlease pay attention to the name and to the visual details of each scene. There are four images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.\n\nPress SPACEBAR to go to the next scene after you have fully learned the current scene.\n\nYou will be asked to name and visualize them in detail later on.\n\nPress SPACEBAR to continue.',
         font='Open Sans',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -412,9 +412,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "p1" ---
     # Run 'Begin Experiment' code from code_present_scene_name
     templates = {
-    'JA': "{name} is a bright tropical rainforest with large buttress-root trees and warm sunlight filtering through the canopy. Visible sunbeams create strong light–shadow contrast on a leaf-covered forest floor, and the space feels open at ground level with sturdy trunks, broad green foliage, and large red and yellow flowers.",
+    'JA': "{name} is a bright tropical rainforest with large buttress-root trees and warm sunlight filtering through the canopy. Visible sunbeams create strong light–shadow contrast on a leaf-covered forest floor, and the space feels open at ground level with sturdy trunks and broad green foliage.",
     
-    'JB': "{name} is a cool, mist-filled cloud jungle with soft, diffuse lighting and low visibility. Tall trees and the ground are heavily covered in thick green moss, with moisture clinging to surfaces. The damp, foggy air mutes colors and reduces contrast, creating a consistently hazy and subdued visual environment.",
+    'JB': "{name} is a cool, mist-filled cloud forest with soft, diffuse lighting and low visibility. Tall trees and the ground are heavily covered in thick green moss, with moisture clinging to surfaces. The damp, foggy air mutes colors and reduces contrast, creating a consistently hazy and subdued visual environment.",
     
     'UA': "{name} is a bright, shallow ocean scene with clear blue water and strong sunlight streaming down in visible beams. The seafloor is mostly pale, rippled sand with a few large smooth rocks where small coral clusters grow. The space feels open with high visibility and a warm tropical atmosphere.",
     
@@ -724,7 +724,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
          win, text='', placeholder='Type here...', font='Arial',
          ori=0.0, pos=(0, 0), draggable=False,      letterHeight=0.05,
          size=(0.5, 0.5), borderWidth=2.0,
-         color='white', colorSpace='rgb',
+         color='black', colorSpace='rgb',
          opacity=None,
          bold=False, italic=False,
          lineSpacing=1.0, speechPoint=None,
@@ -834,7 +834,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_enc_instruction = visual.TextStim(win=win, name='text_enc_instruction',
         text='In the first task, you will see different items (objects or animals) realistically integrated into the jungle and undersea scenes you memorized just now. After each presentation of an item and a scene, your goal will be to determine whether they were related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an animal would live or that such an object would be used in such a scene in real life. If not, they are unrelated.\n\nPress SPACEBAR to continue',
         font='Open Sans',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.055, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -911,7 +911,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst2', units='height', 
         image='stimuli/instructions_imgs/inst1_integrated.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.54, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -922,7 +922,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst3', units='height', 
         image='stimuli/instructions_imgs/inst2_integrated.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.54, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -933,7 +933,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst4', units='height', 
         image='stimuli/instructions_imgs/inst3_integrated.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.54, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -944,7 +944,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst5', units='height', 
         image='stimuli/instructions_imgs/inst4_integrated.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.54, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -955,7 +955,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst6', units='height', 
         image='stimuli/instructions_imgs/inst5_integrated.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.54, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -966,7 +966,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst7', units='height', 
         image='stimuli/instructions_imgs/inst6_integrated.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.54, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -2519,10 +2519,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     
     # fixed image paths
-    JA_img = "stimuli/scenes/JA_3.jpg"
-    JB_img = "stimuli/scenes/JB_2.jpg"
-    UA_img = "stimuli/scenes/UA_2.jpg"
-    UB_img = "stimuli/scenes/UB_1.jpg"
+    JA_img = "stimuli/TESTscenes/JA_3.jpg"
+    JB_img = "stimuli/TESTscenes/JB_2.jpg"
+    UA_img = "stimuli/TESTscenes/UA_2.jpg"
+    UB_img = "stimuli/TESTscenes/UB_1.jpg"
     
     # labels pulled from condition list variables created in Begin Experiment
     JA_lbl = scene_JA_lbl
@@ -2975,10 +2975,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Run 'Begin Routine' code from setStimuli_2
     
     # fixed image paths
-    JA_img = "stimuli/scenes/JA_1.jpg"
-    JB_img = "stimuli/scenes/JB_3.jpg"
-    UA_img = "stimuli/scenes/UA_1.jpg"
-    UB_img = "stimuli/scenes/UB_2.jpg"
+    JA_img = "stimuli/TESTscenes/JA_1.jpg"
+    JB_img = "stimuli/TESTscenes/JB_3.jpg"
+    UA_img = "stimuli/TESTscenes/UA_1.jpg"
+    UB_img = "stimuli/TESTscenes/UB_2.jpg"
     
     # labels pulled from condition list variables created in Begin Experiment
     JA_lbl = scene_JA_lbl
@@ -3472,7 +3472,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         current_scene = scene_codes[int(correct_key) - 1]
         
         # Use .jpg extension and include the folder path
-        current_image = f'stimuli/scenes/{current_scene}_{image_variant}.jpg'
+        current_image = f'stimuli/TESTscenes/{current_scene}_{image_variant}.jpg'
         scene_part2.setImage(current_image)
         # store start times for p2
         p2.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
@@ -3686,6 +3686,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 waitOnFlip = True
                 win.callOnFlip(key_part2.clock.reset)  # t=0 on next screen flip
                 win.callOnFlip(key_part2.clearEvents, eventType='keyboard')  # clear events on next screen flip
+            
+            # if key_part2 is stopping this frame...
+            if key_part2.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > key_part2.tStartRefresh + 10-frameTolerance:
+                    # keep track of stop time/frame for later
+                    key_part2.tStop = t  # not accounting for scr refresh
+                    key_part2.tStopRefresh = tThisFlipGlobal  # on global time
+                    key_part2.frameNStop = frameN  # exact frame index
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'key_part2.stopped')
+                    # update status
+                    key_part2.status = FINISHED
+                    key_part2.status = FINISHED
             if key_part2.status == STARTED and not waitOnFlip:
                 theseKeys = key_part2.getKeys(keyList=['1','2','3','4'], ignoreKeys=["escape"], waitRelease=False)
                 _key_part2_allKeys.extend(theseKeys)
@@ -4755,6 +4769,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # keyboard checking is just starting
                     waitOnFlip = True
                     win.callOnFlip(key_rate_2.clock.reset)  # t=0 on next screen flip
+                
+                # if key_rate_2 is stopping this frame...
+                if key_rate_2.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > key_rate_2.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        key_rate_2.tStop = t  # not accounting for scr refresh
+                        key_rate_2.tStopRefresh = tThisFlipGlobal  # on global time
+                        key_rate_2.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.timestampOnFlip(win, 'key_rate_2.stopped')
+                        # update status
+                        key_rate_2.status = FINISHED
+                        key_rate_2.status = FINISHED
                 if key_rate_2.status == STARTED and not waitOnFlip:
                     theseKeys = key_rate_2.getKeys(keyList=['1','2','3','4'], ignoreKeys=["escape"], waitRelease=False)
                     _key_rate_2_allKeys.extend(theseKeys)
@@ -4945,6 +4973,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # keyboard checking is just starting
                     key_question_2.clock.reset()  # now t=0
                     key_question_2.clearEvents(eventType='keyboard')
+                
+                # if key_question_2 is stopping this frame...
+                if key_question_2.status == STARTED:
+                    # is it time to stop? (based on global clock, using actual start)
+                    if tThisFlipGlobal > key_question_2.tStartRefresh + 10-frameTolerance:
+                        # keep track of stop time/frame for later
+                        key_question_2.tStop = t  # not accounting for scr refresh
+                        key_question_2.tStopRefresh = tThisFlipGlobal  # on global time
+                        key_question_2.frameNStop = frameN  # exact frame index
+                        # add timestamp to datafile
+                        thisExp.addData('key_question_2.stopped', t)
+                        # update status
+                        key_question_2.status = FINISHED
+                        key_question_2.status = FINISHED
                 if key_question_2.status == STARTED:
                     theseKeys = key_question_2.getKeys(keyList=['1','2', '3', '4'], ignoreKeys=["escape"], waitRelease=False)
                     _key_question_2_allKeys.extend(theseKeys)
@@ -5224,6 +5266,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                         waitOnFlip = True
                         win.callOnFlip(key_sceneLearn.clock.reset)  # t=0 on next screen flip
                         win.callOnFlip(key_sceneLearn.clearEvents, eventType='keyboard')  # clear events on next screen flip
+                    
+                    # if key_sceneLearn is stopping this frame...
+                    if key_sceneLearn.status == STARTED:
+                        # is it time to stop? (based on global clock, using actual start)
+                        if tThisFlipGlobal > key_sceneLearn.tStartRefresh + 10-frameTolerance:
+                            # keep track of stop time/frame for later
+                            key_sceneLearn.tStop = t  # not accounting for scr refresh
+                            key_sceneLearn.tStopRefresh = tThisFlipGlobal  # on global time
+                            key_sceneLearn.frameNStop = frameN  # exact frame index
+                            # add timestamp to datafile
+                            thisExp.timestampOnFlip(win, 'key_sceneLearn.stopped')
+                            # update status
+                            key_sceneLearn.status = FINISHED
+                            key_sceneLearn.status = FINISHED
                     if key_sceneLearn.status == STARTED and not waitOnFlip:
                         theseKeys = key_sceneLearn.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
                         _key_sceneLearn_allKeys.extend(theseKeys)
@@ -5585,63 +5641,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # allocate participant to relatedness response key according
     # to counterbalanced_vars.xlsx
     
-    # =========================================
-    # LOAD COUNTERBALANCING FILE
-    # =========================================
-    
     import pandas as pd
-    
-    counterbalance_file = 'counterbalanced_vars_behav.csv'
-    
-    df = pd.read_csv(counterbalance_file, header=1)
-    
-    # clean column names
-    df.columns = df.columns.str.strip()
-    
-    # force numeric
-    df['enc_relatedness_keys'] = pd.to_numeric(
-        df['enc_relatedness_keys'],
-        errors='coerce'
-    )
-    
     subnum = int(expInfo['participant'])
+    if subnum > 2000: # squid MEG study
+        df_vars = pd.read_csv('counterbalanced_vars_meg_main.csv')
+    elif subnum < 1000: # behavioral study
+        df_vars = pd.read_csv('counterbalanced_vars_behav.csv', header=1) 
+    print("DEBUG — subnum:", subnum)
+    print("DEBUG — df_vars Participants:", df_vars['Participant'].tolist())
     
-    # find participant row
-    ind = df[df['Participant'] == subnum].index[0]
-    
-    print("enc_relatedness_keys:", df.loc[ind, 'enc_relatedness_keys'])
-    
-    # =========================================
-    # ASSIGN RESPONSE KEYS
-    # =========================================
-    
-    if df.loc[ind, 'enc_relatedness_keys'] == 0:
-    
+    ind = df_vars[df_vars['Participant'] == subnum].index[0]
+    sub_conds = df_vars.loc[ind,df_vars.columns].values.tolist()
+    # assign context keys
+    if sub_conds[1] == 0:
         key_related = 'q'
         key_unrelated = 'p'
-    
-        instruction_text = (
-            'If they are related, press Q\n'
-            'If they are unrelated, press P\n\n'
-            'Press SPACEBAR to continue.'
-        )
-    
-    elif df.loc[ind, 'enc_relatedness_keys'] == 1:
-    
+        instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'
+    elif sub_conds[1] == 1:
         key_related = 'p'
         key_unrelated = 'q'
+        instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'
     
-        instruction_text = (
-            'If they are related, press P\n'
-            'If they are unrelated, press Q\n\n'
-            'Press SPACEBAR to continue.'
-        )
-    
-    # =========================================
-    # RESPONSE KEY LIST
-    # =========================================
-    
-    response_keys = [key_related, key_unrelated]
     # create starting attributes for key_part4_instructions
     key_part4_instructions.keys = []
     key_part4_instructions.rt = []
@@ -5716,7 +5736,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             win.callOnFlip(key_part4_instructions.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(key_part4_instructions.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if key_part4_instructions.status == STARTED and not waitOnFlip:
-            theseKeys = key_part4_instructions.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            theseKeys = key_part4_instructions.getKeys(keyList=None, ignoreKeys=["escape"], waitRelease=False)
             _key_part4_instructions_allKeys.extend(theseKeys)
             if len(_key_part4_instructions_allKeys):
                 key_part4_instructions.keys = _key_part4_instructions_allKeys[-1].name  # just the last key pressed
@@ -5861,7 +5881,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             win.callOnFlip(key_proceed.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(key_proceed.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if key_proceed.status == STARTED and not waitOnFlip:
-            theseKeys = key_proceed.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            theseKeys = key_proceed.getKeys(keyList=None, ignoreKeys=["escape"], waitRelease=False)
             _key_proceed_allKeys.extend(theseKeys)
             if len(_key_proceed_allKeys):
                 key_proceed.keys = _key_proceed_allKeys[-1].name  # just the last key pressed
@@ -6007,7 +6027,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             win.callOnFlip(key_proceed_2.clock.reset)  # t=0 on next screen flip
             win.callOnFlip(key_proceed_2.clearEvents, eventType='keyboard')  # clear events on next screen flip
         if key_proceed_2.status == STARTED and not waitOnFlip:
-            theseKeys = key_proceed_2.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            theseKeys = key_proceed_2.getKeys(keyList=None, ignoreKeys=["escape"], waitRelease=False)
             _key_proceed_2_allKeys.extend(theseKeys)
             if len(_key_proceed_2_allKeys):
                 key_proceed_2.keys = _key_proceed_2_allKeys[-1].name  # just the last key pressed
@@ -6728,7 +6748,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         waitOnFlip = False
         
         # if key_continue_7 is starting this frame...
-        if key_continue_7.status == NOT_STARTED and tThisFlip >= 0-frameTolerance:
+        if key_continue_7.status == NOT_STARTED and tThisFlip >= 3-frameTolerance:
             # keep track of start time/frame for later
             key_continue_7.frameNStart = frameN  # exact frame index
             key_continue_7.tStart = t  # local t and not account for scr refresh
@@ -6813,88 +6833,27 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     continueRoutine = True
     # update component parameters for each repeat
     # Run 'Begin Routine' code from code_ret_rand_vars
-    counterbalance_file = 'counterbalanced_vars_behav.csv'
+    # Context keys
+    key_jungle = '1'
+    key_sea = '2'
     
-    df_cb = pd.read_csv(counterbalance_file, sep=None, engine='python', skiprows=1)
+    # Scene keys
+    key_JA = '1'
+    key_JB = '2'
+    key_UA = '1'
+    key_UB = '2'
     
-    # Clean column names
-    df_cb.columns = df_cb.columns.str.strip()
-    df_cb.columns = df_cb.columns.str.replace('\ufeff', '')
+    # Colors
+    color_jungle = 'purple'
+    color_sea = 'pink'
     
-    df_cb['Participant'] = df_cb['Participant'].astype(int)
+    # Context text
+    context_jungle_txt = '1. Jungle'
+    context_sea_txt = '2. Undersea'
     
-    subnum = int(expInfo['participant'])
+    pos_jungle = (0,0.06)
+    pos_sea = (0,0)
     
-    matches = df_cb[df_cb['Participant'] == subnum]
-    
-    if len(matches) == 0:
-        raise Exception(f"Participant {subnum} not found.")
-    
-    ind = matches.index[0]
-    
-    sub_conds = df_cb.loc[ind, df_cb.columns].values.tolist()
-    
-    # =========================================
-    # CONTEXT KEYS
-    # =========================================
-    
-    if sub_conds[2] == 0:
-        key_jungle = '1'
-        key_sea = '2'
-    else:
-        key_jungle = '2'
-        key_sea = '1'
-    
-    # =========================================
-    # COLORS
-    # =========================================
-    
-    if sub_conds[3] == 0:
-        color_jungle = 'purple'
-        color_sea = 'pink'
-    else:
-        color_jungle = 'pink'
-        color_sea = 'purple'
-    
-    # =========================================
-    # SCENE KEYS
-    # =========================================
-    
-    if sub_conds[4] == 0:
-        key_JA = '1'
-        key_JB = '2'
-    else:
-        key_JA = '2'
-        key_JB = '1'
-    
-    if sub_conds[5] == 0:
-        key_UA = '1'
-        key_UB = '2'
-    else:
-        key_UA = '2'
-        key_UB = '1'
-    
-    # =========================================
-    # CONTEXT DISPLAY TEXT
-    # =========================================
-    
-    if key_jungle == '1':
-        context_jungle_txt = '1. Jungle'
-        context_sea_txt = '2. Undersea'
-    
-        pos_jungle = (0,0.06)
-        pos_sea = (0,0)
-    
-    else:
-        context_sea_txt = '1. Undersea'
-        context_jungle_txt = '2. Jungle'
-    
-        pos_sea = (0,0.06)
-        pos_jungle = (0,0)
-    
-    print("TRAINING key_jungle:", key_jungle)
-    print("TRAINING color_jungle:", color_jungle)
-    print("TRAINING color_sea:", color_sea)
     print("DEBUG scene_stimulus:", scene_stimulus)
     print("DEBUG qst_num:", qst_num)
     print("DEBUG skipTrial:", skipTrial)
@@ -7073,7 +7032,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         waitOnFlip = False
         
         # if key_continue_2 is starting this frame...
-        if key_continue_2.status == NOT_STARTED and tThisFlip >= 3-frameTolerance:
+        if key_continue_2.status == NOT_STARTED and tThisFlip >= 3.0-frameTolerance:
             # keep track of start time/frame for later
             key_continue_2.frameNStart = frameN  # exact frame index
             key_continue_2.tStart = t  # local t and not account for scr refresh
@@ -7907,9 +7866,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         item_imagine_scene.status = NOT_STARTED
         continueRoutine = True
         # update component parameters for each repeat
-        item_cue.setImage(recalled_stimulus)
+        item_cue.setImage(item_stimulus)
         # Run 'Begin Routine' code from code_15
-        _ = visual.ImageStim(win, image=recalled_stimulus)
+        _ = visual.ImageStim(win, image=item_stimulus)
         # store start times for item_imagine_scene
         item_imagine_scene.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
         item_imagine_scene.tStart = globalClock.getTime(format='float')
@@ -8972,10 +8931,10 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         elif 'jungle_b' in stim:
             cor_scene_key = key_JB
         
-        elif 'ocean_a' in stim:
+        elif 'undersea_a' in stim:
             cor_scene_key = key_UA
         
-        elif 'ocean_b' in stim:
+        elif 'undersea_b' in stim:
             cor_scene_key = key_UB
         
         

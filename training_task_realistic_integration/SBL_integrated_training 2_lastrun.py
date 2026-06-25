@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Thu Jun 25 12:10:19 2026
+    on Thu Jun 25 12:08:00 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -132,7 +132,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/SBL_integrated_training_lastrun.py',
+        originPath='/Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/SBL_integrated_training 2_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -403,7 +403,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     txt_insturctions_p1 = visual.TextStim(win=win, name='txt_insturctions_p1',
         text='Part 1.\nIn this part, you will learn about four scenes.\n\nPlease pay attention to the name and to the visual details of each scene. There are three images for each scene, so focus on the consistent characteristics of each scene. The name will appear above the image.\n\nPress SPACEBAR to go to the next scene after you have fully learned the current scene.\n\nYou will be asked to name and visualize them in detail later on.\n\nPress SPACEBAR to continue.',
         font='Open Sans',
-        pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -412,9 +412,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "p1" ---
     # Run 'Begin Experiment' code from code_present_scene_name
     templates = {
-    'JA': "{name} is a bright tropical rainforest with large buttress-root trees and warm sunlight filtering through the canopy. Visible sunbeams create strong light–shadow contrast on a leaf-covered forest floor, and the space feels open at ground level with sturdy trunks, broad green foliage, and large red and yellow flowers.",
+    'JA': "{name} is a bright tropical rainforest with large buttress-root trees and warm sunlight filtering through the canopy. Visible sunbeams create strong light–shadow contrast on a leaf-covered forest floor, and the space feels open at ground level with sturdy trunks and broad green foliage.",
     
-    'JB': "{name} is a cool, mist-filled cloud jungle with soft, diffuse lighting and low visibility. Tall trees and the ground are heavily covered in thick green moss, with moisture clinging to surfaces. The damp, foggy air mutes colors and reduces contrast, creating a consistently hazy and subdued visual environment.",
+    'JB': "{name} is a cool, mist-filled cloud forest with soft, diffuse lighting and low visibility. Tall trees and the ground are heavily covered in thick green moss, with moisture clinging to surfaces. The damp, foggy air mutes colors and reduces contrast, creating a consistently hazy and subdued visual environment.",
     
     'UA': "{name} is a bright, shallow ocean scene with clear blue water and strong sunlight streaming down in visible beams. The seafloor is mostly pale, rippled sand with a few large smooth rocks where small coral clusters grow. The space feels open with high visibility and a warm tropical atmosphere.",
     
@@ -656,7 +656,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='scene_part2', units='pix', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(960, 540),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.2, 0.675),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -832,7 +832,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Initialize components for Routine "enc_instruction_screen" ---
     text_enc_instruction = visual.TextStim(win=win, name='text_enc_instruction',
-        text='In the first task, you will see different items (objects or animals) realistically integrated into the jungle and undersea scenes you memorized just now. After each presentation of an item and a scene, your goal will be to determine whether they were related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an animal would live or that such an object would be used in such a scene in real life. If not, they are unrelated.\n\nPress SPACEBAR to continue',
+        text='In the first task, you will see different items (objects or animals) within the jungle and undersea scenes you memorized just now. After each presentation of an item and a scene, your goal will be to determine whether they were related or unrelated. \n\nAn item is related to a scene if you think it is plausible that such an animal would live or that such an object would be used in such a scene in real life. If not, they are unrelated.\n\nPress SPACEBAR to continue',
         font='Open Sans',
         pos=(0, 0), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
@@ -870,7 +870,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_integrated', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, -0.05), draggable=False, size=(1.2, 0.675),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.2, 0.675),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
