@@ -167,7 +167,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(1.2, 0.675)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.78, 1.0)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -175,7 +175,7 @@
         <Param val="4" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
       <KeyboardComponent name="key_resp_remember" plugin="None">
@@ -230,6 +230,23 @@
         <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code_trigger" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <CodeComponent name="only_ten_stim" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if trials.thisN &gt;= 10:&amp;#10;    trials.finished = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="only_ten_stim" valType="code" updates="None" name="name"/>
       </CodeComponent>
     </Routine>
     <Routine name="select_scene_name">
@@ -822,10 +839,10 @@
       <CodeComponent name="code_scene_screens" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="var stim_list&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="import pandas as pd&amp;#10;&amp;#10;# Load participant's scene-name mapping&amp;#10;cond_file = f&quot;stimuli/cond_lists/scene_names_sub_{expInfo['participant']}.csv&quot;&amp;#10;df = pd.read_csv(cond_file)&amp;#10;&amp;#10;# Build dictionary: {'JA': 'Negvi', 'JB': 'Malbow', 'UA': 'Tulon', 'UB': 'Somar'}&amp;#10;labels = dict(zip(df['scene_stimulus'], df['scene_label']))&amp;#10;&amp;#10;print(&quot;DEBUG labels:&quot;, labels)&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="// get the stim list based on group and delay parameters&amp;#10;if (expInfo['group'] ==='A'){&amp;#10;    if (expInfo['delay'] ==='short'){    &amp;#10;        stim_list = (((&quot;stimuli/stim_lists/stimuli_list_sub_&quot; + subnum) + &quot;_set_1&quot;) + &quot;_run_1.csv&quot;);&amp;#10;        }else{&amp;#10;            if (expInfo['delay'] ==='long'){&amp;#10;                stim_list = (((&quot;stimuli/stim_lists/stimuli_list_sub_&quot; + subnum) + &quot;_set_2&quot;) + &quot;_run_1.csv&quot;);&amp;#10;                }&amp;#10;            }&amp;#10;    }&amp;#10;   &amp;#10;console.log('group:',expInfo['group'],'delay:',expInfo['delay']);&amp;#10;console.log('stim list path is:',stim_list);" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="import pandas as pd&amp;#10;&amp;#10;# === LOAD STIM LIST ===&amp;#10;stim_list = f&quot;stimuli/stim_lists/stimuli_list_sub_{subnum}_run_1.csv&quot;&amp;#10;&amp;#10;if not os.path.exists(stim_list):&amp;#10;    raise FileNotFoundError(f&quot;Stim list not found: {stim_list}&quot;)&amp;#10;&amp;#10;df = pd.read_csv(stim_list)&amp;#10;&amp;#10;# === CONVERT FILE NAMES → LOGICAL IDS ===&amp;#10;def extract_scene_id(filename):&amp;#10;    name = os.path.basename(filename)&amp;#10;&amp;#10;    if name.startswith('JA'):&amp;#10;        return 'JA'&amp;#10;    elif name.startswith('JB'):&amp;#10;        return 'JB'&amp;#10;    elif name.startswith('UA'):&amp;#10;        return 'UA'&amp;#10;    elif name.startswith('UB'):&amp;#10;        return 'UB'&amp;#10;    else:&amp;#10;        raise ValueError(f&quot;Unexpected filename: {filename}&quot;)&amp;#10;&amp;#10;df['scene_id'] = df['scene_stimulus'].apply(extract_scene_id)&amp;#10;&amp;#10;# === BUILD LABEL DICTIONARY ===&amp;#10;labels = dict(zip(df['scene_id'], df['scene_label']))&amp;#10;&amp;#10;print(&quot;DEBUG labels:&quot;, labels)&amp;#10;&amp;#10;# === CREATE LABEL TEXT ===&amp;#10;&amp;#10;# Jungle&amp;#10;if key_JA in ['y', '1']:&amp;#10;    jungle_lbl_text = f&quot;1. {labels['JA']}\n2. {labels['JB']}&quot;&amp;#10;else:&amp;#10;    jungle_lbl_text = f&quot;1. {labels['JB']}\n2. {labels['JA']}&quot;&amp;#10;&amp;#10;# Sea&amp;#10;if key_UA in ['y', '1']:&amp;#10;    sea_lbl_text = f&quot;1. {labels['UA']}\n2. {labels['UB']}&quot;&amp;#10;else:&amp;#10;    sea_lbl_text = f&quot;1. {labels['UB']}\n2. {labels['UA']}&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Py" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -2100,6 +2117,23 @@
         <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
+      <CodeComponent name="code_6" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# === CREATE LABEL TEXT ===&amp;#10;&amp;#10;# Jungle&amp;#10;if key_JA in ['y', '1']:&amp;#10;    jungle_lbl_text = f&quot;1. {labels['JA']}\n2. {labels['JB']}&quot;&amp;#10;else:&amp;#10;    jungle_lbl_text = f&quot;1. {labels['JB']}\n2. {labels['JA']}&quot;&amp;#10;&amp;#10;# Sea&amp;#10;if key_UA in ['y', '1']:&amp;#10;    sea_lbl_text = f&quot;1. {labels['UA']}\n2. {labels['UB']}&quot;&amp;#10;else:&amp;#10;    sea_lbl_text = f&quot;1. {labels['UB']}\n2. {labels['UA']}&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_6" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="blank3000_2">
       <RoutineSettingsComponent name="blank3000_2" plugin="None">

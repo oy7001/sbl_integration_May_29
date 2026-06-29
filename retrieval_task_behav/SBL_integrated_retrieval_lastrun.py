@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Mon Jun  1 13:25:38 2026
+    on Mon Jun 29 10:16:25 2026
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -418,6 +418,19 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     print(session)
     
     
+    # Run 'Begin Experiment' code from code_scene_screens
+    import pandas as pd
+    
+    # Load participant's scene-name mapping
+    cond_file = f"stimuli/cond_lists/scene_names_sub_{expInfo['participant']}.csv"
+    df = pd.read_csv(cond_file)
+    
+    # Build dictionary: {'JA': 'Negvi', 'JB': 'Malbow', 'UA': 'Tulon', 'UB': 'Somar'}
+    labels = dict(zip(df['scene_stimulus'], df['scene_label']))
+    
+    print("DEBUG labels:", labels)
+    
+    
     # Run 'Begin Experiment' code from code_printexpInfo
     print('participant:', expInfo.get('participant'))
     print('session:', expInfo.get('session'))
@@ -579,9 +592,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         depth=0.0);
     item_cue = visual.ImageStim(
         win=win,
-        name='item_cue', 
+        name='item_cue', units='height', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(1.2, 0.675),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.78, 1.0),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -997,52 +1010,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
         context_jungle_txt = '2. Jungle'
         pos_jungle = (0,0)
-    # Run 'Begin Routine' code from code_scene_screens
-    import pandas as pd
-    
-    # === LOAD STIM LIST ===
-    stim_list = f"stimuli/stim_lists/stimuli_list_sub_{subnum}_run_1.csv"
-    
-    if not os.path.exists(stim_list):
-        raise FileNotFoundError(f"Stim list not found: {stim_list}")
-    
-    df = pd.read_csv(stim_list)
-    
-    # === CONVERT FILE NAMES → LOGICAL IDS ===
-    def extract_scene_id(filename):
-        name = os.path.basename(filename)
-    
-        if name.startswith('JA'):
-            return 'JA'
-        elif name.startswith('JB'):
-            return 'JB'
-        elif name.startswith('UA'):
-            return 'UA'
-        elif name.startswith('UB'):
-            return 'UB'
-        else:
-            raise ValueError(f"Unexpected filename: {filename}")
-    
-    df['scene_id'] = df['scene_stimulus'].apply(extract_scene_id)
-    
-    # === BUILD LABEL DICTIONARY ===
-    labels = dict(zip(df['scene_id'], df['scene_label']))
-    
-    print("DEBUG labels:", labels)
-    
-    # === CREATE LABEL TEXT ===
-    
-    # Jungle
-    if key_JA in ['y', '1']:
-        jungle_lbl_text = f"1. {labels['JA']}\n2. {labels['JB']}"
-    else:
-        jungle_lbl_text = f"1. {labels['JB']}\n2. {labels['JA']}"
-    
-    # Sea
-    if key_UA in ['y', '1']:
-        sea_lbl_text = f"1. {labels['UA']}\n2. {labels['UB']}"
-    else:
-        sea_lbl_text = f"1. {labels['UB']}\n2. {labels['UA']}"
     # store start times for subs_rand_vars
     subs_rand_vars.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     subs_rand_vars.tStart = globalClock.getTime(format='float')
@@ -1521,6 +1488,20 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     key_reminder.keys = []
     key_reminder.rt = []
     _key_reminder_allKeys = []
+    # Run 'Begin Routine' code from code_6
+    # === CREATE LABEL TEXT ===
+    
+    # Jungle
+    if key_JA in ['y', '1']:
+        jungle_lbl_text = f"1. {labels['JA']}\n2. {labels['JB']}"
+    else:
+        jungle_lbl_text = f"1. {labels['JB']}\n2. {labels['JA']}"
+    
+    # Sea
+    if key_UA in ['y', '1']:
+        sea_lbl_text = f"1. {labels['UA']}\n2. {labels['UB']}"
+    else:
+        sea_lbl_text = f"1. {labels['UB']}\n2. {labels['UA']}"
     # store start times for scene_names_reminder
     scene_names_reminder.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     scene_names_reminder.tStart = globalClock.getTime(format='float')
@@ -2260,6 +2241,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             print("scene:", scene_stimulus)
             print("recalled:", recalled_stimulus)
             print("integrated:", integrated_stimulus)
+            # Run 'Begin Routine' code from only_ten_stim
+            if trials.thisN >= 10:
+                trials.finished = True
             # store start times for item_imagine_scene
             item_imagine_scene.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
             item_imagine_scene.tStart = globalClock.getTime(format='float')
