@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Fri Jun 26 10:51:24 2026
+This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
+    on June 30, 2026, at 14:04
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -38,7 +38,7 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2025.2.4'
+psychopyVersion = '2026.1.3'
 expName = 'TEST_training_task'  # from the Builder filename that created this script
 expVersion = ''
 # a list of functions to run when the experiment ends (starts off blank)
@@ -132,10 +132,12 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/oliviayin/Desktop/sbl_realistic integration/training_task_realistic_integration/SBL_integrated_training_lastrun.py',
+        originPath='Z:\\nitzan\\SBL\\sbl_integration_May_29\\training_task_realistic_integration\\SBL_integrated_training_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
+    # store pilot mode in data file
+    thisExp.addData('piloting', PILOTING, priority=priority.LOW)
     thisExp.setPriority('thisRow.t', priority.CRITICAL)
     thisExp.setPriority('expName', priority.LOW)
     # return experiment handler
@@ -431,7 +433,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     scene_name_part1 = visual.TextStim(win=win, name='scene_name_part1',
         text='',
         font='Open Sans',
-        pos=[0,0], draggable=False, height=0.04, wrapWidth=1.4, ori=0.0, 
+        pos=[0,0], draggable=False, height=0.04, wrapWidth=1.6, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-2.0);
@@ -976,15 +978,15 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_imagine = visual.TextStim(win=win, name='text_imagine',
         text='Imagine the associated scene',
         font='Arial',
-        pos=(0, 0.3), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
+        units='height', pos=(0, 0.4), draggable=False, height=0.05, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
     item_cue = visual.ImageStim(
         win=win,
-        name='item_cue', 
+        name='item_cue', units='height', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(1.2, 0.675),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.068, 0.6),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -9999,6 +10001,10 @@ def endExperiment(thisExp, win=None):
     win : psychopy.visual.Window
         Window for this experiment.
     """
+    # stop any playback components
+    if thisExp.currentRoutine is not None:
+        for comp in thisExp.currentRoutine.getPlaybackComponents():
+            comp.stop()
     if win is not None:
         # remove autodraw from all current components
         win.clearAutoDraw()

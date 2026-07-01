@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2025.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2026.1.3">
   <Settings>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
     <Param val="" valType="str" updates="None" name="Completed URL"/>
@@ -311,7 +311,7 @@
         <Param val="$txt_scene_present" valType="str" updates="set every repeat" name="text"/>
         <Param val="from exp settings" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
-        <Param val="1.4" valType="num" updates="constant" name="wrapWidth"/>
+        <Param val="1.6" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
       <TextComponent name="text_scenename" plugin="None">
         <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="constant" name="color"/>
@@ -4022,7 +4022,7 @@
         <Param val="text_imagine" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, 0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="(0, 0.4)" valType="list" updates="constant" name="pos"/>
         <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -4031,7 +4031,7 @@
         <Param val="4.0" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="Imagine the associated scene" valType="str" updates="constant" name="text"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
         <Param val="" valType="num" updates="constant" name="wrapWidth"/>
       </TextComponent>
@@ -4053,7 +4053,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(1.2, 0.675)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.068, 0.6)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -4061,7 +4061,7 @@
         <Param val="4" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
-        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
       <KeyboardComponent name="key_resp_remember" plugin="None">
@@ -5006,7 +5006,7 @@
     <Routine name="p1_2_instructions"/>
     <LoopInitiator loopType="TrialHandler" name="groups_loop_p1_2">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[{'group': 'JA', 'Image1': 'JA_1.jpg', 'Image2': 'JA_2.jpg', 'Image3': 'JA_3.jpg'}, {'group': 'JB', 'Image1': 'JB_1.jpg', 'Image2': 'JB_2.jpg', 'Image3': 'JB_3.jpg'}, {'group': 'UA', 'Image1': 'UA_1.jpg', 'Image2': 'UA_2.jpg', 'Image3': 'UA_3.jpg'}, {'group': 'UB', 'Image1': 'UB_1.jpg', 'Image2': 'UB_2.jpg', 'Image3': 'UB_3.jpg'}]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'group': 'JA', 'Image1': 'stimuli/scenes/JA_1.jpg', 'Image2': 'stimuli/scenes/JA_2.jpg', 'Image3': 'stimuli/scenes/JA_3.jpg', 'scene_name_showALL': 'scene_JA_lbl'}, {'group': 'JB', 'Image1': 'stimuli/scenes/JB_1.jpg', 'Image2': 'stimuli/scenes/JB_2.jpg', 'Image3': 'stimuli/scenes/JB_3.jpg', 'scene_name_showALL': 'scene_JB_lbl'}, {'group': 'UA', 'Image1': 'stimuli/scenes/UA_1.jpg', 'Image2': 'stimuli/scenes/UA_2.jpg', 'Image3': 'stimuli/scenes/UA_3.jpg', 'scene_name_showALL': 'scene_UA_lbl'}, {'group': 'UB', 'Image1': 'stimuli/scenes/UB_1.jpg', 'Image2': 'stimuli/scenes/UB_2.jpg', 'Image3': 'stimuli/scenes/UB_3.jpg', 'scene_name_showALL': 'scene_UB_lbl'}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="conditions_part2.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
@@ -5024,7 +5024,7 @@
     <Routine name="p2_instructions"/>
     <LoopInitiator loopType="TrialHandler" name="part2_loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'scene_image': 'TESTstimuli/TESTscenes/JA_1.jpg', 'correct_key': 1, 'scene_name_p2': 'Tulon'}, {'scene_image': 'TESTstimuli/TESTscenes/JA_2.jpg', 'correct_key': 1, 'scene_name_p2': 'Tulon'}, {'scene_image': 'TESTstimuli/TESTscenes/JA_3.jpg', 'correct_key': 1, 'scene_name_p2': 'Tulon'}, {'scene_image': 'TESTstimuli/TESTscenes/JB_1.jpg', 'correct_key': 2, 'scene_name_p2': 'Malbow'}, {'scene_image': 'TESTstimuli/TESTscenes/JB_2.jpg', 'correct_key': 2, 'scene_name_p2': 'Malbow'}, {'scene_image': 'TESTstimuli/TESTscenes/JB_3.jpg', 'correct_key': 2, 'scene_name_p2': 'Malbow'}, {'scene_image': 'TESTstimuli/TESTscenes/UA_1.jpg', 'correct_key': 3, 'scene_name_p2': 'Negvi'}, {'scene_image': 'TESTstimuli/TESTscenes/UA_2.jpg', 'correct_key': 3, 'scene_name_p2': 'Negvi'}, {'scene_image': 'TESTstimuli/TESTscenes/UA_3.jpg', 'correct_key': 3, 'scene_name_p2': 'Negvi'}, {'scene_image': 'TESTstimuli/TESTscenes/UB_1.jpg', 'correct_key': 4, 'scene_name_p2': 'Somar'}, {'scene_image': 'TESTstimuli/TESTscenes/UB_2.jpg', 'correct_key': 4, 'scene_name_p2': 'Somar'}, {'scene_image': 'TESTstimuli/TESTscenes/UB_3.jpg', 'correct_key': 4, 'scene_name_p2': 'Somar'}]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="scene_stims_new.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
